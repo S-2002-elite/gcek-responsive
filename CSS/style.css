@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kings&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kings&family=Luxurious+Roman&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Kings&family=Luxurious+Roman&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Kings&family=Luxurious+Roman&family=Roboto:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+*{
+    border: 0em;
+    margin: 0em;
+    padding: 0em;
+    outline: 0em;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: whitesmoke;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+/*---------------------------------Top Bar---------------------------------*/
+.navbar-inverse{
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    overflow: auto;
+    width: 100%;
+}
+#navbar{
+    border-bottom: 0.5em solid rgb(16, 114, 76);
+    border-radius: 0px;
+}
+.navbar-nav > li > a {
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+}
+.navbar {
+    min-height:10px !important;
+}
+.left-1{
+    float: left;
+    margin-left: 5em;
+    color: white;
+}
+.left-2{
+    float: left;
+    margin-left: 2em;
+}
+#right-1{
+    float: right;
+    margin-right: 8em;
+}
+ul{
+    list-style: none;
+}
+.navbar_link{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#right-1 .navbar_link-1{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.left-1 a:hover,
+.left-2 a:hover{
+    color: #27bffe;
+    text-decoration: none;
+}
+.material-icons{
+    margin-right: 8px;
+}
+#right-1 .navbar_link-1:hover{
+    color: #27bffe;
+}
