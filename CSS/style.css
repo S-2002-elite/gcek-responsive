@@ -34,7 +34,7 @@ body{
     background: linear-gradient(to right, #00093c, #2d0b00);
     overflow: auto;
     width: 100%;
-    border-bottom: 0.5em solid rgb(16, 114, 76);
+    border-bottom: 0.3em solid rgb(16, 114, 76);
 }
 #right-1{
     float: right;
