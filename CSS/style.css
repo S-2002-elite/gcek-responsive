@@ -89,10 +89,9 @@ ul{
 .row{
     position: relative;
 }
-.image-fluid{
-    width:100%;
+/* .img-fluid{
     height:auto;
-}
+} */
 .header-1{
     position: absolute;
     top: 50%;
