@@ -19,7 +19,7 @@ html, body{
     height:100%;
     margin:0;
     padding:0;
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 body{
     background: whitesmoke;
@@ -28,9 +28,6 @@ body{
 }
 ::-webkit-scrollbar{
     width: 0;
-}
-@-ms-viewport{
-    width: 1920px;
 }
 /*---------------------------------Top Bar---------------------------------*/
 .navbar-inverse{
@@ -92,9 +89,11 @@ ul{
 .row{
     position: relative;
 }
-/* .img-fluid{
+.img-fluid{
     height:auto;
-} */
+    width: 100%;
+    max-width: 1920px;
+}
 .header-1{
     position: absolute;
     top: 50%;
