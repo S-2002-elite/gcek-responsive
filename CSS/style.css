@@ -29,6 +29,9 @@ body{
 ::-webkit-scrollbar{
     width: 0;
 }
+@-ms-viewport{
+    width: 1920px;
+}
 /*---------------------------------Top Bar---------------------------------*/
 .navbar-inverse{
     background: linear-gradient(to right, #00093c, #2d0b00);
