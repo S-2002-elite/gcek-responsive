@@ -133,11 +133,13 @@ ul{
 .scrolling-text{
     border-top: 0.3vw solid rgb(16, 114, 76);
     background: linear-gradient(to right, #00093c, #2d0b00);
+    display: flex;
 }
 .cssmarquee {
     height: 25px;
     overflow: hidden;
     position: relative;
+    display: flex;
 }
 .cssmarquee h1 {
     position: absolute;
@@ -145,6 +147,7 @@ ul{
     height: 100%;
     color: red;
     margin: 0;
+    display: flex;
     font-size: 15px;
     font-weight: 700;
     text-align: center;
