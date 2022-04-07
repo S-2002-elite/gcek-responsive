@@ -138,11 +138,9 @@ ul{
 
 }
 #cssmarquee {
-    height: 2vh;
+    height: 1.6vw;
     overflow: hidden;
     position: relative;
-    display: flex;
-    flex-wrap:wrap;
 }
 #cssmarquee p {
     position: absolute;
@@ -151,7 +149,7 @@ ul{
     color: red;
     margin: 0;
     display: flex;
-    font-size: 0.5vw;
+    font-size: 1.1vw;
     font-weight: 700;
     text-align: center;
     white-space: nowrap;
