@@ -148,6 +148,7 @@ ul{
     font-size: 15px;
     font-weight: 700;
     text-align: center;
+    white-space: nowrap;
     /* Starting position */
     transform:translateX(-100%);
     animation: cssmarquee 15s linear infinite; 
