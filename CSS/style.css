@@ -131,7 +131,7 @@ ul{
 }
 /*---------------------------------NOTICE SECTION---------------------------------*/
 .scrolling-text{
-    border-top: 0.3vw solid rgb(16, 114, 76);
+    border-top: 0.5vw solid rgb(16, 114, 76);
     background: linear-gradient(to right, #00093c, #2d0b00);
 }
 .cssmarquee {
