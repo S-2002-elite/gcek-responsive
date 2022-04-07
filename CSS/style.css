@@ -63,14 +63,14 @@ ul{
     color: white;
     padding: 1px;
     text-decoration: none;
-    font-size: 1.1vw;
+    font-size: 0.95rem;
 }
 .material-icons{
     margin-right: 0.25vw;
 }
-#nav-icon{
+/* #nav-icon{
     font-size: 1.25vw;
-}
+} */
 #right-1 .navbar_link-1 {
     display: flex;
     align-items: center;
@@ -78,7 +78,7 @@ ul{
     color: white;
     padding: 1px;
     text-decoration: none;
-    font-size: 1.1vw;
+    font-size: 0.95rem;
 }
 #right-1 .navbar_link-1:hover,
 #left-2 .navbar_link:hover,
