@@ -173,10 +173,10 @@ ul{
     background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
 }
 .nav-btn1{
-    border: 0.1vw solid rgb(11, 36, 110);
+    border: 0.15vw solid rgb(11, 36, 110);
     background: none;
     padding: 10px 60px;
-    font-size: 1.2vw;
+    font-size: 1vw;
     cursor: pointer;
     margin: 10px;
     border-top-right-radius: 2vw;
@@ -193,4 +193,345 @@ ul{
 .nav-btn1 a:hover{
    color: rgb(129, 30, 30);
    font-size: 1.25em;
+}
+@media (max-width: 1175px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 12%;
+        padding: 10px 1px;
+        font-size: 12.5px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 987px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 12%;
+        padding: 10px 1px;
+        font-size: 12px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 924px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 13%;
+        padding: 10px 1px;
+        font-size: 12px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 862px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 13%;
+        padding: 10px 1px;
+        font-size: 11px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 784px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 14.5%;
+        padding: 10px 1px;
+        font-size: 11px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 714px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 17%;
+        padding: 10px 1px;
+        font-size: 11px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 607px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 16%;
+        padding: 10px 1px;
+        font-size: 8px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 475px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 15%;
+        padding: 10px 1px;
+        font-size: 6px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 386px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 15.5%;
+        padding: 10px 1px;
+        font-size: 6px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 360px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 15.5%;
+        padding: 10px 1px;
+        font-size: 5px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+@media (max-width: 322px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 20px 30px black;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 2px 10px 20px #ddd;
+    }
+    .nav-btn1{
+        border-right: 0px solid;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0%;
+        width: 14%;
+        padding: 10px 1px;
+        font-size: 4px;
+        cursor: pointer;
+        margin-right: 1px; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 5px 20px #ddd;
+	    -webkit-box-shadow: 0 5px 20px #ddd;
+	    box-shadow: 0 10px 20px #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
 }
