@@ -130,16 +130,15 @@ ul{
     display: block;
 }
 /*---------------------------------NOTICE SECTION---------------------------------*/
-.scrolling-text{
+#scrolling-text{
     border-top: 0.3vw solid rgb(16, 114, 76);
-    background: linear-gradient(to right, #00093c, #2d0b00);
 }
-.cssmarquee {
+#cssmarquee {
     height: 25px;
     overflow: hidden;
     position: relative;
 }
-.cssmarquee h1 {
+#cssmarquee h1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -151,7 +150,8 @@ ul{
     white-space: nowrap;
     /* Starting position */
     transform:translateX(-100%);
-    animation: cssmarquee 20s linear infinite; 
+    animation: cssmarquee 20s linear infinite;
+    display: flex; 
 }
 @keyframes cssmarquee {
 0% {
