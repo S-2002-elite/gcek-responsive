@@ -141,6 +141,8 @@ ul{
     height: 25px;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-wrap:wrap;
 }
 #cssmarquee h1 {
     position: absolute;
@@ -148,6 +150,7 @@ ul{
     height: 100%;
     color: red;
     margin: 0;
+    display: flex;
     font-size: 15px;
     font-weight: 700;
     text-align: center;
