@@ -30,7 +30,7 @@ body{
     width: 0;
 }
 /*---------------------------------Top Bar---------------------------------*/
-.navbar-inverse{
+#bar{
     background: linear-gradient(to right, #00093c, #2d0b00);
     overflow: auto;
     width: 100%;
@@ -131,7 +131,11 @@ ul{
 }
 /*---------------------------------NOTICE SECTION---------------------------------*/
 #scrolling-text{
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    overflow: auto;
+    width: 100%;
     border-top: 0.3vw solid rgb(16, 114, 76);
+
 }
 #cssmarquee {
     height: 25px;
@@ -151,7 +155,6 @@ ul{
     /* Starting position */
     transform:translateX(-100%);
     animation: cssmarquee 20s linear infinite;
-    display: flex; 
 }
 @keyframes cssmarquee {
 0% {
