@@ -138,6 +138,7 @@ ul{
     overflow: hidden;
     position: relative;
     display: flex;
+    flex-wrap:wrap;
 }
 #cssmarquee h1 {
     position: absolute;
@@ -154,6 +155,7 @@ ul{
     transform:translateX(-100%);
     animation: cssmarquee 20s linear infinite;
     display: flex; 
+    flex-wrap:wrap;
 }
 @keyframes cssmarquee {
 0% {
