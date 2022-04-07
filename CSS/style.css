@@ -138,8 +138,8 @@ ul{
     height: 25px;
     overflow: hidden;
     position: relative;
-    }
-    .cssmarquee h1 {
+}
+.cssmarquee h1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -151,16 +151,16 @@ ul{
     white-space: nowrap;
     /* Starting position */
     transform:translateX(-100%);
-    animation: cssmarquee 15s linear infinite; 
-    }
-    @keyframes cssmarquee {
-    0% {
-    transform: translateX(100%);
-    }
-    100% {
+    animation: cssmarquee 20s linear infinite; 
+}
+@keyframes cssmarquee {
+0% {
+    transform: translateX(70%);
+}
+100% {
     transform: translateX(-100%);
-    }
-    }
+}
+}
 /*---------------------------------NAVIGATION SECTION---------------------------------*/
 .navigation-section{
     text-align: center;
