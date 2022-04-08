@@ -23,8 +23,7 @@ html, body{
 }
 body{
     background: whitesmoke !important;
-    font-family: sans-serif;
-    font-size: 10px;
+    font-family: sans-serif !important;
 }
 ::-webkit-scrollbar{
     width: 0;
