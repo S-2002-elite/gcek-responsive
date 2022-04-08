@@ -22,7 +22,7 @@ html, body{
     overflow-x: hidden;
 }
 body{
-    background: whitesmoke;
+    background: whitesmoke !important;
     font-family: sans-serif;
     font-size: 10px;
 }
@@ -196,9 +196,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -227,9 +227,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -258,9 +258,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -289,9 +289,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -320,9 +320,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -351,9 +351,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -382,9 +382,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -413,9 +413,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -444,9 +444,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -475,9 +475,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -506,9 +506,9 @@ ul{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
         border: 20px 30px black;
-        -moz-box-shadow: 0 5px 20px #ddd;
-	    -webkit-box-shadow: 0 5px 20px #ddd;
-	    box-shadow: 2px 10px 20px #ddd;
+        -moz-box-shadow: 0 5px 20px whitesmoke;
+	    -webkit-box-shadow: 0 5px 20px whitesmoke;
+	    box-shadow: 2px 10px 20px whitesmoke;
     }
     .nav-btn1{
         border-right: 0px solid;
@@ -531,4 +531,86 @@ ul{
     #nav-btn-1{
         background-color: rgba(16, 114, 76, 0.356);
     }
+}
+/*---------------------------------ABOUT SECTION---------------------------------*/
+.about{
+    font-size:2vw;
+    background: linear-gradient(to right, #45c0f5, whitesmoke);
+    font-family: 'Luxurious Roman';
+    color:black;
+    width:22vw;
+    letter-spacing: 0.3vw;
+    margin-top:2vw;
+    font-weight: 600;
+}
+.wiki{
+    animation: 2s ease-out 0s 1 wiki;
+    margin-left: 0.2vw;
+}
+@keyframes wiki {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.wiki-1{
+    text-decoration: none;
+    color: black;
+}
+.intro{
+    width: 40em;
+    font-size: 25px;
+    text-align: justify;
+    padding: 1em;
+}
+/*---------------------------------NEWS SECTION---------------------------------*/
+.news{
+    border: 2.5px solid black;
+    width: 30em;
+    padding: 250px 40px;
+    margin-top: -30em;
+    margin-left: 110em;
+}
+.news-1{
+    border: 2px solid black;
+    width: 30em;
+    padding: 50px 37.5px;
+    margin-top: -50.1em;
+    margin-left: 68.93rem;
+    background: linear-gradient(to right,black,rgb(13, 13, 82),black);
+    border-bottom: 4px solid black;
+}
+.news-2{
+    border: 2px solid white;
+    width: 29.7em;
+    padding: 43px 35px;
+    margin-left: 110.7em;
+    margin-top: -10em;
+    border-radius: 30px;
+}
+.news-3{
+    color:bisque;
+}
+.news-4{
+    text-decoration: none;
+    color: bisque;
+}
+.news-heading{
+    font-size: 35px;
+    margin-left: 34.7em;
+    margin-top: -1.8em;
+    font-weight: 400;
+}
+.news-icons .far{
+    font-size: 6.3em;
+    margin-top: -8rem;
+    margin-left: 18em;
+    color:bisque;
+    font-weight: 100;
+}
+.news-rss{
+    margin-left: 68.93rem;
+    margin-top: 1rem;
 }
