@@ -554,13 +554,13 @@ ul{
         transform: translateX(0);
     }
 }
-.wiki-1{
+#wiki-1{
     text-decoration: none;
     color: black;
 }
 .intro{
-    width: 40em;
-    font-size: 25px;
+    width: 67vw;
+    font-size: 1.5vw;
     text-align: justify;
     padding: 1em;
 }
