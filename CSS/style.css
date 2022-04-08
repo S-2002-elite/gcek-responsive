@@ -565,33 +565,33 @@ ul{
     padding: 1em;
 }
 /*---------------------------------NEWS SECTION---------------------------------*/
-/* .news{
+.news{
     border: 2.5px solid black;
     width: 30em;
     padding: 250px 40px;
-    margin-top: -25em;
+    margin-top: -23em;
     margin-left: 65em;
 }
 .news-1{
     border: 2px solid black;
     width: 30em;
     padding: 50px 37.5px;
-    margin-top: -32em;
-    margin-left: 65rem;
     background: linear-gradient(to right,black,rgb(13, 13, 82),black);
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid black; 
+    margin-top: -31.3em;
+    margin-left: 65em;
 }
 .news-2{
-    border: 2px solid red;
+    border: 2px solid white;
     width: 29.7em;
     padding: 43px 35px;
-    margin-left: 65.1em;
-    margin-top: -6.2em;
     border-radius: 30px;
+    margin-top: -6em;
+    margin-left: 65.2em;
 }
-.news-3{
+/* .news-3{
     color:bisque;
-}
+} */
 .news-4{
     text-decoration: none;
     color: bisque;
@@ -603,62 +603,18 @@ ul{
     font-weight: 400;
 }
 .news-icons .far{
-    font-size: 5em;
-    margin-top: -7rem;
-    margin-left: 10.5em;
+    font-size: 6.3em;
     color:bisque;
+    font-weight: 100;
+    margin-top: -20em;
+    margin-left: 10.6em;
 }
 .news-rss{
-    margin-left: 1rem;
-    margin-top: 60rem;
+    margin-left: 70em;
+    margin-top: -0.6em;
+}
+/*
+.news-rss{
+    margin-left: 68.93rem;
+    margin-top: 20rem;
 } */
-.news{
-    border: 2.5px solid black;
-    width: 30vw;
-    padding: 250px 40px;
-    margin-top: -25vw;
-    margin-left: 69vw;
-}
-.news-1{
-    border: 2px solid black;
-    width: 29.9vw;
-    padding: 50px 37.5px;
-    margin-top: -33vw;
-    margin-left: 69vw;
-    background: linear-gradient(to right,black,rgb(13, 13, 82),black);
-    border-bottom: 4px solid black;
-}
-.news-2{
-    border: 2px solid white;
-    width: 29.7vw;
-    padding: 43px 35px;
-    margin-left: 69.05vw;
-    margin-top: -6.3vw;
-    border-radius: 30px;
-}
-.news-3{
-    color:bisque;
-}
-#heading{
-    text-decoration: none !important;
-    color: bisque;
-}
-.news-heading{
-    font-size: 2.7vw;
-    margin-left: 78vw;
-    margin-top: -4.5vw;
-    font-weight: 400;
-}
-#icon-news{
-    font-size: 5vw;
-    margin-top: -5.5vw;
-    margin-left: 71vw;
-    text-decoration: none !important;
-}
-#latest{
-    color:bisque !important;
-}
-#rss{
-    margin-left: 30vw;
-    margin-top: -1vw;
-}
