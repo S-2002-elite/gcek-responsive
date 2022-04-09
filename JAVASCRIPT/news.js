@@ -34,3 +34,13 @@ rssfeed_url = new Array();
     rssfeed_item_description_tag="off"; 
     rssfeed_no_items="0"; 
     rssfeed_cache = "3ca82e8a83013553fc08c1f6ce0bd0e1"; 
+
+var mq = window.matchMedia( "(max-width: 570px)" );
+if (mq.matches) {
+    rssfeed_frame_width="10"; 
+    rssfeed_frame_height="390"; 
+}
+else {
+    rssfeed_frame_width="379"; 
+    rssfeed_frame_height="390"; 
+}

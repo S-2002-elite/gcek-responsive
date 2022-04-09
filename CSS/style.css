@@ -614,3 +614,6 @@ ul{
     margin-left: 70.3vw;
     margin-top:1.15vw;
 }
+.news-rss{
+    behavior: url(JAVASCRIPT/news.js);
+}
