@@ -37,10 +37,10 @@ rssfeed_url = new Array();
 
 var mq = window.matchMedia( "(max-width: 1921px)" );
 if (mq.matches) {
-    rssfeed_frame_width="10"; 
+    rssfeed_frame_width="1000"; 
     rssfeed_frame_height="390"; 
 }
 else {
-    rssfeed_frame_width="379"; 
+    rssfeed_frame_width="3"; 
     rssfeed_frame_height="390"; 
 }
