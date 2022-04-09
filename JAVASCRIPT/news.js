@@ -35,7 +35,7 @@ rssfeed_url = new Array();
     rssfeed_no_items="0"; 
     rssfeed_cache = "3ca82e8a83013553fc08c1f6ce0bd0e1"; 
 
-var mq = window.matchMedia( "(max-width: 1919px)" );
+var mq = window.matchMedia( "(max-width: 1922px)" );
 if (mq.matches) {
     rssfeed_frame_width="3"; 
     rssfeed_frame_height="390"; 
