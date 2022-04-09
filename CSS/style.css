@@ -569,26 +569,26 @@ ul{
     margin-top: -25vw;
 }
 .news{
-    border: 2.5px solid black;
+    border: 0.17vw solid black;
     width: 25.3vw;
-    padding: 250px 40px;
+    padding: 16.28vw 2.61vw;
     margin-top: -23vw;
     margin-left: 70vw;
 }
 .news-1{
-    border: 2px solid black;
+    border: 0.14vw solid black;
     width: 24.7vw;
-    padding: 50px 37.5px;
+    padding: 3.26vw 2.45vw;
     background: linear-gradient(to right,black,rgb(13, 13, 82),black);
-    border-bottom: 4px solid black; 
+    border-bottom: 0.27vw solid black; 
     margin-top: -32.6vw;
     margin-left: 70.3vw;
 }
 .news-2{
-    border: 2px solid white;
+    border: 0.14vw solid white;
     width: 24.3vw;
-    padding: 43px 35px;
-    border-radius: 30px;
+    padding: 2.8vw 2.28vw;
+    border-radius: 1.96vw;
     margin-top: -6.5vw;
     margin-left: 70.5vw;
 }
@@ -605,12 +605,10 @@ ul{
 .news-icons .far{
     font-size: 4vw;
     color:bisque;
-    margin-top: -10vw;
-    margin-left: 49vw;
 }
 #icon-news{
-    margin-top: -1.5vw;
-    margin-left: 22.7vw;
+    margin-top: -3.8vw;
+    margin-left: 72vw;
 }
 #rss{
     margin-left: 70.3vw;
