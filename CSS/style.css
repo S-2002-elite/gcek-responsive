@@ -768,11 +768,13 @@ ul{
     font-weight: 400;
 }
 .quick-icons .fas{
-    font-size: 7em;
-    margin-top: -8rem;
-    margin-left: 16.3em;
-    color:bisque;
+    font-size: 5vw;
+    color: bisque;
     font-weight: 600;
+}
+#icon-quick{
+    margin-left: 72.92vw;
+    margin-top: -2.82vw;
 }
 .modal {
     display: none;
