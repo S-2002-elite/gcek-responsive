@@ -877,6 +877,6 @@ hr{
     margin: 1.31vw auto;
 }
 .marq{
-    scroll-delay: 300s;
+    scroll-behavior: 3s;
     height: 26.042vw;
 }
