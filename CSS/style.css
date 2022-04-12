@@ -729,6 +729,9 @@ ul{
     }
 }
 /*---------------------------------QUICK LINKS SECTION---------------------------------*/
+.quick-sec{
+    margin-top: 30vw;
+}
 .quick{
     border: 0.17vw solid black;
     width: 25.3vw;
@@ -764,7 +767,7 @@ ul{
 .quick-heading{
     font-size: 2.3vw;
     margin-left: 78vw;
-    margin-top: -1.88vw;
+    margin-top: -3.88vw;
     font-weight: 400;
 }
 .quick-icons .fas{
@@ -820,7 +823,7 @@ ul{
   }
   #myBtn{
     cursor: pointer;
-    margin-bottom: -12em;
+    margin-bottom: -12.5vw;
   }
   .modal-heading{
     font-family: 'Luxurious Roman';
