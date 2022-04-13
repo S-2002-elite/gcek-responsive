@@ -536,7 +536,6 @@ ul{
     font-size:2vw;
     background: linear-gradient(to right, #45c0f5, whitesmoke);
     font-family: 'Luxurious Roman';
-    color:black;
     width:22vw;
     letter-spacing: 0.3vw;
     margin-top:2vw;
@@ -859,6 +858,7 @@ ul{
 #scroll-link_id{
     text-decoration: none;
     color: rgb(49, 214, 27);
+    margin-top: -1vw;
 }
 .scrolling-news{
     background: whitesmoke;
@@ -910,4 +910,110 @@ ul{
 }
 .marq{
     height: 26.042vw;
+}
+/*---------------------------------GALLERY SECTION---------------------------------*/
+.gallery{
+    font-size:2vw;
+    background: linear-gradient(to right, #45c0f5, whitesmoke);
+    font-family: 'Luxurious Roman';
+    width:22vw;
+    letter-spacing: 0.3vw;
+    margin-top:-43vw;
+    font-weight: 600;
+}
+#wiki-1{
+    text-decoration: none;
+    color: black;
+}
+#slider{
+    height: 24.42vw;
+    width: 36.14vw;
+    background: rgba(92, 88, 88, 0.6);
+    margin-top: 3.26vw;
+    margin-left: 6.52vw;
+}
+#slider-container{
+    width: 35.81vw;
+    height: auto;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.14vw solid black;
+    box-shadow: 0.066vw 0.14vw 0.66vw 0.33vw rgb(16, 114, 76);
+}
+.images{
+    width: 1000vw;
+    vertical-align: middle;
+    display: none;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@keyframes fade{
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.prev-button{
+    width: 1.96vw;
+    height: 3.91vw;
+    font-size: 1.96vw;
+    color: rgba(240, 240, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border: 2px solid white;
+    border-top-right-radius: 0.98vw;
+    border-bottom-right-radius: 0.98vw;
+    background: rgba(255, 255, 255, 0.1);
+    left: 0;
+    transition: color 0.3s ease;
+}
+.next-button{
+    width: 1.96vw;
+    height: 3.91vw;
+    font-size: 1.96vw;
+    color: rgba(240, 240, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border: 2px solid white;
+    border-top-left-radius: 0.98vw;
+    border-bottom-left-radius: 0.98vw;
+    background: rgba(255, 255, 255, 0.1);
+    right: 0;
+    transition: background-color 0.3s ease;
+}
+.prev-button:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+.next-button:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+.bottom-slider {
+    position: absolute;
+    bottom: 1.31vw;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+}
+.btm_slider{
+    height: 0.33vw;
+    width: 1.63vw;
+    border: 0.14vw solid white;
+    border-radius: 0.33vw;
+    margin: 0vw 0.19vw;
+    cursor: pointer;
+}
+.active,
+.btm_slider:hover{
+    background: thistle;
 }
