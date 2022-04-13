@@ -796,7 +796,7 @@ ul{
     backdrop-filter: blur(0.33vw);
     -webkit-backdrop-filter: blur(0.33vw);
   }
-  .modal-content {
+.modal-content {
     margin: 0.16vw auto !important;
     padding: 1.31vw !important;
     width: 35.81vw !important;
@@ -808,52 +808,58 @@ ul{
     margin-top: 4.17vw !important;
     margin-left: 32vw !important;
     overflow: scroll !important;
-  }
-  ::-webkit-scrollbar{
-      width: 0;
-  }
-  .close {
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.close {
     color: #aaa;
     float: right;
     font-size: 1.83vw;
     font-weight: bold;
     cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
+    margin-left: 32vw;
+}
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-  #myBtn{
+}
+#myBtn{
     cursor: pointer;
     margin-bottom: -12.5vw;
-  }
-  .modal-heading{
+}
+.modal-heading{
     font-family: 'Luxurious Roman';
     font-weight: bolder;
     font-size: 2.28vw !important;
     margin-top: -0.52vw !important;
-    color: #c5c5b8;
-    text-decoration: none !important;
     text-align: justify;  
-  }
-  #book-icon{
+}
+#modal-head_id{
+    text-decoration: none;
+    color: white;
+}
+#book-icon{
     color: rgb(30, 55, 80);
-    margin-left: 1.09vw ;
+    margin-left: 1.09vw !important;
     margin-bottom: -1.5vw !important;
-  }
-  #book-logo{
-      color: rgb(53,21,21);
-      margin-left: 14vw !important;
-      font-size: 5vw !important;
-  }
-  .scroll-link{
-      text-decoration: none;
-      font-size: 1.18vw !important;
-      color: rgb(49, 214, 27);
-      margin-left: 3.13vw;
-  }
+    font-size: 1.4vw;
+}
+#book-logo{
+    color: rgb(53,21,21);
+    margin-left: 14vw !important;
+    font-size: 5vw !important;
+}
+.scroll-link{
+    font-size: 1.18vw !important;
+    margin-left: 3.13vw !important;
+}
+#scroll-link_id{
+    text-decoration: none;
+    color: rgb(49, 214, 27);
+}
 .scrolling-news{
     background: whitesmoke;
     width: 25.3vw;
@@ -866,17 +872,19 @@ ul{
     overflow: hidden;
     border-top: 0vw;
 }
-#scroll-1-id{
-    font-size: 1.18vw !important;
-    margin-left: 3.52vw !important;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-}
 .scroll-1{
     font-size: 1.18vw !important;
     margin-left: 0.52vw !important;
     font-weight: bold;
+}
+.scroll-1_modal{
+    font-size: 1.18vw !important;
+    font-weight: bold;
+}
+#scroll-1-id{
+    text-decoration: none;
+    color: black;
+    margin-left: 3.5vw !important;
 }
 #scroll-1_id{
     text-decoration: none;
@@ -890,13 +898,16 @@ ul{
     text-decoration: none;
     color: purple;
 }
-hr{
+#hr-size{
     width: 24.089vw;
     border: 0;
-    border-bottom: 0.066vw solid black;
+    border-bottom: 0.08vw solid black;
     margin: 1.31vw auto;
 }
+#modal-hr{
+    border-bottom: 0.15vw solid white;
+    width: 33vw;
+}
 .marq{
-    scroll-behavior: 3s;
     height: 26.042vw;
 }
