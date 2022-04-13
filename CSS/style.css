@@ -574,6 +574,7 @@ ul{
     padding: 16.28vw 2.61vw;
     margin-top: -23vw;
     margin-left: 70vw;
+    border-radius: 1vw;
 }
 .news-1{
     border: 0.14vw solid black;
@@ -583,12 +584,13 @@ ul{
     border-bottom: 0.27vw solid black; 
     margin-top: -32.6vw;
     margin-left: 70.3vw;
+    border-radius: 1vw;
 }
 .news-2{
     border: 0.14vw solid white;
     width: 24.3vw;
     padding: 2.8vw 2.28vw;
-    border-radius: 1.96vw;
+    border-radius: 1vw;
     margin-top: -6.5vw;
     margin-left: 70.5vw;
 }
@@ -738,6 +740,7 @@ ul{
     padding: 16.28vw 2.61vw;
     margin-top: 2vw;
     margin-left: 70vw;
+    border-radius: 1vw;
 }
 .quick-1{
     border: 0.14vw solid black;
@@ -747,6 +750,7 @@ ul{
     margin-left: 70.3vw;
     background: linear-gradient(to right,black,rgb(13, 13, 82),black);
     border-bottom: 0.27vw solid black; 
+    border-radius: 1vw;
 }
 .quick-2{
     border: 0.14vw solid white;
@@ -754,7 +758,7 @@ ul{
     padding: 2.80vw 2.28vw;
     margin-left: 70.63vw;
     margin-top: -6.46vw;
-    border-radius: 1.96vw;
+    border-radius: 1vw;
 }
 .quick-3{
     color:bisque;
@@ -856,19 +860,24 @@ ul{
     margin-top: 1.1vw;
     margin-left: 70vw;
     overflow: hidden;
+    border-top: 0vw;
 }
 .scroll-1{
-    text-decoration: none;
     font-size: 1.18vw;
-    color: black;
     margin-left: 0.52vw;
     font-weight: bold;
 }
-.scroll-2{
+#scroll-1_id{
     text-decoration: none;
+    color: black;
+}
+.scroll-2{
     font-size: 1.18vw;
-    color: purple;
     margin-left: 3.13vw;
+}
+#scroll-2_id{
+    text-decoration: none;
+    color: purple;
 }
 hr{
     width: 24.089vw;
