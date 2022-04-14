@@ -871,6 +871,8 @@ ul{
     margin-left: 70vw;
     overflow: hidden;
     border-top: 0vw;
+    border-bottom-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
 }
 .scroll-1{
     font-size: 1.18vw !important;
@@ -1016,4 +1018,41 @@ ul{
 .active,
 .btm_slider:hover{
     background: thistle;
+}
+/*---------------------------------RULES & REGULATIONS SECTION---------------------------------*/
+.rules{
+    font-size:2vw;
+    background: linear-gradient(to right, #45c0f5, whitesmoke);
+    font-family: 'Luxurious Roman';
+    color:black;
+    width:52.1vw;
+    letter-spacing: 0.3vw;
+    margin-top:5.21vw;
+    font-weight: 600;
+}
+.bullet .far{
+    margin-left: 0.5em;
+    margin-top: 1.05vw;
+}
+#rude-id{
+    font-size: 6vw;
+}
+.rule-point{
+    font-size: 25px;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.read-more{
+    margin-top: 2em;
+    margin-left: 1em;
+    font-size: 15px;
+}
+.click-here{
+    text-decoration: none;
+    border: 2px solid black;
+    color: blue;
+}
+.click-here:hover{
+    background-color: thistle;
 }
