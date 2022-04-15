@@ -1083,9 +1083,21 @@ ul{
     margin-left: 4vw;
     margin-top: 2.09vw;
 }
+#footer-link{
+    margin-left: -1vw;
+    margin-top: 2.09vw;
+}
+#footer-link a{
+    text-decoration: none;
+    color: white;
+}
 #footer-col a{
     text-decoration: none;
     color: white;
+}
+#footer-social{
+    margin-left: -5vw;
+    margin-top: 2.09vw;
 }
 .email-id{
     width: fit-content;
