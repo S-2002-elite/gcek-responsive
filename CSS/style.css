@@ -1068,12 +1068,12 @@ ul{
     border-top-right-radius: 10vw;
     font-family: serif;
     font-size: 1.2vw;
-    padding: 1vw 0vw 1vw;
+    /* padding: 1vw 0vw 1vw; */
     display: flex;
     flex-wrap: wrap;
 }
 #footer-row h3{
-    font-size: 2vw;
+    font-size: 1.5vw;
     width: fit-content;
     margin-bottom: 5.22vw;
     position: relative;
@@ -1095,14 +1095,14 @@ ul{
     text-decoration: none;
     color: white;
 }
-ul li{
+/* ul li{
     list-style: none;
     margin-bottom: 1.57vw;
 }
 ul li a{
     text-decoration: none;
     color: white;
-}
+} */
 .social-icons .fab{
     width: 3vw;
     height: 3vw;
