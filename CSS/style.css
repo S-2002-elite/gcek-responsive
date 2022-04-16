@@ -570,6 +570,7 @@ ul{
     letter-spacing: 0.3vw;
     margin-top:2vw;
     font-weight: 600;
+    color: black;
 }
 .wiki{
     animation: 2s ease-out 0s 1 wiki;
@@ -1285,46 +1286,48 @@ ul{
     font-size: 1.5vw;
     text-align: justify;
     padding: 1.05vw;
+    color: black !important;
 }
 .wrapper{
-    max-width: 800px;
-    padding: 0 20px;
+    max-width: 52.09vw;
+    padding: 0vw 1.30vw;
 }
 .wrapper .parent-tab{
-    margin-bottom: 8px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.18);
+    margin-bottom: 0.53vw;
+    border-bottom-left-radius: 1.30vw;
+    border-bottom-right-radius: 1.30vw;
+    border-top-left-radius: 1.95vw;
+    border-top-right-radius: 1.95vw;
+    box-shadow: 0vw 0vw 15vw rgba(0,0,0,0.18);
+    background: white !important;
 }
 .wrapper .parent-tab label{
     background: #4dd3bd;
-    padding: 10px 20px;
+    padding: 0.65vw 1.30vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
     position: relative;
     z-index: 99;
-    border-radius: 20px;
+    border-radius: 1.30vw;
 }
 .wrapper label span{
     color: black;
-    font-size: 18px;
+    font-size: 1.17vw;
     font-weight: 500;
-    text-shadow: 0 -1px 1px #0056b3;
+    text-shadow: 0 -0.065vw 0.065vw  #0056b3;
 }
 .wrapper label .accord-icon{
     position: relative;
-    height: 30px;
-    width: 30px;
+    height: 1.95vw;
+    width: 1.95vw;
     color: rgb(116, 19, 19);
     display: inline;
-    background: #fff;
-    border-radius: 30%;
-    text-shadow: 0 -1px 1px #0056b3;
-    font-size: 20px;
+    background: #fff !important;
+    border-radius: 0.32vw;
+    text-shadow: 0 -0.065vw 0.065vw #0056b3;
+    font-size: 1.30vw;
 }
 .wrapper .parent-tab input:checked ~ label .accord-icon i:before{
     content: '\f107';
@@ -1336,7 +1339,7 @@ ul{
     transform: translate(-50%, -50%);
 }
 .wrapper .parent-tab .content{
-    max-height: 0px;
+    max-height: 0vw;
     overflow: hidden;
 }
 .parent-tab input:checked ~ .content{
@@ -1345,9 +1348,10 @@ ul{
     transition: all 10s ease;
 }
 .wrapper .parent-tab .content p{
-    font-size: 16px;
-    padding: 15px 20px;
+    font-size: 1.04vw;
+    padding: 0.98vw 1.30vw;
     text-align: justify;
+    color: black !important;
 }
 .wrapper input{
     display: none;
