@@ -57,7 +57,15 @@
   <button class="nav-btn1" id="nav-btn-1"><a href="opac.html" class="nav-btn2">OPAC</a></button>
   <button class="nav-btn1" id="nav-btn-1"><a href="online-registration.html" class="nav-btn2">Online&nbsp;Registration</a></button>
   <button class="nav-btn1" id="nav-btn-1"><a href="e-newspaper.html" class="nav-btn2">e&nbsp;-&nbsp;newspapers</a></button>
-  <button class="nav-btn1" id="nav-btn-1"><a href="e-newspaper.html" class="nav-btn2">Request&nbsp;Books</a></button>
+  <button class="nav-btn1" id="nav-btn-1"><a class="nav-btn2" id="req-modal">Request&nbsp;Books</a></button>
+  <!-- The Modal -->
+<div id="my_Modal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+</div> 
+</div>
+<script src="JAVASCRIPT/modalbox.js"></script>
 </div>
 <!-------------ABOUT SECTION------------->
 <div class="about">
@@ -136,7 +144,6 @@
       <i class="fa fa-book-open" id="book-icon"></i><a class="scroll-1_modal" id="scroll-1-id" target="blank">YALE UNIVERSITY:</a><br><a href="https://oyc.yale.edu/" class="scroll-link" id="scroll-link_id">https://oyc.yale.edu</a>
       <hr id="modal-hr">
       <i class="fa fa-book-open" id="book-icon"></i><a class="scroll-1_modal" id="scroll-1-id" target="blank">OPEN MICHIGAN:</a><br><a href="https://open.umich.edu/" class="scroll-link" id="scroll-link_id">https://open.umich.edu</a>
-      <hr id="modal-hr">
 </div> 
 </div>
 <script src="JAVASCRIPT/lightbox.js"></script>
@@ -183,7 +190,6 @@
   <a class="scroll-1" id="scroll-1_id" target="blank">YALE UNIVERSITY:</a><br><a href="https://oyc.yale.edu/" class="scroll-2" id="scroll-2_id" >https://oyc.yale.edu</a>
   <hr id="hr-size">
   <a class="scroll-1" id="scroll-1_id" target="blank">OPEN MICHIGAN:</a><br><a href="https://open.umich.edu/" class="scroll-2" id="scroll-2_id" >https://open.umich.edu</a>
-  <hr id="hr-size">
   </marquee>
 </div>
 </div>
@@ -271,13 +277,13 @@
       <div class="col" id="footer-link">
           <h3>LINKS</h3>
               <a href="index.html">Home</a><br>
-              <a href="library-section.html">Library Section</a><br>
-              <a href="library-services.html">Library Services</a><br>
+              <a href="library-section.html">Library&nbsp;Section</a><br>
+              <a href="library-services.html">Library&nbsp;Services</a><br>
               <a href="">Digital Library</a><br>
-              <a href="staff-members.html">Staff Members</a><br>
+              <a href="staff-members.html">Staff&nbsp;Members</a><br>
               <a href="opac.html">OPAC</a><br>
-              <a href="online-registration.html">Online Registration</a><br>
-              <a href="e-newspaper.html">e-newspapers</a><br>
+              <a href="online-registration.html">Online&nbsp;Registration</a><br>
+              <a href="e-newspaper.html">e&nbsp;-&nbsp;newspapers</a><br>
               <a href="">Request Books</a><br>
       </div>
       <div class="col" id="footer-social">
@@ -287,15 +293,15 @@
               <i class="fab fa-instagram"></i>
               <i class="fab fa-youtube"></i>
               <i class="fab fa-google"></i>
-              <div class="download-btn"><a href="#" class="download-btn1"><i class="fa fa-download"></i></a><a class="download-btn2" href="#">DOWNLOAD</a></i></div>
-              <div class="privacy"><a class="privacy2" href="#">Privacy Policy</a></div>
-              <div class="disclaimer"><a class="disclaimer2" href="#">Disclaimer</a></div>
+              <div class="download-btn"><a href="#" class="download-btn1"><i class="fa fa-download"></i></a><a class="download-btn2" id="download-btn3" href="#">DOWNLOAD</a></i></div>
+              <div class="privacy"><a class="privacy2" id="privacy3" href="#">Privacy&nbsp;Policy</a></div>
+              <div class="disclaimer"><a class="disclaimer2" id="disclaimer3" href="#">Disclaimer</a></div>
               <div class="page-viewers"><div class="visitor"><h6>VIEWERS&nbsp;:</h6></div><div class="visitor-counter"><i class="fa fa-eye" id="visitor-eye"></i></div><div class="website-counter" id="count"></div></div>
               <script src="JAVASCRIPT/visitors.js"></script>
           </div>
       </div>
       <hr class="footer-hr">
-  <p class="copyright">Copyrights © 2022 GOVERNMENT COLLEGE OF ENGINEERING KALAHANDI<br>Website Designed & Developed by Suryanshu Patnaik & Suprita Panda (Students of GCEK)- All Rights Reserved</p>
+  <p class="copyright" id="copy">Copyrights © 2022 GOVERNMENT COLLEGE OF ENGINEERING KALAHANDI<br>Website Designed & Developed by Suryanshu Patnaik & Suprita Panda (Students of GCEK)- All Rights Reserved</p>
   </div>
 </footer>
 </body>
