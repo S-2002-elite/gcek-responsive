@@ -1630,8 +1630,8 @@ ul{
     justify-content: center;
     align-items: center;
     transition: .4s;
-    margin-left: 87px;
-    margin-top: -341.5px;
+    margin-left: 39px;
+    margin-top: -283.5px;
 }
 .clock__content {
     align-self: center;
@@ -1735,13 +1735,13 @@ ul{
     z-index: var(--z-normal);
 }
   .clock {
-    width: 95px;
-    height: 95px;
+    width: 85px;
+    height: 85px;
     border-radius: 100px;
     box-shadow: 0 0 16px 0 #8c8db9;
-    margin-left: 945px;
-    margin-top: -343px;
-    position: absolute;
+    margin-left: 840px;
+    margin-top: -282px;
+    position: relative;
     background-image: linear-gradient(to bottom right, rgb(139, 199, 204), white);
   }
   .clock-inner {
@@ -1759,6 +1759,7 @@ ul{
   }
   #member{
     color: #217786;
+    margin-left: 5px;
   }
   .text {
       position: absolute;
