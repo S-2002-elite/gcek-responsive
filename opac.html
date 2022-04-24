@@ -58,87 +58,64 @@
   <button class="nav-btn1" id="nav-btn-1"><a href="online-registration.html" class="nav-btn2">Online&nbsp;Registration</a></button>
   <button class="nav-btn1" id="nav-btn-1"><a href="e-newspaper.html" class="nav-btn2">e&nbsp;-&nbsp;newspapers</a></button>
   <button class="nav-btn1" id="nav-btn-1"><a class="nav-btn2" id="req-modal">Request&nbsp;Books</a></button>
-</div>
-<!-------------LIBRARY SERVICES SECTION------------->
-<div id="pricing-table" class="clear">
-    <div class="plan" id="most-popular-1">
-        <h3>Library<br>Timings<span></span></h3>         
-        <ul>
-            <li><b>Monday - Saturday</b></li>
-            <li>09:00 AM - 05:00 PM</li>
-            <li><b>Sunday & Holidays</b></li>
-			<li>Day Off</li>			
-        </ul> 
-    </div>
-    <div class="plan" id="most-popular">
-        <h3>Membership Benefits<span><i class="fa fa-address-card" id="member"></i></span></h3>
-        <ul>
-            <li><b>UG / PG Students</b></li>
-            <li>3 Books</li>
-            <li><b>Faculty Members</b></li>
-			<li>6 Books</li>			
-        </ul>
-    </div>
-    <div class="plan" id="most-popular-1">
-        <h3>Reading Room Timings<span></span></h3>        
-        <ul>
-            <li><b>Monday - Saturday</b></li>
-            <li>09:00 AM - 05:00 PM</li>
-            <li><b>Sunday & Holidays</b></li>
-			<li>Day Off</li>			
-        </ul>    
-    </div>
-</div>
-<section class="clock-container">
-    <div class="clock__container grid">
-        <div class="clock__content grid">
-            <div class="clock__circle">
-                <span class="clock__twelve"></span>
-                <span class="clock__three"></span>
-                <span class="clock__six"></span>
-                <span class="clock__nine"></span>
+  <!-- The Modal -->
+<div id="my_Modal" class="modal">
 
-                <div class="clock__rounder"></div>
-                <div class="clock__hour" id="clock-hour"></div>
-                <div class="clock__minutes" id="clock-minutes"></div>
-                <div class="clock__seconds" id="clock-seconds"></div>
-            <div>
+  <!-- Modal content -->
+  <div class="modal-content">
+</div> 
+</div>
+<script src="JAVASCRIPT/modalbox.js"></script>
+</div>
+<!-------------OPAC SECTION------------->
+<div class="opac-link">
+    <p class="opac-link-1">
+        <a href="opac.html" id="wiki-1">ONLINE&nbsp;PUBLIC&nbsp;ACCESS&nbsp;CATALOGUE&nbsp;(OPAC)</a>
+    </p>
+</div>
+<div class="intro-link">
+    <p class="opac-welc" id="opac-welc-id">WELCOME !</p><br>
+    <p class="opac-content">To access the Library Database<br>Please Browse :-</p><br>
+    <div class="opac-rule-1">
+        <i class="fas fa-hand-point-right"></i><a class="opac-rule-point" id="rule-point-id">Inside Campus ~ <a href="http://192.168.101.16/" class="book-link">Browse Here</a></a><br><br>
+    </div>
+    <div class="opac-rule-2">
+        <i class="fas fa-hand-point-right"></i><a class="opac-rule-point" id="rule-point-id">ebooks ~
+    </div>
+        <div class="wrap">
+            <div class="parent-tabs tab-1">
+                <input type="checkbox" name="tab" id="tab-1">
+                <label for="tab-1">
+                    <span class="pseudolink">Browse Here</span>
+                    <div class="accord-icon"><i class="fas fa-angle-up"></i></div>
+                </label>
+                <div class="content">
+                   <div class="child-tab">
+                       <label>
+                           <span class="pseudolink" onclick="window.open('https://www.engbookspdf.net/')">EngBooks&nbsp;PDF</span>
+                       </label>
+                   </div>
+                   <div class="child-tab">
+                       <label>
+                           <span class="pseudolink" onclick="window.open('https://link.springer.com/')">Springer</span>
+                       </label>
+                   </div>
+                   <div class="child-tab">
+                    <label>
+                        <span class="pseudolink" onclick="window.open('https://archive.org/')">Internet&nbsp;Archive</span>
+                    </label>
+                </div>
+                <div class="child-tab">
+                    <label>
+                        <span class="pseudolink" onclick="window.open('https://www.doabooks.org/')">Doa&nbsp;Books</span>
+                    </label>
+                </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <script src="JAVASCRIPT/analog.js"></script>
-</section>
-<div class="clock">
-    <div class="clock-inner">
-      <div class="date">
-        <h2>
-          <span class="day">Wednesday</span>,
-          <span class="month">September</span>
-          <span class="day-of-the-month">22</span>
-        </h2>
-      </div>
-    </div>
-  </div>
-  <script src="JAVASCRIPT/digital.js"></script>
-  <div class="services-link">
-    <h1 class="services-link-1">
-        <a href="library-section.html" class="wiki-1">HOW TO USE DIGITAL LIBRARY SERVICES ?</a>
-    </h1>
-  </div>
-  <div class="opac-link">
-    <h1 class="opac-link-1">
-        <a href="library-services.html" class="wiki-1">LIBRARY RULES & REGULATIONS</a>
-    </h1>
-  </div>
-  <div class="bullet">
-    <i class="far fa-hand-point-right"><a class="rule-point">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, esse.</a></i>
-    <i class="far fa-hand-point-right"><a class="rule-point">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, esse.</a></i>
-    <i class="far fa-hand-point-right"><a class="rule-point">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, esse.</a></i>
-    <i class="far fa-hand-point-right"><a class="rule-point">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, esse.</a></i>
-    <i class="far fa-hand-point-right"><a class="rule-point">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, esse.</a></i>
+    </a><br><br>
 </div>
+<p id="opac-welc-1">Thank You !</p>
 </div>
-<div class="intro-link"></div>
 <!-----------FOOTER SECTION----------->
 <footer>
     <div class="row" id="footer-row">
@@ -186,6 +163,6 @@
         <hr class="footer-hr">
     <p class="copyright" id="copy">Copyrights © 2022 GOVERNMENT COLLEGE OF ENGINEERING KALAHANDI<br>Website Designed & Developed by Suryanshu Patnaik & Suprita Panda (Students of GCEK)- All Rights Reserved</p>
     </div>
-</footer>
+  </footer>
 </body>
 </html>
