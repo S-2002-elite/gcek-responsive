@@ -1677,3 +1677,92 @@ ul{
     text-decoration: none;
     color: black;
 }
+.regd-links{
+    width: 3.25vw;
+    height: 4.55vw;
+    padding: 0 1.31vw;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    margin-left: 5.86vw;
+}
+.regd-links .parent-tab{
+    margin-bottom: 0.53vw;
+    border-top-left-radius: 1.30vw;
+    border-top-right-radius: 1.30vw;
+    border-bottom-left-radius: 1.30vw;
+    border-bottom-right-radius: 1.30vw;
+    box-shadow: 0vw 0vw 1.30vw rgba(0,0,0,0.18);
+    background: white;
+    width: 2.6vw;
+}
+.regd-links .parent-tab label{
+    background-image: linear-gradient(to bottom right, rgb(41,95,100),white);
+    padding: 0.66vw 1.31vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+    border-radius: 1.31vw;
+    width: 0.66vw;
+    height: 11.06vw;
+}
+.regd-links label span{
+    color: black;
+    font-size: 1.17vw;
+    font-weight: 500;
+    text-shadow: 0 -0.066vw 0.066vw #0056b3;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 0.66vw;
+    margin-bottom: 8.47vw;
+    margin-left: -0.33vw;
+}
+.regd-logo{
+    display: flex;
+    background-image: linear-gradient(to bottom right, rgb(139, 199, 204), white);
+	border: 0.13vw solid white;
+	height: 2.57vw;
+	width:1.90vw;
+    padding: 0.66vw 1.31vw;
+    position: relative;
+	border-radius: 100%;
+    transform: rotate(90deg);
+    margin-left: -0.16vw;
+}
+#regd-logo-1{
+    margin-left: -0.66vw;
+}
+.regd-links .parent-tab .content{
+    width: 3.25vw;
+    height: 16.27vw;
+    max-height: 0vw;
+    overflow: hidden;
+}
+.parent-tab input:checked ~ .content{
+    max-height: 100vh;
+    overflow: hidden;
+    transition: all 10s ease;
+}
+.regd-links .parent-tab .content p{
+    font-size: 1.04vw;
+    padding: 0.98vw 1.31vw;
+    text-align: justify;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: -3.91vw;
+    margin-left: -0.66vw;
+}
+.regd-links input{
+    display: none;
+}
