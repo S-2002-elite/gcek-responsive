@@ -2105,15 +2105,6 @@ ul{
     border-radius: .75rem;
     z-index: var(--z-normal);
 }
-  /* .clock {
-    width: 95px;
-    height: 95px;
-    border-radius: 100px;
-    box-shadow: 0 0 16px 0 #8c8db9;
-    margin-left: 945px;
-    margin-top: -343px;
-    background-image: linear-gradient(to bottom right, rgb(139, 199, 204), white);
-  } */
   .clock-inner {
     width: 100%;
     height: 100%;
