@@ -1845,54 +1845,54 @@ ul{
 }
 /*-----------------------LIBRARY SERVICES-----------------------*/
 .services-link{
-    font-size:1rem;
+    font-size:1.04vw;
     background: linear-gradient(to right, #5e913c, whitesmoke);
     font-family: 'Luxurious Roman';
     color:black;
-    width:35em;
-    letter-spacing: 0.3rem;
-    margin-top:2em;
+    width:36.45vw;
+    letter-spacing: 0.32vw;
+    margin-top:-12vw;
 }
 .services-link-1{
     animation: 2s ease-out 0s 1 wiki;
-    margin-left: 0.2em;
+    margin-left: 0.20vw;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2.08vw;
 }
 #pricing-table {
-    margin-left: 475px;
-    margin-top: 50px;
+    margin-left: 30.92vw;
+    margin-top: 3.25vw;
 	text-align: center;
-	width: 892px;
+	width: 58.07vw;
 }
 
 #pricing-table .plan {
-	font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
-	text-shadow: 0 1px rgba(255,255,255,.8);        
+	font: 0.78vw 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+	text-shadow: 0vw 0.066vw rgba(255,255,255,.8);        
 	background: #fff;      
-	border: 1px solid #ddd;
+	border: 0.066vw solid #ddd;
 	color: #333;
-	padding: 20px;
-	width: 180px;
+	padding: 1.30vw;
+	width: 11.72vw;
 	float: left;
 	position: relative;
 }
 
 #pricing-table #most-popular {
 	z-index: 2;
-	top: -13px;
-	border-width: 3px;
-	padding: 30px 20px;
-	border-radius: 50px;
-	-moz-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
-	-webkit-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
-	box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);    
+	top: -0.85vw;
+	border-width: 0.20vw;
+	padding: 1.96vw 1.30vw;
+	border-radius: 3.25vw;
+	-moz-box-shadow: 1.30vw 0vw 0.66vw -0.66vw rgba(0, 0, 0, .15), -1.30vw 0vw 0.66vw -0.66vw rgba(0, 0, 0, .15);
+	-webkit-box-shadow: 1.30vw 0vw 0.66vw -0.66vw rgba(0, 0, 0, .15), -1.30vw 0vw 0.66vw -0.66vw rgba(0, 0, 0, .15);
+	box-shadow: 1.30vw 0vw 0.66vw -0.66vw rgba(0, 0, 0, .15), -1.30vw 0vw 0.66vw -0.66vw rgba(0, 0, 0, .15);
 }
 #pricing-table h3 {
-	font-size: 20px;
+	font-size: 1.30vw;
 	font-weight: normal;
-	padding: 20px;
-	margin: -20px -20px 50px -20px;
+	padding: 1.30vw;
+	margin: -1.30vw -1.30vw 3.26vw -1.30vw;
 	background-color: rgba(22, 42, 129, 0.603);
 	background-image: -moz-linear-gradient(#fff, rgba(85, 235, 72, 0.603));
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to( rgba(85, 235, 72, 0.603)));    
@@ -1910,40 +1910,40 @@ ul{
 	background-image: -o-linear-gradient(#eee, rgba(14,88,7,0.603));
 	background-image: -ms-linear-gradient(#eee, rgba(14,88,7,0.603));
 	background-image: linear-gradient(#eee, rgba(14,88,7,0.603));
-	margin-top: -30px;
-	padding-top: 30px;
-	border-radius: 50px 50px 0 0; 		
+	margin-top: -1.95vw;
+	padding-top: 1.95vw;
+	border-radius: 3.25vw 3.25vw 0vw 0vw; 		
 }
 #pricing-table h3 span {
 	display: block;
-	font: bold 25px/100px Georgia, Serif;
+	font: bold 1.62vw/6.52vw Georgia, Serif;
 	color: #777;
     background-image: linear-gradient(to bottom right, rgb(139, 199, 204), white);
-	border: 5px solid #fff;
-	height: 100px;
-	width: 100px;
-	margin: 10px auto -65px;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
-	-moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
-	-webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
-	box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+	border: 0.33vw solid #fff;
+	height: 6.52vw;
+	width: 6.52vw;
+	margin: 0.66vw auto -4.23vw;
+	-moz-border-radius: 6.52vw;
+	-webkit-border-radius: 6.52vw;
+	border-radius: 6.52vw;
+	-moz-box-shadow: 0vw 0.33vw 1.30vw #ddd inset, 0vw 0.20vw 0vw #999 inset;
+	-webkit-box-shadow: 0vw 0.33vw 1.30vw #ddd inset, 0vw 0.20vw 0vw #999 inset;
+	box-shadow: 0vw 0.33vw 1.30vw #ddd inset, 0vw 0.20vw 0vw #999 inset;
 }
 #pricing-table #most-popular-1 h3 {
-    border-radius: 50px 50px 0 0;
+    border-radius: 3.26vw 3.26vw 0vw 0vw;
 }
 #pricing-table #most-popular-1{
-    border-radius: 50px;
+    border-radius: 3.26vw;
 }
 #pricing-table ul {
-	margin: 20px 0 0 0;
-	padding: 0;
+	margin: 1.30vw 0vw 0vw 0vw;
+	padding: 0vw;
 	list-style: none;
 }
 #pricing-table li {
-	border-top: 1px solid #ddd;
-	padding: 10px 0;
+	border-top: 0.066vw solid #ddd;
+	padding: 0.66vw 0vw;
 }
 .clear:before, .clear:after {
   content:"";
@@ -1963,20 +1963,20 @@ ul{
     --text-color-light: hsl(var(--hue-color), 12%, 65%);
     --body-color: hsl(var(--hue-color), 24%, 94%);
     --body-font: 'Poppins', sans-serif;
-    --biggest-font-size: 3rem;
-    --small-font-size: .813rem;
-    --smaller-font-size: .75rem;
-    --tiny-font-size: .625rem;
+    --biggest-font-size: 3.125vw;
+    --small-font-size: 0.85vw;
+    --smaller-font-size: 0.78vw;
+    --tiny-font-size: 0.66vw;
     --font-medium: 500;
-    --mb-0-25: .25rem;
-    --mb-1: 1rem;
-    --mb-1-5: 1.5rem;
-    --mb-2-5: 2.5rem;
+    --mb-0-25: 0.27vw;
+    --mb-1: 1.04vw;
+    --mb-1-5: 1.56vw;
+    --mb-2-5: 2.60vw;
     --z-normal: 1;
     --z-tooltip: 10;
 }
 .clock-container {
-    max-width: 968px;
+    max-width: 63.02vw;
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
 }
@@ -1984,28 +1984,28 @@ ul{
     display: grid;
 }
 .clock__container {
-    grid-template-rows: 1fr max-content;
+    grid-template-rows: 14.65vw max-content;
 }
 .clock__circle {
     position: relative;
-    width: 95px;
-    height: 95px;
-    box-shadow: -6px -6px 16px var(--white-color), 
-                6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
-                inset 6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
-                inset -6px -6px 16px var(--white-color);
+    width: 6.18vw;
+    height: 6.18vwv;
+    box-shadow: -0.40vw -0.40vw 1.05vw var(--white-color), 
+                0.40vw 0.40vw 1.05vw hsla(var(--hue-color), 30%, 86%, 1), 
+                inset 0.40vw 0.40vw 1.05vw hsla(var(--hue-color), 30%, 86%, 1), 
+                inset -0.40vw -0.40vw 1.05vw var(--white-color);
     border-radius: 50%;
     justify-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .4s;
-    margin-left: 130px;
-    margin-top: -288px;
+    margin-left: 8.46vw;
+    margin-top: -47.8vw;
 }
 .clock__content {
     align-self: center;
-    row-gap: 3.5rem;
+    row-gap: 3.64vw;
 }
   
   .clock__twelve, 
@@ -2013,43 +2013,41 @@ ul{
   .clock__six, 
   .clock__nine {
     position: absolute;
-    width: 1rem;
-    height: 1px;
+    width: 1.04vw;
+    height: 0.066vw;
     background-color: var(--text-color-light);
 }
-  
-
   .clock__twelve, 
   .clock__six {
     transform: translateX(-50%) rotate(90deg);
 }
   
   .clock__twelve {
-    top: 1.25rem;
+    top: 22vw;
     left: 50%;
 }
   
   .clock__three {
     top: 50%;
-    right: .75rem;
+    right: .78vw;
 }
   
   .clock__six {
-    bottom: 1.25rem;
+    bottom: 22vw;
     left: 50%;
 }
   
   .clock__nine {
-    left: .75rem;
+    left: .78vw;
     top: 50%;
 }
   
   .clock__rounder {
-    width: .75rem;
-    height: .75rem;
+    width: .78vw;
+    height: .78vw;
     background-color: var(--first-color);
     border-radius: 50%;
-    border: 2px solid var(--body-color);
+    border: 0.14vw solid var(--body-color);
     z-index: var(--z-tooltip);
 }
   
@@ -2062,47 +2060,46 @@ ul{
 }
   
   .clock__hour {
-    width: 105px;
-    height: 58px;
+    width: 6.83vw;
+    height: 3.77vw;
 }
   
   .clock__hour::before {
     content: '';
     position: absolute;
     background-color: var(--text-color);
-    width: .25rem;
-    height: 1.5rem;
-    border-radius: .75rem;
+    width: .26vw;
+    height: 1.56vw;
+    border-radius: .78vw;
     z-index: var(--z-normal);
 }
   
   .clock__minutes {
-    width: 136px;
-    height: 77px;
+    width: 8.85vw;
+    height: 5.01vw;
 }
   
   .clock__minutes::before {
     content: '';
     position: absolute;
     background-color: var(--text-color);
-    width: .25rem;
-    height: 2.5rem;
-    border-radius: .75rem;
+    width: .26vw;
+    height: 2.08vw;
+    border-radius: .78vw;
     z-index: var(--z-normal);
 }
   
   .clock__seconds {
-    width: 130px;
-    height: 80px;
+    width: 8.46vw;
+    height: 5.20vw;
 }
-  
   .clock__seconds::before {
     content: '';
     position: absolute;
     background-color: var(--first-color);
-    width: .125rem;
-    height: 3.5rem;
-    border-radius: .75rem;
+    width: 0.13vw;
+    height: 3.64vw;
+    border-radius: .78vw;
     z-index: var(--z-normal);
 }
   .clock-inner {
@@ -2116,14 +2113,20 @@ ul{
     position: relative;
   }
   .clock-inner .date {
-    font-size: 9px;
-    margin-top: -465px;
-    margin-left: 315px;
-    font-size: 	15px;
+    font-size: 0.58vw;
+    margin-top: -61.5vw;
+    margin-left: 20.50vw;
+    font-size: 	0.98vw;
     font-weight: bold;
   }
   #member{
     color: #217786;
-    font-size: 40px;
-    margin-left: 10px;
+    font-size: 2.60vw;
+    margin-left: 0.66vw;
   }
+ #most-popular li{
+    font-size: 1vw;
+}
+#most-popular-1 li{
+    font-size: 0.9vw;
+}
