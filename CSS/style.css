@@ -1844,8 +1844,23 @@ ul{
     margin-top:-60px !important;
 }
 
+.services-link{
+    font-size:1rem;
+    background: linear-gradient(to right, #5e913c, whitesmoke);
+    font-family: 'Luxurious Roman';
+    color:black;
+    width:35em;
+    letter-spacing: 0.3rem;
+    margin-top:2em;
+}
+.services-link-1{
+    animation: 2s ease-out 0s 1 wiki;
+    margin-left: 0.2em;
+    font-weight: bold;
+    font-size: 32px;
+}
 #pricing-table {
-    margin-left: 432px;
+    margin-left: 475px;
     margin-top: 50px;
 	text-align: center;
 	width: 892px;
@@ -1985,8 +2000,8 @@ ul{
     justify-content: center;
     align-items: center;
     transition: .4s;
-    margin-left: 87px;
-    margin-top: -341.5px;
+    margin-left: 130px;
+    margin-top: -288px;
 }
 .clock__content {
     align-self: center;
@@ -2048,7 +2063,7 @@ ul{
   
   .clock__hour {
     width: 105px;
-    height: 60px;
+    height: 58px;
 }
   
   .clock__hour::before {
@@ -2063,7 +2078,7 @@ ul{
   
   .clock__minutes {
     width: 136px;
-    height: 90px;
+    height: 77px;
 }
   
   .clock__minutes::before {
@@ -2090,16 +2105,15 @@ ul{
     border-radius: .75rem;
     z-index: var(--z-normal);
 }
-  .clock {
+  /* .clock {
     width: 95px;
     height: 95px;
     border-radius: 100px;
     box-shadow: 0 0 16px 0 #8c8db9;
     margin-left: 945px;
     margin-top: -343px;
-    position: absolute;
     background-image: linear-gradient(to bottom right, rgb(139, 199, 204), white);
-  }
+  } */
   .clock-inner {
     width: 100%;
     height: 100%;
@@ -2108,7 +2122,17 @@ ul{
     justify-content: center;
     align-items: center;
     color: #217786;
+    position: relative;
   }
   .clock-inner .date {
     font-size: 9px;
+    margin-top: -465px;
+    margin-left: 315px;
+    font-size: 	15px;
+    font-weight: bold;
+  }
+  #member{
+    color: #217786;
+    font-size: 40px;
+    margin-left: 10px;
   }
