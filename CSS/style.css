@@ -1841,9 +1841,9 @@ ul{
     background-size: cover;
 }
 #footer-1{
-    margin-top:-60px !important;
+    margin-top:-3.90vw !important;
 }
-
+/*-----------------------LIBRARY SERVICES-----------------------*/
 .services-link{
     font-size:1rem;
     background: linear-gradient(to right, #5e913c, whitesmoke);
