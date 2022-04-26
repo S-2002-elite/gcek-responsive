@@ -1265,6 +1265,7 @@ ul{
     border: 0.066vw;
 }
 /*---------------------------------LINKED PAGE STYLING---------------------------------*/
+/*-----------------------LIBRARY SECTION-----------------------*/
 .about-link{
     font-size:2vw;
     background: linear-gradient(to right, #5e913c, whitesmoke);
@@ -1356,6 +1357,7 @@ ul{
 .wrapper input{
     display: none;
 }
+/*-----------------------OPAC SECTION-----------------------*/
 .opac-link{
     font-size: 1.042vw;
     background: linear-gradient(to right, #5e913c, whitesmoke);
@@ -1502,6 +1504,7 @@ ul{
 .pseudolink:hover{
     color: #27bffe;
 }
+/*-----------------------STAFF MEMBERS-----------------------*/
 .staff-list,
 .staff-list-1,
 .staff-list-2,
@@ -1677,6 +1680,7 @@ ul{
     text-decoration: none;
     color: black;
 }
+/*-----------------------ONLINE REGISTRATION SECTION-----------------------*/
 .regd-links{
     width: 3.25vw;
     height: 4.55vw;
@@ -1766,3 +1770,345 @@ ul{
 .regd-links input{
     display: none;
 }
+/*-----------------------e-newspaper SECTION-----------------------*/
+.newspaper,
+.newspaper-1{
+    display: flex;
+    justify-content: center;
+}
+.newspaper-logo-1{
+    width: 19.54vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    background: url(times-logo.png) no-repeat center bisque;
+    background-size: cover;
+}
+.newspaper-logo-2{
+    width: 19.54vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    background: url(financial-logo.png) no-repeat center beige;
+    background-size:contain;
+}
+.newspaper-logo-3{
+    width: 19.54vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    background: url(hindu-logo.png) no-repeat center bisque;
+    background-size:contain;
+}
+.newspaper-logo-4{
+    width: 19.54vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    background: url(deccan-logo.png) no-repeat center beige;
+    background-size:contain;
+}
+.newspaper-logo-5{
+    width: 19.54vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    background: url(dainik-logo.png) no-repeat center bisque;
+    background-size:contain;
+}
+.newspaper-logo-6{
+    width: 19.54vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    background: url(samaja-logo.png) no-repeat center beige;
+    background-size:cover;
+}
+.newspaper-logo-7{
+    width: 19.54vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    background: url(sambad-logo.png) no-repeat center bisque;
+    background-size:contain;
+}
+.news-body-1{
+    background: rgba(0, 0, 0, 0.5) url(newscollage.jpg);
+    background-blend-mode: darken;
+    width: 99.94vw;
+    height: 30vw;
+    margin-top: 0.66vw;
+    background-size: cover;
+}
+#footer-1{
+    margin-top:-60px !important;
+}
+
+#pricing-table {
+    margin-left: 432px;
+    margin-top: 50px;
+	text-align: center;
+	width: 892px;
+}
+
+#pricing-table .plan {
+	font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+	text-shadow: 0 1px rgba(255,255,255,.8);        
+	background: #fff;      
+	border: 1px solid #ddd;
+	color: #333;
+	padding: 20px;
+	width: 180px;
+	float: left;
+	position: relative;
+}
+
+#pricing-table #most-popular {
+	z-index: 2;
+	top: -13px;
+	border-width: 3px;
+	padding: 30px 20px;
+	border-radius: 50px;
+	-moz-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+	-webkit-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+	box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);    
+}
+#pricing-table h3 {
+	font-size: 20px;
+	font-weight: normal;
+	padding: 20px;
+	margin: -20px -20px 50px -20px;
+	background-color: rgba(22, 42, 129, 0.603);
+	background-image: -moz-linear-gradient(#fff, rgba(85, 235, 72, 0.603));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to( rgba(85, 235, 72, 0.603)));    
+	background-image: -webkit-linear-gradient(#fff,  rgba(85, 235, 72, 0.603));
+	background-image: -o-linear-gradient(#fff,  rgba(85, 235, 72, 0.603));
+	background-image: -ms-linear-gradient(#fff,  rgba(85, 235, 72, 0.603));
+	background-image: linear-gradient(#fff,  rgba(85, 235, 72, 0.603));
+}
+
+#pricing-table #most-popular h3 {
+	background-color: rgba(22, 42, 129, 0.603);
+	background-image: -moz-linear-gradient(#eee,rgba(14,88,7,0.603));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(rgba(14,88,7,0.603)));    
+	background-image: -webkit-linear-gradient(#eee, rgba(14,88,7,0.603));
+	background-image: -o-linear-gradient(#eee, rgba(14,88,7,0.603));
+	background-image: -ms-linear-gradient(#eee, rgba(14,88,7,0.603));
+	background-image: linear-gradient(#eee, rgba(14,88,7,0.603));
+	margin-top: -30px;
+	padding-top: 30px;
+	border-radius: 50px 50px 0 0; 		
+}
+#pricing-table h3 span {
+	display: block;
+	font: bold 25px/100px Georgia, Serif;
+	color: #777;
+    background-image: linear-gradient(to bottom right, rgb(139, 199, 204), white);
+	border: 5px solid #fff;
+	height: 100px;
+	width: 100px;
+	margin: 10px auto -65px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	-moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+	-webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+	box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+}
+#pricing-table #most-popular-1 h3 {
+    border-radius: 50px 50px 0 0;
+}
+#pricing-table #most-popular-1{
+    border-radius: 50px;
+}
+#pricing-table ul {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+#pricing-table li {
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+}
+.clear:before, .clear:after {
+  content:"";
+  display:table
+}
+.clear:after {
+  clear:both
+}
+.clear {
+  zoom:1
+}
+:root {
+    --hue-color: 240;
+    --first-color: hsl(var(--hue-color), 53%, 49%);
+    --title-color: hsl(var(--hue-color), 53%, 15%);
+    --text-color: hsl(var(--hue-color), 12%, 35%);
+    --text-color-light: hsl(var(--hue-color), 12%, 65%);
+    --body-color: hsl(var(--hue-color), 24%, 94%);
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 3rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --tiny-font-size: .625rem;
+    --font-medium: 500;
+    --mb-0-25: .25rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2-5: 2.5rem;
+    --z-normal: 1;
+    --z-tooltip: 10;
+}
+.clock-container {
+    max-width: 968px;
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+}
+.grid {
+    display: grid;
+}
+.clock__container {
+    grid-template-rows: 1fr max-content;
+}
+.clock__circle {
+    position: relative;
+    width: 95px;
+    height: 95px;
+    box-shadow: -6px -6px 16px var(--white-color), 
+                6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
+                inset 6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
+                inset -6px -6px 16px var(--white-color);
+    border-radius: 50%;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    margin-left: 87px;
+    margin-top: -341.5px;
+}
+.clock__content {
+    align-self: center;
+    row-gap: 3.5rem;
+}
+  
+  .clock__twelve, 
+  .clock__three, 
+  .clock__six, 
+  .clock__nine {
+    position: absolute;
+    width: 1rem;
+    height: 1px;
+    background-color: var(--text-color-light);
+}
+  
+
+  .clock__twelve, 
+  .clock__six {
+    transform: translateX(-50%) rotate(90deg);
+}
+  
+  .clock__twelve {
+    top: 1.25rem;
+    left: 50%;
+}
+  
+  .clock__three {
+    top: 50%;
+    right: .75rem;
+}
+  
+  .clock__six {
+    bottom: 1.25rem;
+    left: 50%;
+}
+  
+  .clock__nine {
+    left: .75rem;
+    top: 50%;
+}
+  
+  .clock__rounder {
+    width: .75rem;
+    height: .75rem;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    border: 2px solid var(--body-color);
+    z-index: var(--z-tooltip);
+}
+  
+  .clock__hour, 
+  .clock__minutes, 
+  .clock__seconds {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+  
+  .clock__hour {
+    width: 105px;
+    height: 60px;
+}
+  
+  .clock__hour::before {
+    content: '';
+    position: absolute;
+    background-color: var(--text-color);
+    width: .25rem;
+    height: 1.5rem;
+    border-radius: .75rem;
+    z-index: var(--z-normal);
+}
+  
+  .clock__minutes {
+    width: 136px;
+    height: 90px;
+}
+  
+  .clock__minutes::before {
+    content: '';
+    position: absolute;
+    background-color: var(--text-color);
+    width: .25rem;
+    height: 2.5rem;
+    border-radius: .75rem;
+    z-index: var(--z-normal);
+}
+  
+  .clock__seconds {
+    width: 130px;
+    height: 80px;
+}
+  
+  .clock__seconds::before {
+    content: '';
+    position: absolute;
+    background-color: var(--first-color);
+    width: .125rem;
+    height: 3.5rem;
+    border-radius: .75rem;
+    z-index: var(--z-normal);
+}
+  .clock {
+    width: 95px;
+    height: 95px;
+    border-radius: 100px;
+    box-shadow: 0 0 16px 0 #8c8db9;
+    margin-left: 945px;
+    margin-top: -343px;
+    position: absolute;
+    background-image: linear-gradient(to bottom right, rgb(139, 199, 204), white);
+  }
+  .clock-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #217786;
+  }
+  .clock-inner .date {
+    font-size: 9px;
+  }
