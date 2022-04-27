@@ -2130,3 +2130,9 @@ ul{
 #most-popular-1 li{
     font-size: 0.9vw;
 }
+.intro-services{
+    width: 97vw;
+    font-size: 1.5vw;
+    text-align: justify;
+    padding: 1.05vw;
+}
