@@ -93,33 +93,33 @@ ul{
 }
 .header-1{
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, 10%);
     text-align: center;
     color: whitesmoke;
     font-weight: 800;
     font-family: 'Kings';
-    letter-spacing: 3px;
+    letter-spacing: 0.19vw;
     display: block;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
 }
 .header-2{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, 200%);
     text-align: center;
     color: whitesmoke;
     font-weight: 800;
     font-family: 'Luxurious Roman';
-    font-size: 1.6vw;
+    font-size: 2vw;
     display: block;
 }
 .header-3{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 57%;
     transform: translate(-20%, 330%);
     text-align: center;
     color: whitesmoke;
@@ -1249,5 +1249,50 @@ ul{
     #slider-container{
         width: 60vw;
         height: auto;
+    }
+}
+/*---------------------------------RULES & REGULATIONS SECTION---------------------------------*/
+.rules{
+    font-size:2vw;
+    background: linear-gradient(to right, #45c0f5, whitesmoke);
+    font-family: 'Luxurious Roman';
+    color:black;
+    width:52.1vw;
+    letter-spacing: 0.3vw;
+    margin-top:15vw;
+    font-weight: 600;
+}
+.bullet .far{
+    margin-left: 0.5em;
+    margin-top: 1.05vw;
+    font-size: 2vw;
+    color: black;
+}
+.rule-point{
+    font-size: 1.63vw;
+    margin-left: 0.53vw;
+    margin-top: 1.05vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#rule-id{
+    text-decoration: none !important;
+    color: black !important;
+}
+.read-more{
+    margin-top: 2.09vw;
+    margin-left: 1.05vw;
+    font-size: 0.98vw;
+}
+.click-here{
+    text-decoration: none;
+    border: 0.14vw solid black;
+    color: blue !important;
+}
+.click-here:hover{
+    background-color: thistle;
+}
+@media (max-width:679px) {
+    .rules{
+        margin-top: 22vw;
     }
 }
