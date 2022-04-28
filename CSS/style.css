@@ -1273,7 +1273,9 @@ ul{
     margin-left: 0.53vw;
     margin-top: 1.05vw;
     font-family: Arial, Helvetica, sans-serif;
- 
+}
+.rules-bullet{
+    line-height: 1vw;
 }
 #rule-id{
     text-decoration: none !important;
@@ -1295,5 +1297,15 @@ ul{
 @media (max-width:679px) {
     .rules{
         margin-top: 22vw;
+    }
+}
+@media (max-width:457px) {
+    .rules-bullet {
+        margin-top: -3vw;
+    }
+}
+@media (max-width:300px) {
+    .rules-bullet {
+        margin-top: -4vw;
     }
 }
