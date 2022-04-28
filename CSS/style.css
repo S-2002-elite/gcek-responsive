@@ -869,7 +869,7 @@ ul{
     .quick{
         border: 0.17vw solid black;
         width: 25.3vw;
-        padding: 10.5vw 2.61vw;
+        padding: 16.3vw 2.61vw;
         margin-top: 2vw;
         margin-left: 70vw;
         border-radius: 1vw;
@@ -878,7 +878,7 @@ ul{
         border: 0.14vw solid black;
         width: 24.7vw;
         padding: 3.26vw 2.45vw;
-        margin-top: -21vw;
+        margin-top: -32.5vw;
         margin-left: 70.3vw;
     }
     .scrolling-news{
@@ -886,5 +886,180 @@ ul{
         width: 25.3vw;
         height: 25.3vw;
         padding:0.4vw;
+    }
+}
+@media (max-width:570px){
+    .quick-sec{
+        margin-top: -9.1vw;
+        margin-left: -15vw;
+    }
+    .quick{
+        border: 0.17vw solid black;
+        width: 25.3vw;
+        padding: 16.3vw 2.61vw;
+        margin-top: 2vw;
+        margin-left: 70vw;
+        border-radius: 1vw;
+    }
+    .quick-1{
+        border: 0.14vw solid black;
+        width: 24.7vw;
+        padding: 3.26vw 2.45vw;
+        margin-top: -32.5vw;
+        margin-left: 70.3vw;
+    }
+    .scrolling-news{
+        background: whitesmoke;
+        width: 25.3vw;
+        height: 25.3vw;
+        padding:0.4vw;
+    }
+}
+@media (max-width:540px){
+    .quick-sec{
+        margin-top: -9.9vw;
+        margin-left: -15vw;
+    }
+    .quick{
+        border: 0.17vw solid black;
+        width: 25.3vw;
+        padding: 16.3vw 2.61vw;
+        margin-top: 2vw;
+        margin-left: 70vw;
+        border-radius: 1vw;
+    }
+    .quick-1{
+        border: 0.14vw solid black;
+        width: 24.7vw;
+        padding: 3.26vw 2.45vw;
+        margin-top: -32.5vw;
+        margin-left: 70.3vw;
+    }
+    .scrolling-news{
+        background: whitesmoke;
+        width: 25.3vw;
+        height: 25.3vw;
+        padding:0.4vw;
+    }
+}
+@media (max-width:495px){
+    .quick-sec{
+        margin-top: -10.1vw;
+        margin-left: -15vw;
+    }
+    .quick{
+        border: 0.17vw solid black;
+        width: 25.3vw;
+        padding: 16.3vw 2.61vw;
+        margin-top: 2vw;
+        margin-left: 70vw;
+        border-radius: 1vw;
+    }
+    .quick-1{
+        border: 0.14vw solid black;
+        width: 24.7vw;
+        padding: 3.26vw 2.45vw;
+        margin-top: -32.5vw;
+        margin-left: 70.3vw;
+    }
+    .scrolling-news{
+        background: whitesmoke;
+        width: 25.3vw;
+        height: 25.3vw;
+        padding:0.4vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -5.3vw !important;
+    }
+}
+@media (max-width:495px){
+    .quick-sec{
+        margin-top: -11.1vw;
+        margin-left: -15vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -5.7vw !important;
+    }
+}
+@media (max-width:495px){
+    .quick-sec{
+        margin-top: -11.1vw;
+        margin-left: -15vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -6.5vw !important;
+    }
+}
+@media (max-width:396px){
+    .quick-sec{
+        margin-top: -12.1vw;
+        margin-left: -15vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -6.5vw !important;
+    }
+}
+@media (max-width:383px){
+    .quick-sec{
+        margin-top: -12.1vw;
+        margin-left: -15vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -7.5vw !important;
+    }
+}
+@media (max-width:359px){
+    .quick-sec{
+        margin-top: -13.1vw;
+        margin-left: -15vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -7.5vw !important;
+    }
+}
+@media (max-width:338px){
+    .quick-sec{
+        margin-top: -13.5vw;
+        margin-left: -15vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -8vw !important;
+    }
+}
+@media (max-width:322px){
+    .quick-sec{
+        margin-top: -14.5vw;
+        margin-left: -15vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -8.5vw !important;
+    }
+}
+@media (max-width:305px){
+    .quick-sec{
+        margin-top: -15vw;
+        margin-left: -15vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -9.1vw !important;
+    }
+}
+@media (max-width:301px){
+    .quick-sec{
+        margin-top: -15.7vw;
+        margin-left: -15vw;
+    }
+    #icon-quick{
+        margin-left: 72.92vw;
+        margin-top: -9.1vw !important;
     }
 }
