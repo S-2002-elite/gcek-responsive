@@ -671,6 +671,46 @@ ul{
         margin-top: -4.5vw;
     }
 }
+@media(max-width:510px) {
+    #icon-news{
+        margin-top: -5vw;
+    }
+}
+@media(max-width:460px) {
+    #icon-news{
+        margin-top: -5.5vw;
+    }
+}
+@media(max-width:420px) {
+    #icon-news{
+        margin-top: -6vw;
+    }
+}
+@media(max-width:385px) {
+    #icon-news{
+        margin-top: -6.5vw;
+    }
+}
+@media(max-width:360px) {
+    #icon-news{
+        margin-top: -7vw;
+    }
+}
+@media(max-width:330px) {
+    #icon-news{
+        margin-top: -7.5vw;
+    }
+}
+@media(max-width:310px) {
+    #icon-news{
+        margin-top: -8vw;
+    }
+}
+@media(max-width:295px) {
+    #icon-news{
+        margin-top: -8.5vw;
+    }
+}
 /*---------------------------------QUICK LINKS SECTION---------------------------------*/
 .quick-sec{
     margin-top: 30vw;
@@ -973,9 +1013,9 @@ ul{
         margin-top: -5.3vw !important;
     }
 }
-@media (max-width:495px){
+@media (max-width:490px){
     .quick-sec{
-        margin-top: -11.1vw;
+        margin-top: -9vw;
         margin-left: -15vw;
     }
     #icon-quick{
@@ -983,19 +1023,34 @@ ul{
         margin-top: -5.7vw !important;
     }
 }
-@media (max-width:495px){
+@media (max-width:438px){
     .quick-sec{
-        margin-top: -11.1vw;
+        margin-top: -9.5vw;
         margin-left: -15vw;
     }
     #icon-quick{
         margin-left: 72.92vw;
-        margin-top: -6.5vw !important;
+        margin-top: -5.7vw !important;
+    }
+    .quick-1{
+        border: 0.14vw solid black;
+        width: 24.7vw;
+        padding: 3.26vw 2.45vw;
+        margin-top: -33vw;
+        margin-left: 70.3vw;
+    }
+    .quick{
+        border: 0.17vw solid black;
+        width: 25.3vw;
+        padding: 16.3vw 2.61vw;
+        margin-top: 2vw;
+        margin-left: 70vw;
+        border-radius: 1vw;
     }
 }
 @media (max-width:396px){
     .quick-sec{
-        margin-top: -12.1vw;
+        margin-top: -9vw;
         margin-left: -15vw;
     }
     #icon-quick{
@@ -1005,7 +1060,7 @@ ul{
 }
 @media (max-width:383px){
     .quick-sec{
-        margin-top: -12.1vw;
+        margin-top: -9vw;
         margin-left: -15vw;
     }
     #icon-quick{
@@ -1015,7 +1070,7 @@ ul{
 }
 @media (max-width:359px){
     .quick-sec{
-        margin-top: -13.1vw;
+        margin-top: -9vw;
         margin-left: -15vw;
     }
     #icon-quick{
@@ -1025,7 +1080,7 @@ ul{
 }
 @media (max-width:338px){
     .quick-sec{
-        margin-top: -13.5vw;
+        margin-top: -10vw;
         margin-left: -15vw;
     }
     #icon-quick{
@@ -1035,7 +1090,7 @@ ul{
 }
 @media (max-width:322px){
     .quick-sec{
-        margin-top: -14.5vw;
+        margin-top: -10vw;
         margin-left: -15vw;
     }
     #icon-quick{
@@ -1045,17 +1100,32 @@ ul{
 }
 @media (max-width:305px){
     .quick-sec{
-        margin-top: -15vw;
+        margin-top: -10vw;
         margin-left: -15vw;
     }
     #icon-quick{
         margin-left: 72.92vw;
         margin-top: -9.1vw !important;
     }
+    .quick-1{
+        border: 0.14vw solid black;
+        width: 24.7vw;
+        padding: 3.26vw 2.45vw;
+        margin-top: -33vw;
+        margin-left: 70.3vw;
+    }
+    .quick{
+        border: 0.17vw solid black;
+        width: 25.3vw;
+        padding: 16.3vw 2.61vw;
+        margin-top:1vw;
+        margin-left: 70vw;
+        border-radius: 1vw;
+    }
 }
 @media (max-width:301px){
     .quick-sec{
-        margin-top: -15.7vw;
+        margin-top: -10vw;
         margin-left: -15vw;
     }
     #icon-quick{
