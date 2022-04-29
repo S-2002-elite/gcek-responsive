@@ -1477,6 +1477,7 @@ ul{
     color: black;
 }
 .intro-link{
+    width:67vw;
     font-size: 1.5vw;
     text-align: justify;
     padding: 1.05vw;
