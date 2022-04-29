@@ -1309,3 +1309,177 @@ ul{
         margin-top: -4vw;
     }
 }
+/*---------------------------------FOOTER SECTION---------------------------------*/
+#footer-row{
+    background: linear-gradient(to right, #00080c, #046b79,#051158);
+    margin-top: 5.01vw;
+    color: white;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+    font-family: serif;
+    font-size: 1vw;
+    padding: 1vw 6vw 1vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer-row h3{
+    width: fit-content;
+    margin-bottom: 2.60vw;
+    position: relative;
+    font-size: 1.21vw;
+    font-weight: 600;
+}
+#footer-col{
+    margin-left: 4vw;
+    margin-top: 2.09vw;
+}
+#footer-link{
+    margin-left: -1vw;
+    margin-top: 2.09vw;
+}
+#footer-link a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.7vw;
+}
+#footer-col a{
+    text-decoration: none;
+    color: white;
+}
+#footer-social{
+    margin-left: -5vw;
+    margin-top: 2.09vw;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 0.14vw solid #ccc;
+    margin: 1vw 0;
+}
+.email-id a{
+    text-decoration: none;
+    color: white;
+}
+.social-icons .fab{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 5vw;
+    text-align: center;
+    line-height: 2.9vw;
+    font-size: 1.5vw;
+    color: #000;
+    background: #fff;
+    margin-right:0.5vw ;
+    cursor: pointer;
+}
+.footer-hr{
+    width: 95vw !important;
+    border: 0;
+    border-bottom: 0.2vw solid white;
+    margin: 1.7vw auto;
+}
+.copyright{
+    text-align: center;
+    margin: auto;
+}
+#copy{
+    margin-top: -1vw;
+}
+.download-btn{
+    width: 13vw;
+    height: 3.5vw;
+    margin-top: 1.18vw;
+    box-shadow: 0.5vw 0.5vw 7vw greenyellow;
+    background-color: #046b79;
+    border-radius: 1vw;
+}
+.fa{
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 0.42vw;
+    margin-top: 0.84vw;
+    font-size: 1.6vw;
+}
+.download-btn2{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.6vw;
+}
+#download-btn3{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.download-btn1{
+    margin-left: 1.05vw;
+}
+.privacy{
+    width: 9vw;
+    height: 2.09vw;
+    margin-top: 1.05vw;
+    margin-left: -3vw;
+    box-shadow: 1vw 1vw 7vw greenyellow;
+    background-color: #046b79;
+    border-radius: 0.665vw;
+}
+.privacy2{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.36vw;
+    margin-left: 0.32vw;
+}
+#privacy3{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.disclaimer{
+    width: 8vw;
+    height: 2.09vw;
+    margin-top: -2.09vw;
+    margin-left: 8vw;
+    box-shadow: 1vw 1vw 7vw greenyellow;
+    background-color: #046b79;
+    border-radius: 0.65vw;
+}
+.disclaimer2{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.37vw;
+    margin-left: 1.04vw;
+}
+#disclaimer3{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.website-counter {
+    color: white;
+    font-weight: 700;
+    font-size: 1.7vw;
+    margin-top: -2.5vw;
+    margin-left: 12vw;
+}
+.visitor{
+    margin-top: 2vw;
+    letter-spacing: 0.27vw;
+}
+.visitor h6{
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+#visitor-eye{
+    font-size: 2vw;
+    margin-left: -1.5vw;
+}
+.visitor-counter{
+    margin-top: -3vw;
+    margin-left: 10.5vw;
+}
+.count{
+    margin-left: 20vw !important;
+}
+.page-viewers{
+    margin-left: -1vw;
+}
+.map{
+    width:20vw;
+    height:13vw; 
+    border: 0.066vw;
+}
