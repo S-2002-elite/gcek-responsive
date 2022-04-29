@@ -190,33 +190,6 @@ ul{
    color: rgb(129, 30, 30);
    font-size: 1.25em;
 }
-.modal {
-    display: none;
-    position: fixed !important;
-    z-index: 1 !important;
-    left: 0 !important;
-    top: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    backdrop-filter: blur(0.33vw);
-    -webkit-backdrop-filter: blur(0.33vw);
-  }
-.modal-content {
-    margin: 0.16vw auto !important;
-    padding: 1.31vw !important;
-    width: 35.81vw !important;
-    height: 39.07vw !important;
-    border-radius: 3.26vw !important;
-    border-style: ridge !important;
-    background: linear-gradient(30deg, rgba(13,110,73),#043d5a) !important;
-    position: fixed !important;
-    margin-top: 4.17vw !important;
-    margin-left: 32vw !important;
-    overflow: scroll !important;
-}
 ::-webkit-scrollbar{
     width: 0;
 }
