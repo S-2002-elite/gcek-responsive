@@ -1732,22 +1732,22 @@ ul{
   
   .clock__twelve {
     top: 22vw;
-    left: 3.2vw;
+    left: 50%;
 }
   
   .clock__three {
-    top: 23.9vw;
+    top: 50%;
     right: .78vw;
 }
   
   .clock__six {
     bottom: 22vw;
-    left: 3.2vw;
+    left: 50%;
 }
   
   .clock__nine {
     left: .78vw;
-    top: 23.9vw;
+    top: 50%;
 }
   
   .clock__rounder {
