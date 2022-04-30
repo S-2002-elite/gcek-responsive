@@ -1732,22 +1732,22 @@ ul{
   
   .clock__twelve {
     top: 22vw;
-    left: 50%;
+    left: 3.2vw;
 }
   
   .clock__three {
-    top: 50%;
+    top: 23.9vw;
     right: .78vw;
 }
   
   .clock__six {
     bottom: 22vw;
-    left: 50%;
+    left: 3.2vw;
 }
   
   .clock__nine {
     left: .78vw;
-    top: 50%;
+    top: 23.9vw;
 }
   
   .clock__rounder {
@@ -1843,6 +1843,7 @@ ul{
     font-size: 1.5vw;
     text-align: justify;
     padding: 1.05vw;
+    color: black !important;
 }
 @media (max-width: 725px) {
     .clock-inner .date{
