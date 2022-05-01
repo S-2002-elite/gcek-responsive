@@ -210,7 +210,7 @@ ul{
         border-radius: 0%;
         width: 12%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.7vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -241,7 +241,7 @@ ul{
         border-radius: 0%;
         width: 12%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.7vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -272,7 +272,7 @@ ul{
         border-radius: 0%;
         width: 13%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.7vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -303,7 +303,7 @@ ul{
         border-radius: 0%;
         width: 13%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.7vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -334,7 +334,7 @@ ul{
         border-radius: 0%;
         width: 14.5%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.6vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -365,7 +365,7 @@ ul{
         border-radius: 0%;
         width: 17%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.6vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -396,7 +396,7 @@ ul{
         border-radius: 0%;
         width: 16%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.6vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -427,7 +427,7 @@ ul{
         border-radius: 0%;
         width: 15%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -458,7 +458,7 @@ ul{
         border-radius: 0%;
         width: 15.5%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -489,7 +489,7 @@ ul{
         border-radius: 0%;
         width: 15.5%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -520,7 +520,7 @@ ul{
         border-radius: 0%;
         width: 14%;
         padding: 0.66vw 0.066vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -563,14 +563,14 @@ ul{
 }
 .intro{
     width: 67vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: justify;
     padding: 1.05vw;
 }
 @media(max-width:679px) {
     .intro{
         width: 97vw;
-        font-size: 2vw;
+        font-size: 2.5vw;
         text-align: justify;
         padding: 1.05vw;
     }
@@ -578,7 +578,7 @@ ul{
 @media(max-width:560px) {
     .intro{
         width: 97vw;
-        font-size: 2vw;
+        font-size: 2.5vw;
         text-align: justify;
         padding: 1.05vw;
     }
