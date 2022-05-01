@@ -84,6 +84,17 @@ ul{
 #left-1 .navbar_link:hover{
     color: #27bffe;
 }  
+@media(max-width:650px){
+    .navbar_link{
+        font-size: 1.3vw;
+    }
+    #right-1 .navbar_link-1{
+        font-size: 1.3vw;   
+    }
+    #nav-icon{
+        font-size: 1.7vw;
+    }
+}
 /*---------------------------------Main Bar---------------------------------*/
 .row{
     position: relative;
@@ -210,7 +221,7 @@ ul{
         border-radius: 0%;
         width: 12%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.1vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -241,7 +252,7 @@ ul{
         border-radius: 0%;
         width: 12%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -272,7 +283,7 @@ ul{
         border-radius: 0%;
         width: 13%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -303,7 +314,7 @@ ul{
         border-radius: 0%;
         width: 13%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -334,7 +345,7 @@ ul{
         border-radius: 0%;
         width: 14.5%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -365,7 +376,7 @@ ul{
         border-radius: 0%;
         width: 17%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -396,7 +407,7 @@ ul{
         border-radius: 0%;
         width: 16%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -427,7 +438,7 @@ ul{
         border-radius: 0%;
         width: 15%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -458,7 +469,7 @@ ul{
         border-radius: 0%;
         width: 15.5%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -489,7 +500,7 @@ ul{
         border-radius: 0%;
         width: 15.5%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -520,7 +531,7 @@ ul{
         border-radius: 0%;
         width: 14%;
         padding: 0.66vw 0.066vw;
-        font-size: 1vw;
+        font-size: 1.3vw;
         cursor: pointer;
         margin-right: 0.066vw; 
         font-style: italic;
@@ -570,7 +581,7 @@ ul{
 @media(max-width:679px) {
     .intro{
         width: 97vw;
-        font-size: 1.5vw;
+        font-size: 2vw;
         text-align: justify;
         padding: 1.05vw;
     }
@@ -578,7 +589,7 @@ ul{
 @media(max-width:560px) {
     .intro{
         width: 97vw;
-        font-size: 1.7vw;
+        font-size: 2vw;
         text-align: justify;
         padding: 1.05vw;
     }
@@ -900,6 +911,9 @@ ul{
         height: 25.3vw;
         padding:0.4vw;
     }
+    .marq{
+        line-height: 2vw;
+    }
 }
 @media (max-width:570px){
     .quick-sec{
@@ -927,6 +941,9 @@ ul{
         height: 25.3vw;
         padding:0.4vw;
     }
+    .marq{
+        line-height: 2vw;
+    }
 }
 @media (max-width:540px){
     .quick-sec{
@@ -953,6 +970,9 @@ ul{
         width: 25.3vw;
         height: 25.3vw;
         padding:0.4vw;
+    }
+    .marq{
+        line-height: 2vw;
     }
 }
 @media (max-width:495px){
@@ -984,6 +1004,9 @@ ul{
     #icon-quick{
         margin-left: 72.92vw;
         margin-top: -5.3vw !important;
+    }
+    .marq{
+        line-height: 2vw;
     }
 }
 @media (max-width:490px){
@@ -1020,6 +1043,9 @@ ul{
         margin-left: 70vw;
         border-radius: 1vw;
     }
+    .marq{
+        line-height: 2vw;
+    }
 }
 @media (max-width:396px){
     .quick-sec{
@@ -1040,6 +1066,9 @@ ul{
         margin-left: 72.92vw;
         margin-top: -7.5vw !important;
     }
+    .marq{
+        line-height: 2vw;
+    }
 }
 @media (max-width:359px){
     .quick-sec{
@@ -1049,6 +1078,9 @@ ul{
     #icon-quick{
         margin-left: 72.92vw;
         margin-top: -7.5vw !important;
+    }
+    .marq{
+        line-height: 2vw;
     }
 }
 @media (max-width:338px){
@@ -1060,6 +1092,9 @@ ul{
         margin-left: 72.92vw;
         margin-top: -8vw !important;
     }
+    .marq{
+        line-height: 2vw;
+    }
 }
 @media (max-width:322px){
     .quick-sec{
@@ -1069,6 +1104,9 @@ ul{
     #icon-quick{
         margin-left: 72.92vw;
         margin-top: -8.5vw !important;
+    }
+    .marq{
+        line-height: 2vw;
     }
 }
 @media (max-width:305px){
@@ -1095,6 +1133,9 @@ ul{
         margin-left: 70vw;
         border-radius: 1vw;
     }
+    .marq{
+        line-height: 2vw;
+    }
 }
 @media (max-width:301px){
     .quick-sec{
@@ -1104,6 +1145,9 @@ ul{
     #icon-quick{
         margin-left: 72.92vw;
         margin-top: -9.1vw !important;
+    }
+    .marq{
+        line-height: 2vw;
     }
 }
 /*---------------------------------GALLERY SECTION---------------------------------*/
@@ -1272,15 +1316,33 @@ ul{
     .rules{
         margin-top: 22vw;
     }
+    .rule-point{
+        font-size: 2vw;
+    }
+    .read-more{
+        font-size: 1.5vw;
+    }
 }
 @media (max-width:457px) {
     .rules-bullet {
         margin-top: -3vw;
     }
+    .rule-point{
+        font-size: 2vw;
+    }
+    .read-more{
+        font-size: 1.5vw;
+    }
 }
 @media (max-width:300px) {
     .rules-bullet {
         margin-top: -4vw;
+    }
+    .rule-point{
+        font-size: 2vw;
+    }
+    .read-more{
+        font-size: 1.5vw;
     }
 }
 /*---------------------------------FOOTER SECTION---------------------------------*/
