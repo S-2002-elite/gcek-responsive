@@ -1539,11 +1539,27 @@ ul{
     color: black;
 }
 .intro-link{
-    width:97vw;
+    width:97vw;                                                      
     font-size: 1.5vw;
     text-align: justify;
     padding: 1.05vw;
     color: black !important;
+}
+@media(max-width:679px) {
+    .intro-link{
+        width: 97vw;
+        font-size: 2vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
+}
+@media(max-width:560px) {
+    .intro-link{
+        width: 97vw;
+        font-size: 2vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
 }
 .wrapper{
     max-width: 52.09vw;
@@ -1609,6 +1625,34 @@ ul{
     padding: 0.98vw 1.30vw;
     text-align: justify;
     color: black !important;
+}
+@media(max-width:679px) {
+    .wrapper .parent-tab .content p{
+        font-size: 2vw;
+    }
+    .wrapper label span{
+        font-size: 1.7vw;
+    }
+    .wrapper label .accord-icon{
+        font-size: 1.5vw;
+    }
+    .wrapper {
+        max-width:55vw;
+    }
+}
+@media(max-width:560px) {
+    .wrapper .parent-tab .content p{
+        font-size: 2vw;
+    }
+    .wrapper label span{
+        font-size: 1.7vw;
+    }
+    .wrapper label .accord-icon{
+        font-size: 1.5vw;
+    }
+    .wrapper {
+        max-width:55vw;
+    }
 }
 .wrapper input{
     display: none;
