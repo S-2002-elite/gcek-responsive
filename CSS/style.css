@@ -1636,7 +1636,7 @@ ul{
         font-size: 1.5vw;
     }
     .wrapper {
-        max-width:55vw;
+        max-width:60vw;
     }
 }
 @media(max-width:560px) {
@@ -1650,7 +1650,7 @@ ul{
         font-size: 1.5vw;
     }
     .wrapper {
-        max-width:55vw;
+        max-width:60vw;
     }
 }
 .wrapper input{
