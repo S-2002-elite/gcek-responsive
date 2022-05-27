@@ -2159,7 +2159,7 @@ ul{
     text-decoration: none;
     color: black;
 }
-@media(max-width:679px) {
+/* @media(max-width:679px) {
     .qualification{
         font-size: 0.91vw;
         text-align: justify;
@@ -2202,4 +2202,4 @@ ul{
         text-align: justify;
         padding: 1.05vw;
     }
-}
+} */
