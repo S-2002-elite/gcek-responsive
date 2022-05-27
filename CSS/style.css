@@ -2136,7 +2136,7 @@ ul{
 }
 .qualification-1
 {
-    font-size: 0.84vw;
+    font-size:0.84vw;
     margin-left:14.33vw;
     margin-top: -9.11vw;
     color: black;
@@ -2148,7 +2148,58 @@ ul{
     margin-top: -9.11vw;
     color: black;
 }
+.qualification-3
+{
+    font-size: 0.84vw;
+    margin-left:14.33vw;
+    margin-top: -9.11vw;
+    color: black;
+}
 .staff-mail{
     text-decoration: none;
     color: black;
+}
+@media(max-width:679px) {
+    .qualification{
+        font-size: 0.91vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
+    .qualification-1{
+        font-size: 0.82vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
+    .qualification-2{
+        font-size: 0.78vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
+    .qualification-3{
+        font-size: 0.82vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
+}
+@media(max-width:560px) {
+    .qualification{
+        font-size: 0.91vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
+    .qualification-1{
+        font-size: 0.82vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
+    .qualification-2{
+        font-size: 0.78vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
+    .qualification-3{
+        font-size: 0.82vw;
+        text-align: justify;
+        padding: 1.05vw;
+    }
 }
