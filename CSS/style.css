@@ -2107,7 +2107,7 @@ ul{
         align-items: center;
         transition: .4s;
         margin-left: 11.46vw;
-        margin-top: -32.8vw;
+        margin-top: -33.7vw;
     }
     .clock__content {
         align-self: center;
@@ -2220,7 +2220,7 @@ ul{
       }
       .clock-inner .date {
         font-size: 0.58vw;
-        margin-top: -72.5vw;
+        margin-top: -72.8vw;
         margin-left: 37vw;
         font-size: 	0.98vw;
         font-weight: bold;
@@ -2231,10 +2231,11 @@ ul{
         margin-left: 0.66vw;
       }
      #most-popular li{
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
     #most-popular-1 li{
-        font-size: 0.9vw;
+        font-size: 1.2vw;
+        margin-left: -1vw;
     }
 }
 @media(max-width:560px) {
