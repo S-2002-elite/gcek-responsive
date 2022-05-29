@@ -2875,7 +2875,7 @@ ul{
 }
 /*-----------------------OPAC-----------------------*/
 .opac-link{
-    font-size:0.066vw;
+    font-size:2vw;
     background: linear-gradient(to right, #5e913c, whitesmoke);
     font-family: 'Luxurious Roman';
     color:black;
@@ -2888,11 +2888,13 @@ ul{
     margin-left: 0.21vw;
 }
 .opac-welc{
-    font-family: 'David Libre';
+    font-size:3.5vw;
+    font-family: 'David Libre'!important;
     font-style: italic;
 }
-.opac-welc-1{
-    font-family: 'Calligraffitti';
+#opac-welc-1{
+    font-size:3.5vw;
+    font-family: 'Calligraffitti'!important;
 }
 .wrap{
     max-width: 14.65vw;
@@ -2977,20 +2979,24 @@ ul{
 .wrap input{
     display: none;
 }
-.book-link{
-    text-decoration: none;
+#book-link{
+    text-decoration: none !important;
     max-width: 22.79vw;
     border-radius: 1.33vw;
     box-shadow: 0vw 0vw 0.98vw rgba(0,0,0,0.18);
     background: #0832a7c2;
     padding: 0.98vw 1.33vw;
-    color: whitesmoke;
+    color: whitesmoke ;
     font-size: 1.17vw;
     height: 1.96vw;
 }
 .book-link:hover{
     color: #27bffe;
 }
-.pseudolink:hover{
+#pseudolink:hover{
     color: #27bffe;
+}
+#pseudolink{
+    /* color: whitesmoke !important; */
+    text-decoration: none !important;
 }
