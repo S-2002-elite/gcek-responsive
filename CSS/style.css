@@ -1956,9 +1956,15 @@ ul{
     }
 }
 @media(max-width:679px) {
+    #rule-id{
+        font-size: 3vw;
+    }
+    .bullet .far{
+        font-size: 4vw;
+    }
     .intro-services{
         width: 97vw;
-        font-size: 2vw;
+        font-size: 3vw;
         text-align: justify;
         padding: 1.05vw;
     }
@@ -1970,7 +1976,7 @@ ul{
     }
     
     #pricing-table .plan {
-        font: 0.78vw 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+        font: 2.78vw 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
         text-shadow: 0vw 0.066vw rgba(255,255,255,.8);        
         background: #fff;      
         border: 0.066vw solid #ddd;
@@ -2241,7 +2247,7 @@ ul{
 @media(max-width:560px) {
     .intro-services{
         width: 97vw;
-        font-size: 2vw;
+        font-size: 3vw;
         text-align: justify;
         padding: 1.05vw;
     }
