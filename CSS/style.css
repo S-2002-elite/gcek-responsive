@@ -1259,11 +1259,21 @@ ul{
         margin-top: 45vw;
     }
     .img-sec{
-        margin-left: 12vw;
+        margin-left: 9vw;
     }
     #slider-container{
-        width: 60vw;
+        width: 68vw;
         height: auto;
+    }
+    .btm_slider{
+        height: 1vw;
+        width: 3.63vw;
+    }
+    .prev-button,
+    .next-button{
+        font-size: 4.96vw;
+        width: 3.96vw;
+        height: 5.91vw;
     }
 }
 /*---------------------------------RULES & REGULATIONS SECTION---------------------------------*/
@@ -1315,7 +1325,7 @@ ul{
 }
 @media (max-width:679px) {
     .rules{
-        margin-top: 22vw;
+        margin-top: 25vw;
         width: 74vw;
     }
     .rule-point{
