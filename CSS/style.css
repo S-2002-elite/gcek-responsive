@@ -1336,28 +1336,36 @@ ul{
         width: 90vw;
     }
 }
-@media (max-width:457px) {
-    .rules-bullet {
-        margin-top: -3vw;
+/* @media (max-width:457px) {
+    .rules{
+        margin-top: 22vw;
+        width: 74vw;
     }
     .rule-point{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .read-more{
-        font-size: 1.5vw;
+        font-size: 3vw;
+    }
+    .bullet{
+        width: 90vw;
     }
 }
 @media (max-width:300px) {
-    .rules-bullet {
-        margin-top: -4vw;
+    .rules{
+        margin-top: 22vw;
+        width: 74vw;
     }
     .rule-point{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .read-more{
-        font-size: 1.5vw;
+        font-size: 3vw;
     }
-}
+    .bullet{
+        width: 90vw;
+    }
+} */
 /*---------------------------------FOOTER SECTION---------------------------------*/
 #footer-row{
     background: linear-gradient(to right, #00080c, #046b79,#051158);
