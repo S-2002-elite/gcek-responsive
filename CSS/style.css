@@ -588,6 +588,9 @@ ul{
     .wiki{
         font-size: 4vw;
     }
+    .about{
+        width: 38vw;
+    }
 }
 @media(max-width:560px) {
     .intro{
@@ -1282,6 +1285,9 @@ ul{
     margin-top:15vw;
     font-weight: 600;
 }
+.bullet{
+    width: 70vw;
+}
 .bullet .far{
     margin-left: 0.5em;
     margin-top: 1.05vw;
@@ -1318,12 +1324,16 @@ ul{
 @media (max-width:679px) {
     .rules{
         margin-top: 22vw;
+        width: 74vw;
     }
     .rule-point{
         font-size: 3vw;
     }
     .read-more{
         font-size: 3vw;
+    }
+    .bullet{
+        width: 90vw;
     }
 }
 @media (max-width:457px) {
@@ -1551,7 +1561,7 @@ ul{
 @media(max-width:679px) {
     .intro-link{
         width: 97vw;
-        font-size: 2vw;
+        font-size: 3vw;
         text-align: justify;
         padding: 1.05vw;
     }
@@ -1559,7 +1569,7 @@ ul{
 @media(max-width:560px) {
     .intro-link{
         width: 97vw;
-        font-size: 2vw;
+        font-size: 3vw;
         text-align: justify;
         padding: 1.05vw;
     }
