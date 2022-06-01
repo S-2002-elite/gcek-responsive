@@ -1545,13 +1545,11 @@ ul{
         text-align: justify;
         padding: 1.05vw;
     }
-}
-@media(max-width:560px) {
-    .intro-link{
-        width: 97vw;
-        font-size: 3vw;
-        text-align: justify;
-        padding: 1.05vw;
+    .about-link{
+        width: 38vw;
+    }
+    .wiki-link{
+        font-size: 4vw;
     }
 }
 .wrapper{
@@ -1620,30 +1618,18 @@ ul{
 }
 @media(max-width:679px) {
     .wrapper .parent-tab .content p{
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     .wrapper label span{
-        font-size: 1.7vw;
+        font-size: 2.5vw;
     }
     .wrapper label .accord-icon{
-        font-size: 1.5vw;
+        height: 2.95vw;
+        width: 2.95vw;
+        font-size: 2.5vw;
     }
     .wrapper {
-        max-width:60vw;
-    }
-}
-@media(max-width:560px) {
-    .wrapper .parent-tab .content p{
-        font-size: 2vw;
-    }
-    .wrapper label span{
-        font-size: 1.7vw;
-    }
-    .wrapper label .accord-icon{
-        font-size: 1.5vw;
-    }
-    .wrapper {
-        max-width:60vw;
+        max-width:75vw;
     }
 }
 .wrapper input{
