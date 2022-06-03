@@ -1734,7 +1734,7 @@ ul{
 	list-style: none;
 }
 #pricing-table li {
-	border-top: 0.066vw solid #ddd;
+	border-top: 0.066vw solid #ddd ;
 	padding: 0.66vw 0vw;
 }
 .clear:before, .clear:after {
@@ -1953,7 +1953,6 @@ ul{
         text-align: center;
         width: 63.07vw;
     }
-    
     #pricing-table .plan {
         font: 2.78vw 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
         text-shadow: 0vw 0.066vw rgba(255,255,255,.8);        
@@ -1965,7 +1964,6 @@ ul{
         float: left;
         position: relative;
     }
-    
     #pricing-table #most-popular {
         z-index: 2;
         top: -1vw;
@@ -2034,7 +2032,7 @@ ul{
     #pricing-table li {
         border-top: 0.066vw solid #ddd;
         padding: 0.66vw 0vw;
-        font-size:2.5vw;
+        font-size:1.5vw !important;
     }
     .clear:before, .clear:after {
       content:"";
@@ -2092,7 +2090,7 @@ ul{
         align-items: center;
         transition: .4s;
         margin-left: 11.46vw;
-        margin-top: -33.7vw;
+        margin-top: -35.2vw;
     }
     .clock__content {
         align-self: center;
@@ -2205,7 +2203,7 @@ ul{
       }
       .clock-inner .date {
         font-size: 0.58vw;
-        margin-top: -72.8vw;
+        margin-top: -77vw;
         margin-left: 37vw;
         font-size: 	0.98vw;
         font-weight: bold;
@@ -2220,7 +2218,8 @@ ul{
     }
     #most-popular-1 li{
         font-size: 1.2vw;
-        margin-left: -1vw;
+        margin-left: -2.6vw !important;
+        
     }
 }
 @media(max-width:560px) {
