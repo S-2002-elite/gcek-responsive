@@ -2417,165 +2417,90 @@ ul{
 }
 @media(max-width:679px) {
     .member-box-1{
-        width: 52.32vw;
-        height: 21.27vw;
+        width: 62.32vw;
+        height: 24.27vw;
     }
     .member-box-2{
-        width: 37.55vw;
-        height: 18.02vw;
+        width: 45.55vw;
+        height: 21.02vw;
     }
     .member-box-3{
-        width: 37.55vw;
-        height: 18.02vw;
+        width: 45.55vw;
+        height: 21.02vw;
     }
     .member-box-4{
-        width: 37.55vw;
-        height: 18.02vw;
+        width: 45.55vw;
+        height: 21.02vw;
     }
     .member-box-5{
-        width: 37.55vw;
-        height: 18.02vw;
+        width: 45.55vw;
+        height: 21.02vw;
     }
     .member-box-6{
-        width: 37.55vw;
-        height: 18.02vw;
+        width: 45.55vw;
+        height: 21.02vw;
     }
     .member-box-7{
-        width: 37.55vw;
-        height: 18.02vw;
+        width: 45.55vw;
+        height: 21.02vw;
     }
     .staff-list .member-box-1 span{
-        height: 18.09vw;
-        width: 18.09vw;
+        height: 19.09vw;
+        width: 19.09vw;
+        margin-top: 2.5vw;
     }
     .staff-list-1 .member-box-2 span{
-        height: 14.77vw;
-        width: 14.77vw;
+        height: 15.77vw;
+        width: 15.77vw;
+        margin-top: 2.2vw;
     }
     .staff-list-1 .member-box-3 span{
-        height: 14.77vw;
-        width: 14.77vw;
+        height: 15.77vw;
+        width: 15.77vw;
+        margin-top: 2.2vw;
     }
     .staff-list-2 .member-box-4 span{
-        height: 14.77vw;
-        width: 14.77vw;
+        height: 15.77vw;
+        width: 15.77vw;
+        margin-top: 2.2vw;
     }
     .staff-list-2 .member-box-5 span{
-        height: 14.77vw;
-        width: 14.77vw;
+        height: 15.77vw;
+        width: 15.77vw;
+        margin-top: 2.2vw;
     }
     .staff-list-3 .member-box-6 span{
-        height: 14.77vw;
-        width: 14.77vw;
+        height: 15.77vw;
+        width: 15.77vw;
+        margin-top: 2.2vw;
     }
     .staff-list-3 .member-box-7 span{
-        height: 14.77vw;
-        width: 14.77vw;
+        height: 15.77vw;
+        width: 15.77vw;
+        margin-top: 2.2vw;
     }
     .qualification{
-        font-size: 1.2vw;
-        margin-left:20.50vw;
-        margin-top: -15.39vw;
+        font-size: 1.5vw;
+        margin-left:22.50vw;
+        margin-top: -17.39vw;
         color: black;
     }
     .qualification-1{
-        font-size:1vw;
-        margin-left:17.33vw;
-        margin-top: -12.11vw;
+        font-size:1.3vw;
+        margin-left:18.33vw;
+        margin-top: -15.11vw;
         color: black;
     }
     .qualification-2{
-        font-size:0.95vw;
-        margin-left:17.33vw;
-        margin-top: -12.11vw;
+        font-size:1.3vw;
+        margin-left:18vw;
+        margin-top: -15.11vw;
         color: black;
     }
     .qualification-3{
-        font-size:1vw;
-        margin-left:17.33vw;
-        margin-top: -12.11vw;
-        color: black;
-    }
-}
-@media(max-width:560px) {
-    .member-box-1{
-        width: 52.32vw;
-        height: 21.27vw;
-    }
-    .member-box-2{
-        width: 37.55vw;
-        height: 18.02vw;
-    }
-    .member-box-3{
-        width: 37.55vw;
-        height: 18.02vw;
-    }
-    .member-box-4{
-        width: 37.55vw;
-        height: 18.02vw;
-    }
-    .member-box-5{
-        width: 37.55vw;
-        height: 18.02vw;
-    }
-    .member-box-6{
-        width: 37.55vw;
-        height: 18.02vw;
-    }
-    .member-box-7{
-        width: 37.55vw;
-        height: 18.02vw;
-    }
-    .staff-list .member-box-1 span{
-        height: 18.09vw;
-        width: 18.09vw;
-    }
-    .staff-list-1 .member-box-2 span{
-        height: 14.77vw;
-        width: 14.77vw;
-    }
-    .staff-list-1 .member-box-3 span{
-        height: 14.77vw;
-        width: 14.77vw;
-    }
-    .staff-list-2 .member-box-4 span{
-        height: 14.77vw;
-        width: 14.77vw;
-    }
-    .staff-list-2 .member-box-5 span{
-        height: 14.77vw;
-        width: 14.77vw;
-    }
-    .staff-list-3 .member-box-6 span{
-        height: 14.77vw;
-        width: 14.77vw;
-    }
-    .staff-list-3 .member-box-7 span{
-        height: 14.77vw;
-        width: 14.77vw;
-    }
-    .qualification{
-        font-size: 1.2vw;
-        margin-left:20.50vw;
-        margin-top: -15.39vw;
-        color: black;
-    }
-    .qualification-1{
-        font-size:1vw;
-        margin-left:17.33vw;
-        margin-top: -12.11vw;
-        color: black;
-    }
-    .qualification-2{
-        font-size:0.95vw;
-        margin-left:17.33vw;
-        margin-top: -12.11vw;
-        color: black;
-    }
-    .qualification-3{
-        font-size:1vw;
-        margin-left:17.33vw;
-        margin-top: -12.11vw;
+        font-size:1.3vw;
+        margin-left:18vw;
+        margin-top: -13.11vw;
         color: black;
     }
 }
