@@ -1934,11 +1934,11 @@ ul{
     padding: 1.05vw;
     color: black !important;
 }
-@media (max-width: 725px) {
+/* @media (max-width: 725px) {
     .clock-inner .date{
         margin-top: -59.5vw;
     }
-}
+} */
 @media(max-width:679px) {
     #rule-id{
         font-size: 3vw;
