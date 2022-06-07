@@ -2757,7 +2757,9 @@ ul{
     transform: rotate(90deg);
 }
 #regd-logo-1{
-    margin-left: -0.66vw;
+    position:absolute;
+    margin-left: -1vw;
+    margin-top: -0.9vw;
 }
 .regd-links .parent-tab .content{
     width: 2.26vw;
