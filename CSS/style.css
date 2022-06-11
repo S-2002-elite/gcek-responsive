@@ -2916,19 +2916,24 @@ ul{
     }
     .parent-tab input:checked ~ .content{
         max-height: 100vh;
+        height: 30vw;
         overflow: hidden;
         transition: all 10s ease;
     }
     .regd-links .parent-tab .content p{
-        font-size: 3vw;
-        padding: 0.98vw 1.30vw;
+        padding: 0.98vw 1.3vw;
         text-align: justify;
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
-        margin-top: -4.5vw;
+    }
+    #scroll-2_id{
+        font-size: 2vw;
+        margin-top: -1.7vw;
+        margin-left: 5vw;
+        position: absolute;
     }
     .regd-links input{
         display: none;
