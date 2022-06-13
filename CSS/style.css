@@ -2947,3 +2947,101 @@ ul{
         position: absolute;
     }
 }
+.newspaper,
+.newspaper-1{
+    display: flex;
+    justify-content: center;
+}
+.newspaper-logo-1{
+    width: 19.53vw;
+    height: 9.77vw;
+    margin-top: 3.91vw;
+    text-align: center;    
+    background: bisque;
+}
+#newspaper-logo-id-1{
+    width: 20vw;
+    height: auto;
+}
+.newspaper-logo-2{
+    width: 19.53vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    text-align: center;
+    background: beige;
+}
+#newspaper-logo-id-2{
+    width: 12vw;
+    height: auto;
+}
+.newspaper-logo-3{
+    width: 19.53vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    text-align: center;
+    background: bisque;
+}
+#newspaper-logo-id-3{
+    width: 19vw;
+    height: auto;
+    margin-top: 1vw;
+}
+.newspaper-logo-4{
+    width: 19.53vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    text-align: center;
+    background: beige;
+}
+#newspaper-logo-id-4{
+    width: 19vw;
+    height: auto;
+}
+.newspaper-logo-5{
+    width: 19.53vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    text-align: center;
+    background: bisque;
+}
+#newspaper-logo-id-5{
+    width: 16vw;
+    height: auto;
+    margin-top: 0.5vw;
+}
+.newspaper-logo-6{
+    width: 19.53vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    text-align: center;
+    background: beige;
+}
+#newspaper-logo-id-6{
+    width: 16vw;
+    height: auto;
+    margin-top: 0.5vw;
+}
+.newspaper-logo-7{
+    width: 19.53vw;
+    height: 9.77vw;
+    margin-left: 3.91vw;
+    margin-top: 3.91vw;
+    text-align: center;
+    background: bisque;
+}
+#newspaper-logo-id-7{
+    width: 20vw;
+    height: auto;
+}
+.news-body-1{
+    background: rgba(0, 0, 0, 0.5) url(newscollage.jpg);
+    background-blend-mode: darken;
+    width: 99.94vw;
+    margin-top: 0.66vw;
+    height: 33vw;
+}
