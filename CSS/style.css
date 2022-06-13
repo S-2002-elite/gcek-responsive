@@ -2915,8 +2915,8 @@ ul{
         overflow: hidden;
     }
     .parent-tab input:checked ~ .content{
-        max-height: 100vh;
         height: 30vw;
+        width: 3vw;
         overflow: hidden;
         transition: all 10s ease;
     }
@@ -2930,8 +2930,8 @@ ul{
         transform: rotate(90deg);
     }
     #scroll-2_id{
-        font-size: 2vw;
-        margin-top: -1.7vw;
+        font-size: 1.5vw;
+        margin-top: -1.5vw;
         margin-left: 5vw;
         position: absolute;
     }
@@ -2939,127 +2939,11 @@ ul{
         display: none;
     }
 }
-@media(max-width:600px) {
-    .regd-links{
-        width: 4.51vw;
-        height: 6.13vw;
-        padding: 0 0.16vw;
-        -webkit-transform: rotate(270deg);
-        -moz-transform: rotate(270deg);
-        -ms-transform: rotate(270deg);
-        -o-transform: rotate(270deg);
-        transform: rotate(270deg);
-        margin-left: 7.74vw;
-    }
-    .regd-links .parent-tab{
-        margin-bottom: 0.53vw;
-        border-top-left-radius: 1.95vw;
-        border-top-right-radius: 1.95vw;
-        border-bottom-left-radius: 1.95vw;
-        border-bottom-right-radius: 1.95vw;
-        box-shadow: 0vw 0vw 1.30vw rgba(0,0,0,0.18);
-        width: 3.6vw;
-    }
-    .regd-links .parent-tab label{
-        background-image: linear-gradient(to bottom right, rgb(41,95,100),white);
-        padding: 0.66vw 1.30vw;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        cursor: pointer;
-        position: relative;
-        z-index: 99;
-        border-radius: 1.30vw;
-        width: 3.66vw;
-        height: 30.07vw;
-    }
-    .regd-links label span{
-        color: black;
-        font-size: 3vw;
-        font-weight: 500;
-        text-shadow: 0 -0.066vw 0.066vw #0056b3;
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
-        width: 0.66vw;
-        margin-bottom: 22vw;
-        margin-left: 0.1vw;
-    }
-    .regd-logo{
-        display: flex;
-        background-image: linear-gradient(to bottom right, rgb(139, 199, 204), white);
-        border: 0.13vw solid white;
-        height: 3.7vw;
-        width: 3.7vw;
-        position: relative;
-        border-radius: 6.51vw;
-        transform: rotate(90deg);
-    }
-    #regd-logo-1{
-        position:absolute;
-        margin-left: 0.7vw;
-        margin-top: 0.7vw;
-        max-width: 1.8vw;
-        max-height: auto;
-    }
-    #regd-logo-2{
-        position:absolute;
-        margin-left: 0.4vw;
-        margin-top: 0.4vw;
-        max-width: 2.5vw;
-        max-height: auto;
-    }
-    #regd-logo-3{
-        position:absolute;
-        margin-left: 0.7vw;
-        margin-top: 0.7vw;
-        max-width: 2vw;
-        max-height: auto;
-    }
-    #regd-logo-4{
-        position:absolute;
-        margin-left: 0.3vw;
-        margin-top: 0.3vw;
-        max-width: 3vw;
-        max-height: auto;
-    }
-    #regd-logo-5{
-        position:absolute;
-        margin-left: 0.5vw;
-        margin-top: 0.5vw;
-        max-width: 2.5vw;
-        max-height: auto;
-    }
-    .regd-links .parent-tab .content{
-        width: 2.26vw;
-        height: 16.27vw;
-        max-height: 0vw;
-        overflow: hidden;
-    }
-    .parent-tab input:checked ~ .content{
-        max-height: 100vh;
-        height: 30vw;
-        overflow: hidden;
-        transition: all 10s ease;
-    }
-    .regd-links .parent-tab .content p{
-        padding: 0.98vw 1.3vw;
-        text-align: justify;
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
-    }
+@media(max-width:480px){
     #scroll-2_id{
-        font-size: 2vw;
-        margin-top: -1.6vw;
+        font-size: 1.5vw;
+        margin-top: -1.3vw;
         margin-left: 5vw;
         position: absolute;
-    }
-    .regd-links input{
-        display: none;
     }
 }
