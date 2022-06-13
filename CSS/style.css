@@ -2939,7 +2939,7 @@ ul{
         display: none;
     }
 }
-@media(max-width:556px) {
+@media(max-width:600px) {
     .regd-links{
         width: 4.51vw;
         height: 6.13vw;
