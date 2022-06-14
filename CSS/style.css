@@ -3045,3 +3045,8 @@ ul{
     margin-top: 0.66vw;
     height: 33vw;
 }
+@media(max-width:2500px){
+.news-body-1{
+    background: rgba(0, 0, 0, 0.5) url(newscollage-1.jpg);
+}
+}
