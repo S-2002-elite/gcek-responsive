@@ -3050,3 +3050,8 @@ ul{
     background: rgba(0, 0, 0, 0.5) url(newscollage-1.jpg);
 }
 }
+@media(max-width:1500px){
+    .news-body-1{
+        background: rgba(0, 0, 0, 0.5) url(newscollage-2.jpg);
+}
+}
