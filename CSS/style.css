@@ -84,15 +84,15 @@ ul{
 #left-1 .navbar_link:hover{
     color: #27bffe;
 }  
-@media(max-width:650px){
+@media(max-width:679px){
     .navbar_link{
-        font-size: 1.3vw;
+        font-size: 3vw;
     }
     #right-1 .navbar_link-1{
-        font-size: 1.3vw;   
+        font-size: 3vw;   
     }
     #nav-icon{
-        font-size: 1.7vw;
+        font-size: 3.5vw;
     }
 }
 /*---------------------------------Main Bar---------------------------------*/
@@ -165,6 +165,14 @@ ul{
     /* Starting position */
     transform:translateX(-100%);
     animation: cssmarquee 20s linear infinite;
+}
+@media(max-width:679px) {
+    #cssmarquee {
+        height: 3.8vw;
+    }
+    #cssmarquee p{
+        font-size: 3vw;
+    }
 }
 @keyframes cssmarquee {
 0% {
