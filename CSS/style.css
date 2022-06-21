@@ -96,8 +96,12 @@ ul{
     }
 }
 /*---------------------------------Main Bar---------------------------------*/
-.row{
+.bgi{
     position: relative;
+    background: url(mainbar.jpg) no-repeat center;
+    background-size: cover;
+    height: 26.78vw;
+    overflow: hidden;
 }
 .img-fluid{
     height:auto;
