@@ -162,12 +162,12 @@ ul{
         font-family: 'Kings';
         letter-spacing: 0.19vw;
         display: block;
-        width: 80vw;
+        width: 100vw;
         font-size: 7.5vw;
     }
     .header-2{
         position: absolute;
-        top: 43%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, 200%);
         text-align: center;
@@ -180,7 +180,7 @@ ul{
     }
     .header-3{
         position: absolute;
-        top: 67%;
+        top: 70%;
         left: 55%;
         transform: translate(-20%, 330%);
         text-align: center;
