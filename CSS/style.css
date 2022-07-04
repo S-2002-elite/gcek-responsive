@@ -113,6 +113,7 @@ ul{
     font-weight: 800;
     font-family: 'Kings';
     letter-spacing: 0.19vw;
+    text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
     display: block;
     width: 100vw;
     font-size: 4.5vw;
@@ -127,6 +128,7 @@ ul{
     font-weight: 800;
     font-family: 'Luxurious Roman';
     font-size: 2vw;
+    text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
     width: 100vw;
     display: block;
 }
@@ -140,6 +142,7 @@ ul{
     font-weight: 800;
     font-family: 'Luxurious Roman';
     font-size: 1.5vw;
+    text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
     width: 100vw;
     display: block;
 }
@@ -163,6 +166,7 @@ ul{
         letter-spacing: 0.19vw;
         display: block;
         width: 100vw;
+        text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
         font-size: 7.5vw;
     }
     .header-2{
@@ -176,6 +180,7 @@ ul{
         font-family: 'Luxurious Roman';
         font-size: 3.3vw;
         width: 96vw;
+        text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
         display: block;
     }
     .header-3{
@@ -189,6 +194,7 @@ ul{
         font-family: 'Luxurious Roman';
         font-size: 2.5vw;
         width: 100vw;
+        text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
         display: block;
     }
 }
