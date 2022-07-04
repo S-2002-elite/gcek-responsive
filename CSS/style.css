@@ -103,9 +103,6 @@ ul{
     height: 26.78vw;
     overflow: hidden;
 }
-.img-fluid{
-    height:auto;
-}
 .header-1{
     position: absolute;
     top: 47%;
@@ -117,6 +114,7 @@ ul{
     font-family: 'Kings';
     letter-spacing: 0.19vw;
     display: block;
+    width: 100vw;
     font-size: 4.5vw;
 }
 .header-2{
@@ -129,6 +127,7 @@ ul{
     font-weight: 800;
     font-family: 'Luxurious Roman';
     font-size: 2vw;
+    width: 100vw;
     display: block;
 }
 .header-3{
@@ -141,7 +140,57 @@ ul{
     font-weight: 800;
     font-family: 'Luxurious Roman';
     font-size: 1.5vw;
+    width: 100vw;
     display: block;
+}
+@media(max-width:679px) {
+    .bgi{
+        position: relative;
+        background: url(mainbar-1.jpg) no-repeat center;
+        background-size: cover;
+        height: 60vw;
+        overflow: hidden;
+    }
+    .header-1{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, 10%);
+        text-align: center;
+        color: whitesmoke;
+        font-weight: 800;
+        font-family: 'Kings';
+        letter-spacing: 0.19vw;
+        display: block;
+        width: 80vw;
+        font-size: 7.5vw;
+    }
+    .header-2{
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, 200%);
+        text-align: center;
+        color: whitesmoke;
+        font-weight: 800;
+        font-family: 'Luxurious Roman';
+        font-size: 2.5vw;
+        width: 100vw;
+        display: block;
+    }
+    .header-3{
+        position: absolute;
+        top: 65%;
+        left: 60%;
+        transform: translate(-20%, 330%);
+        text-align: center;
+        color: whitesmoke;
+        font-weight: 800;
+        font-family: 'Luxurious Roman';
+        font-size: 2vw;
+        width: 100vw;
+        display: block;
+    }
 }
 /*---------------------------------NOTICE SECTION---------------------------------*/
 #scrolling-text{
