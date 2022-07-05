@@ -1684,6 +1684,9 @@ ul{
     .wrapper {
         max-width:75vw;
     }
+    .intro-link{
+        font-size: 3vw;
+    }    
 }
 .wrapper input{
     display: none;
