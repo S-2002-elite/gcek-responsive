@@ -1605,20 +1605,6 @@ ul{
     padding: 1.05vw;
     color: black !important;
 }
-@media(max-width:679px) {
-    .intro-link{
-        width: 97vw;
-        font-size: 3vw;
-        text-align: justify;
-        padding: 1.05vw;
-    }
-    .about-link{
-        width: 38vw;
-    }
-    .wiki-link{
-        font-size: 4vw;
-    }
-}
 .wrapper{
     max-width: 52.09vw;
     padding: 0vw 1.30vw;
@@ -2776,7 +2762,7 @@ ul{
     transform: rotate(270deg);
     margin-left: 7.74vw;
 }
-.regd-links .parent-tab{
+.regd-links .parent-taby{
     margin-bottom: 0.53vw;
     border-top-left-radius: 1.95vw;
     border-top-right-radius: 1.95vw;
@@ -2785,7 +2771,7 @@ ul{
     box-shadow: 0vw 0vw 1.30vw rgba(0,0,0,0.18);
     width: 2.5vw;
 }
-.regd-links .parent-tab label{
+.regd-links .parent-taby label{
     background-image: linear-gradient(to bottom right, rgb(41,95,100),white);
     padding: 0.66vw 1.30vw;
     display: flex;
@@ -2857,18 +2843,18 @@ ul{
     max-width: 1.8vw;
     max-height: auto;
 }
-.regd-links .parent-tab .content{
+.regd-links .parent-taby .content{
     width: 2.26vw;
     height: 16.27vw;
     max-height: 0vw;
     overflow: hidden;
 }
-.parent-tab input:checked ~ .content{
+.parent-taby input:checked ~ .content{
     max-height: 100vh;
     overflow: hidden;
     transition: all 10s ease;
 }
-.regd-links .parent-tab .content p{
+.regd-links .parent-taby .content p{
     font-size: 1.04vw;
     padding: 0.98vw 1.30vw;
     text-align: justify;
@@ -2894,7 +2880,7 @@ ul{
         transform: rotate(270deg);
         margin-left: 7.74vw;
     }
-    .regd-links .parent-tab{
+    .regd-links .parent-taby{
         margin-bottom: 0.53vw;
         border-top-left-radius: 1.95vw;
         border-top-right-radius: 1.95vw;
@@ -2903,7 +2889,7 @@ ul{
         box-shadow: 0vw 0vw 1.30vw rgba(0,0,0,0.18);
         width: 3.6vw;
     }
-    .regd-links .parent-tab label{
+    .regd-links .parent-taby label{
         background-image: linear-gradient(to bottom right, rgb(41,95,100),white);
         padding: 0.66vw 1.30vw;
         display: flex;
@@ -2975,19 +2961,19 @@ ul{
         max-width: 2.5vw;
         max-height: auto;
     }
-    .regd-links .parent-tab .content{
+    .regd-links .parent-taby .content{
         width: 2.26vw;
         height: 16.27vw;
         max-height: 0vw;
         overflow: hidden;
     }
-    .parent-tab input:checked ~ .content{
+    .parent-taby input:checked ~ .content{
         height: 30vw;
         width: 3vw;
         overflow: hidden;
         transition: all 10s ease;
     }
-    .regd-links .parent-tab .content p{
+    .regd-links .parent-taby .content p{
         padding: 0.98vw 1.3vw;
         text-align: justify;
         -webkit-transform: rotate(90deg);
