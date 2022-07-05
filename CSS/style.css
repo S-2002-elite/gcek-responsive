@@ -1687,6 +1687,12 @@ ul{
     .intro-link{
         font-size: 3vw;
     }    
+    #wiki-1{
+        font-size:4vw;
+    }
+    .about-link{
+        width:38vw;
+    }
 }
 .wrapper input{
     display: none;
