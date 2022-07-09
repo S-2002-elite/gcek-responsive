@@ -271,7 +271,38 @@ ul{
 ::-webkit-scrollbar{
     width: 0;
 }
-@media (max-width: 1175px) {
+@media (max-width: 679px) {
+    .navigation-section{
+        text-align: center;
+        background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
+        border: 1.30vw 1.96vw black;
+        -moz-box-shadow: 0 0.33vw 1.30vw whitesmoke;
+	    -webkit-box-shadow: 0 0.33vw 1.30vw whitesmoke;
+	    box-shadow: 0.13vw 0.66vw 1.30vw whitesmoke;
+    }
+    .nav-btn1{
+        border-right: 0vw solid;
+        border-bottom: 0vw;
+        border-top: 0vw;
+        border-left: 0vw;
+        border-radius: 0%;
+        width: 18%;
+        padding: 0.66vw 0.066vw;
+        font-size: 1.9vw;
+        cursor: pointer;
+        margin-right: 0.066vw; 
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        -moz-box-shadow: 0 0.33vw 1.30vw #ddd;
+	    -webkit-box-shadow: 0 0.33vw 1.30vw #ddd;
+	    box-shadow: 0 0.66vw 1.30vw #ddd;
+    }
+    #nav-btn-1{
+        background-color: rgba(16, 114, 76, 0.356);
+    }
+}
+/* @media (max-width: 1175px) {
     .navigation-section{
         text-align: center;
         background: linear-gradient(180deg, rgb(16, 114, 76), whitesmoke);
@@ -611,7 +642,7 @@ ul{
     #nav-btn-1{
         background-color: rgba(16, 114, 76, 0.356);
     }
-}
+} */
 /*---------------------------------ABOUT SECTION---------------------------------*/
 .about{
     font-size:2vw;
