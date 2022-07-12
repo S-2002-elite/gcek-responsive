@@ -1460,6 +1460,10 @@ ul{
     margin-left: 4vw;
     margin-top: 2.09vw;
 }
+#footer-col-1{
+    margin-left: 4vw;
+    margin-top: 2.09vw;
+}
 #footer-link{
     margin-left: -1vw;
     margin-top: 2.09vw;
@@ -1609,6 +1613,36 @@ ul{
     width:20vw;
     height:13vw; 
     border: 0.066vw;
+}
+@media(max-width:679px){
+#footer-row{
+    font-size: 2vw;
+    padding: 1vw 10vw ;
+}
+#footer-row h3{
+    width:75vw;
+    font-size: 3vw;
+    font-weight: 600;
+}
+.map{
+    width:35vw;
+    height:23vw; 
+    border: 0.066vw;
+    margin-left: 20vw;
+}
+#footer-col h3{
+    text-align: center;
+}
+#footer-link{
+    margin-top:-40.1vw;
+    margin-left: 55vw;
+}
+#footer-social{
+    margin-left:30vw;
+}
+.social-icons{
+    margin-left: 3vw;
+}
 }
 /*---------------------------------LINKED PAGE STYLING---------------------------------*/
 /*-----------------------LIBRARY SECTION-----------------------*/
