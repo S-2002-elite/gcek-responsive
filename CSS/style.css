@@ -1634,8 +1634,11 @@ ul{
     margin-left: 15vw;
 }
 #footer-link{
-    margin-top:-40.1vw;
-    margin-left: 55vw;
+    margin-top:-40.2vw;
+    margin-left: 50vw;
+}
+#footer-col-1{
+    margin-top:3vw;
 }
 #footer-social{
     margin-left:30vw;
