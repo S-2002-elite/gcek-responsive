@@ -1612,7 +1612,6 @@ ul{
 .map{
     width:20vw;
     height:13vw; 
-    border: 0.066vw;
 }
 @media(max-width:679px){
 #footer-row{
@@ -1625,13 +1624,14 @@ ul{
     font-weight: 600;
 }
 .map{
-    width:35vw;
-    height:23vw; 
-    border: 0.066vw;
-    margin-left: 20vw;
+    width:90vw;
+    height:43vw; 
+    border: 0.5vw solid black;
+    border-radius: 3vw;
+    margin-left: -8.5vw;
 }
 #footer-col h3{
-    text-align: center;
+    margin-left: 15vw;
 }
 #footer-link{
     margin-top:-40.1vw;
