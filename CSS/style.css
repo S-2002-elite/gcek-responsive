@@ -1616,7 +1616,7 @@ ul{
 @media(max-width:679px){
 #footer-row{
     font-size: 2vw;
-    padding: 1vw 10vw ;
+    padding: 1vw 10vw;
 }
 #footer-row h3{
     width:75vw;
@@ -1634,7 +1634,7 @@ ul{
     margin-left: 15vw;
 }
 #footer-link{
-    margin-top:-40.2vw;
+    margin-top:-42vw;
     margin-left: 50vw;
 }
 #footer-col-1{
@@ -1647,6 +1647,7 @@ ul{
     margin-left: 3vw;
 }
 }
+
 /*---------------------------------LINKED PAGE STYLING---------------------------------*/
 /*-----------------------LIBRARY SECTION-----------------------*/
 .about-link{
