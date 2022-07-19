@@ -1715,9 +1715,27 @@ ul{
 .page-viewers{
     margin-left: 20vw;
 }
+.website-counter {
+    color: white;
+    font-weight: 700;
+    font-size: 2.5vw;
+    margin-top: -3.3vw;
+    margin-left: 20vw;
+}
 .visitor h6{
     font-size: 2.5vw;
     font-weight: 600;
+}
+#visitor-eye{
+    font-size: 2.5vw;
+    margin-left: -1.5vw;
+}
+.visitor-counter{
+    margin-top: -5vw;
+    margin-left: 18vw;
+}
+.count{
+    margin-left: 20vw !important;
 }
 }
 
