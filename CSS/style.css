@@ -1641,10 +1641,30 @@ ul{
     margin-top:3vw;
 }
 #footer-social{
-    margin-left:30vw;
+    margin-left:3vw;
+    margin-top: 2vw;
+}
+#footer-social h3{
+    margin-left: 1vw;
 }
 .social-icons{
-    margin-left: 3vw;
+    margin-left: 1vw;
+}
+.footer-cookies{
+    margin-top: -8.8vw;
+    margin-left: 45vw;
+}
+.social-icons .fab{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    text-align: center;
+    line-height: 5vw;
+    font-size: 3vw;
+    color: #000;
+    background: #fff;
+    margin-right:0.5vw ;
+    cursor: pointer;
 }
 }
 
