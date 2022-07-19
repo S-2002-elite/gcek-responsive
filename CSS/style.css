@@ -1729,6 +1729,7 @@ ul{
 #visitor-eye{
     font-size: 2.5vw;
     margin-left: -1.5vw;
+    margin-top: -1.0vw;
 }
 .visitor-counter{
     margin-top: -5vw;
