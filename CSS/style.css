@@ -1651,8 +1651,9 @@ ul{
     margin-left: 1vw;
 }
 .footer-cookies{
-    margin-top: -8.8vw;
+    margin-top: -13vw;
     margin-left: 45vw;
+    
 }
 .social-icons .fab{
     width: 5vw;
@@ -1665,6 +1666,51 @@ ul{
     background: #fff;
     margin-right:0.5vw ;
     cursor: pointer;
+}
+.download-btn{
+    width: 15vw;
+    height: 4vw;
+    margin-top: 1.18vw;
+    box-shadow: none;
+    background-color: #046b79;
+    border-radius: 1vw;
+}
+.download-btn2{
+    font-weight: bold;
+}
+.privacy{
+    width: 15vw;
+    height: 4vw;
+    margin-top: 1.05vw;
+    margin-left: 0.01vw;
+    box-shadow: none;
+    background-color: #046b79;
+    border-radius: 1vw;
+}
+.privacy2{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    margin-left: 1.2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.disclaimer{
+    width: 15vw;
+    height: 4vw;
+    margin-top: 1vw;
+    margin-left: -0.01vw;
+    box-shadow: none;
+    background-color: #046b79;
+    border-radius: 1vw;
+}
+.disclaimer2{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    margin-left: 2.7vw;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 }
 
