@@ -1508,11 +1508,13 @@ ul{
     border-bottom: 0.2vw solid white;
     margin: 1.7vw auto;
 }
-.copyright{
+.copyright,
+.copyright-1{
     text-align: center;
     margin: auto;
 }
-#copy{
+#copy
+{
     margin-top: -1vw;
 }
 .download-btn{
@@ -1733,10 +1735,17 @@ ul{
 }
 .visitor-counter{
     margin-top: -5vw;
-    margin-left: 17.5vw;
+    margin-left: 18.5vw;
 }
 .count{
     margin-left: 20vw !important;
+}
+.copyright{
+    text-align: center;
+    margin: auto;
+}
+.copyright-1{
+    text-align: center;
 }
 }
 /*---------------------------------LINKED PAGE STYLING---------------------------------*/
