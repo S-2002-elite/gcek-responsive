@@ -1745,8 +1745,7 @@ ul{
     margin: auto;
 }
 .copyright-1{
-    text-align: center;
-    margin-left: -2vw;
+    text-align: center !important;
 }
 }
 /*---------------------------------LINKED PAGE STYLING---------------------------------*/
