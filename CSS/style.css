@@ -1513,6 +1513,11 @@ ul{
     text-align: center;
     margin: auto;
 }
+.copyright-2{
+    text-align: center;
+    margin-left:23.5vw;
+    margin-top:-1.5vw !important;
+}
 #copy
 {
     margin-top: -1vw;
@@ -1746,6 +1751,11 @@ ul{
 }
 .copyright-1{
     text-align: center !important;
+}
+.copyright-2{
+    text-align: center;
+    margin-left:2vw;
+    margin-top:0vw !important;
 }
 }
 /*---------------------------------LINKED PAGE STYLING---------------------------------*/
