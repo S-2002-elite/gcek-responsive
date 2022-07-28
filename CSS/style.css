@@ -1618,7 +1618,7 @@ ul{
 @media(max-width:679px){
 #footer-row{
     font-size: 2vw;
-    padding: 1vw 10vw;
+    padding: 1vw 11vw;
 }
 #footer-row h3{
     width:75vw;
@@ -1655,7 +1655,6 @@ ul{
 .footer-cookies{
     margin-top: -13vw;
     margin-left: 45vw;
-    
 }
 .social-icons .fab{
     width: 5vw;
