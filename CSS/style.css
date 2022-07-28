@@ -1749,10 +1749,8 @@ ul{
     margin: auto;
 }
 .copyright-1{
-    text-align: center !important;
-}
-.copyright-2{
     text-align: center;
+    font-size: 1.7vw;
 }
 }
 /*---------------------------------LINKED PAGE STYLING---------------------------------*/
