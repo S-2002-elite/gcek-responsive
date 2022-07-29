@@ -1513,11 +1513,6 @@ ul{
     text-align: center;
     margin: auto;
 }
-.copyright-2{
-    text-align: center;
-    margin-left:23.5vw;
-    margin-top:-1.5vw !important;
-}
 #copy
 {
     margin-top: -1vw;
@@ -1752,6 +1747,7 @@ ul{
 .copyright-1{
     text-align: center;
     font-size: 2.1vw;
+}
 }
 /*---------------------------------LINKED PAGE STYLING---------------------------------*/
 /*-----------------------LIBRARY SECTION-----------------------*/
@@ -3289,6 +3285,5 @@ ul{
 @media(max-width:1000px){
     .news-body-1{
         background: rgba(0, 0, 0, 0.5) url(newscollage-2.jpg);
-}
 }
 }
