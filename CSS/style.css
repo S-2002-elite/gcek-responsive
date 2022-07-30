@@ -3287,3 +3287,21 @@ ul{
         background: rgba(0, 0, 0, 0.5) url(newscollage-2.jpg);
 }
 }
+/*----------------------- REQUEST BOOKS SECTION-------------------------- */
+.request-link{
+    font-size:2vw;
+    background: linear-gradient(to right, #5e913c, whitesmoke);
+    font-family: 'Luxurious Roman';
+    width:35vw;
+    letter-spacing: 0.3vw;
+    margin-top:2vw;
+    font-weight: 600;
+}
+.demand-section{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.demand-section-1{
+    border: 1px solid black;
+    margin-top: 10px;
+}
