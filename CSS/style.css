@@ -3179,6 +3179,7 @@ ul{
         position: absolute;
     }
 }
+/*-----------------------NEWSPAPER SECTION-----------------------*/
 .newspaper,
 .newspaper-1{
     display: flex;
@@ -3297,43 +3298,22 @@ ul{
     margin-top:2vw;
     font-weight: 600;
 }
-#demand-sub-1{
-    width: 21.53vw;
-    height: 12.77vw;
-    border: 1px solid black;
+.demand-books,
+.demand-books-1{
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
 }
-#demand-sub-2{
-    width: 21.53vw;
-    height: 12.77vw;
-    border: 1px solid black;
-}
-#demand-sub-3{
-    width: 21.53vw;
-    height: 12.77vw;
-    border: 1px solid black;
-}
-#demand-sub-4{
-    width: 21.53vw;
-    height: 12.77vw;
-    border: 1px solid black;
-}
-#demand-sub-5{
-    width: 21.53vw;
-    height: 12.77vw;
-    border: 1px solid black;
-}
-#demand-sub-6{
-    width: 21.53vw;
-    height: 12.77vw;
-    border: 1px solid black;
-}
-#demand-sub-7{
-    width: 21.53vw;
-    height: 12.77vw;
-    border: 1px solid black;
-}
+#demand-sub-1,
+#demand-sub-2,
+#demand-sub-3,
+#demand-sub-4,
+#demand-sub-5,
+#demand-sub-6,
+#demand-sub-7,
 #demand-sub-8{
+    margin-left: 2vw;
+    border-radius: 1vw;
     width: 21.53vw;
     height: 12.77vw;
-    border: 1px solid black;
 }
