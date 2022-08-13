@@ -3316,3 +3316,13 @@ ul{
     width: 21.53vw;
     height: 12.77vw;
 }
+#demand-sub-1:hover,
+#demand-sub-2:hover,
+#demand-sub-3:hover,
+#demand-sub-4:hover,
+#demand-sub-5:hover,
+#demand-sub-6:hover,
+#demand-sub-7:hover,
+#demand-sub-8:hover{
+    transform: scale(1.1);
+}
