@@ -843,7 +843,7 @@ ul{
     margin-left: 72.92vw;
     margin-top: -3.82vw;
 }
-/* .modal {
+.modal {
     display: none;
     position: fixed !important;
     z-index: 1 !important;
@@ -901,7 +901,7 @@ ul{
 #modal-head_id{
     text-decoration: none;
     color: white;
-} */
+}
 #book-icon{
     color: rgb(30, 55, 80);
     margin-left: 1.09vw !important;
@@ -3329,36 +3329,36 @@ ul{
 }
 
 
-
-
-/* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: none;
+    position: fixed !important;
+    z-index: 1 !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(0.33vw);
+    -webkit-backdrop-filter: blur(0.33vw);
 }
-
+#myModal{
+    width: 10vw !important;
+}
 /* Modal Content */
 .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
+    margin: 0.16vw auto !important;
+    padding: 1.31vw !important;
+    width: 35.81vw !important;
+    height: 39.07vw !important;
+    border-radius: 3.26vw !important;
+    border-style: ridge !important;
+    background: linear-gradient(30deg, rgba(13,110,73),#043d5a) !important;
+    position: fixed !important;
+    margin-top: 4.17vw !important;
+    margin-left: 32vw !important;
+    overflow: scroll !important;
 }
 
 /* Add Animation */
@@ -3388,15 +3388,11 @@ ul{
 }
 
 .modal-header {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+    padding: 0px;
+}
 
 .modal-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
 }
