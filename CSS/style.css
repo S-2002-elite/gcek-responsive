@@ -3339,60 +3339,149 @@ ul{
     height: 100% !important;
     overflow: auto;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.916);
     backdrop-filter: blur(0.33vw);
     -webkit-backdrop-filter: blur(0.33vw);
 }
 #myModal{
     width: 10vw !important;
 }
-/* Modal Content */
-.modal-content {
+#myModal1 .modal-content {
     margin: 0.16vw auto !important;
     padding: 1.31vw !important;
-    width: 35.81vw !important;
-    height: 39.07vw !important;
+    width: 60.81vw !important;
+    height: 37.07vw !important;
     border-radius: 3.26vw !important;
     border-style: ridge !important;
-    background: linear-gradient(30deg, rgba(13,110,73),#043d5a) !important;
+    background: url(basic_science_modal.png) !important;
+    opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
-    margin-left: 32vw !important;
+    margin-left: 20vw !important;
     overflow: scroll !important;
 }
-
-/* Add Animation */
+#myModal2 .modal-content {
+    margin: 0.16vw auto !important;
+    padding: 1.31vw !important;
+    width: 60.81vw !important;
+    height: 37.07vw !important;
+    border-radius: 3.26vw !important;
+    border-style: ridge !important;
+    background: url(civil_modal_1.jpg) !important;
+    opacity: 60%;
+    position: fixed !important;
+    margin-top: 4.17vw !important;
+    margin-left: 20vw !important;
+    overflow: scroll !important;
+}
+#myModal3 .modal-content {
+    margin: 0.16vw auto !important;
+    padding: 1.31vw !important;
+    width: 60.81vw !important;
+    height: 37.07vw !important;
+    border-radius: 3.26vw !important;
+    border-style: ridge !important;
+    background: url(civil_modal_1.jpg) !important;
+    opacity: 60%;
+    position: fixed !important;
+    margin-top: 4.17vw !important;
+    margin-left: 20vw !important;
+    overflow: scroll !important;
+}
+#myModal4 .modal-content {
+    margin: 0.16vw auto !important;
+    padding: 1.31vw !important;
+    width: 60.81vw !important;
+    height: 37.07vw !important;
+    border-radius: 3.26vw !important;
+    border-style: ridge !important;
+    background: url(civil_modal_1.jpg) !important;
+    opacity: 60%;
+    position: fixed !important;
+    margin-top: 4.17vw !important;
+    margin-left: 20vw !important;
+    overflow: scroll !important;
+}
+#myModal5 .modal-content {
+    margin: 0.16vw auto !important;
+    padding: 1.31vw !important;
+    width: 60.81vw !important;
+    height: 37.07vw !important;
+    border-radius: 3.26vw !important;
+    border-style: ridge !important;
+    background: url(civil_modal_1.jpg) !important;
+    opacity: 60%;
+    position: fixed !important;
+    margin-top: 4.17vw !important;
+    margin-left: 20vw !important;
+    overflow: scroll !important;
+}
+#myModal6 .modal-content {
+    margin: 0.16vw auto !important;
+    padding: 1.31vw !important;
+    width: 60.81vw !important;
+    height: 37.07vw !important;
+    border-radius: 3.26vw !important;
+    border-style: ridge !important;
+    background: url(civil_modal_1.jpg) !important;
+    opacity: 60%;
+    position: fixed !important;
+    margin-top: 4.17vw !important;
+    margin-left: 20vw !important;
+    overflow: scroll !important;
+}
+#myModal7 .modal-content {
+    margin: 0.16vw auto !important;
+    padding: 1.31vw !important;
+    width: 60.81vw !important;
+    height: 37.07vw !important;
+    border-radius: 3.26vw !important;
+    border-style: ridge !important;
+    background: url(civil_modal_1.jpg) !important;
+    opacity: 60%;
+    position: fixed !important;
+    margin-top: 4.17vw !important;
+    margin-left: 20vw !important;
+    overflow: scroll !important;
+}
+#myModal8 .modal-content {
+    margin: 0.16vw auto !important;
+    padding: 1.31vw !important;
+    width: 60.81vw !important;
+    height: 37.07vw !important;
+    border-radius: 3.26vw !important;
+    border-style: ridge !important;
+    background: url(civil_modal_1.jpg) !important;
+    opacity: 60%;
+    position: fixed !important;
+    margin-top: 4.17vw !important;
+    margin-left: 20vw !important;
+    overflow: scroll !important;
+}
 @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
 }
-
 @keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
 }
-
-/* The Close Button */
 .close {
     color: white;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
-
 .modal-header {
 }
-
 .modal-body {
     padding: 0px;
 }
-
 .modal-footer {
 }
