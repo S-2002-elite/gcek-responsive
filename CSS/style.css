@@ -843,7 +843,7 @@ ul{
     margin-left: 72.92vw;
     margin-top: -3.82vw;
 }
-.modal {
+/* .modal {
     display: none;
     position: fixed !important;
     z-index: 1 !important;
@@ -901,7 +901,7 @@ ul{
 #modal-head_id{
     text-decoration: none;
     color: white;
-}
+} */
 #book-icon{
     color: rgb(30, 55, 80);
     margin-left: 1.09vw !important;
@@ -3353,7 +3353,8 @@ ul{
     height: 37.07vw !important;
     border-radius: 3.26vw !important;
     border-style: ridge !important;
-    background: url(basic_science_modal.png) !important;
+    background: url(basic_science_modal.png)!important;
+    background-size: cover !important;
     opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
@@ -3368,6 +3369,7 @@ ul{
     border-radius: 3.26vw !important;
     border-style: ridge !important;
     background: url(civil_modal.png) !important;
+    background-size: cover !important;
     opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
@@ -3382,6 +3384,7 @@ ul{
     border-radius: 3.26vw !important;
     border-style: ridge !important;
     background: url(cse_modal.png) !important;
+    background-size: cover !important;
     opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
@@ -3396,6 +3399,7 @@ ul{
     border-radius: 3.26vw !important;
     border-style: ridge !important;
     background: url(Electrical_modal.png) !important;
+    background-size: cover !important;
     opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
@@ -3410,6 +3414,7 @@ ul{
     border-radius: 3.26vw !important;
     border-style: ridge !important;
     background: url(Humanity_modal.png) !important;
+    background-size: cover !important;
     opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
@@ -3424,6 +3429,7 @@ ul{
     border-radius: 3.26vw !important;
     border-style: ridge !important;
     background: url(Mech_modal.png) !important;
+    background-size: cover !important;
     opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
@@ -3438,6 +3444,7 @@ ul{
     border-radius: 3.26vw !important;
     border-style: ridge !important;
     background: url(General_modal.png) !important;
+    background-size: cover !important;
     opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
@@ -3451,7 +3458,8 @@ ul{
     height: 37.07vw !important;
     border-radius: 3.26vw !important;
     border-style: ridge !important;
-    background: url(Others_modal.png) !important;
+    background: url(Others.png) !important;
+    background-size: cover !important;
     opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
