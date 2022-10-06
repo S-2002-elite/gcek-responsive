@@ -3493,3 +3493,9 @@ ul{
 }
 .modal-footer {
 }
+@media(max-width:679px){
+    .request-link{
+        font-size: 4vw;
+        width:55vw;
+    }
+}
