@@ -3355,7 +3355,6 @@ ul{
     border-style: ridge !important;
     background: url(basic_science_modal.png)!important;
     background-size: cover !important;
-    opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
@@ -3370,7 +3369,6 @@ ul{
     border-style: ridge !important;
     background: url(civil_modal.png) !important;
     background-size: cover !important;
-    opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
@@ -3385,7 +3383,6 @@ ul{
     border-style: ridge !important;
     background: url(cse_modal.png) !important;
     background-size: cover !important;
-    opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
@@ -3400,7 +3397,6 @@ ul{
     border-style: ridge !important;
     background: url(Electrical_modal.png) !important;
     background-size: cover !important;
-    opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
@@ -3415,7 +3411,6 @@ ul{
     border-style: ridge !important;
     background: url(Humanity_modal.png) !important;
     background-size: cover !important;
-    opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
@@ -3430,7 +3425,6 @@ ul{
     border-style: ridge !important;
     background: url(Mech_modal.png) !important;
     background-size: cover !important;
-    opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
@@ -3445,7 +3439,6 @@ ul{
     border-style: ridge !important;
     background: url(General_modal.png) !important;
     background-size: cover !important;
-    opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
@@ -3460,7 +3453,6 @@ ul{
     border-style: ridge !important;
     background: url(Others_modal.png) !important;
     background-size: cover !important;
-    opacity: 60%;
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
