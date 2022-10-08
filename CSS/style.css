@@ -3495,6 +3495,7 @@ ul{
 #basic_form input{
     width: 25vw;
     height: 2.5vw;
+    font-size: 1.2vw;
     background:none;
     border-bottom: 0.2vw solid #233c79!important;
     -moz-box-shadow: 0 0.5vw 1vw rgba(47, 21, 149, 0.733);
@@ -3504,20 +3505,49 @@ ul{
     border-radius: 1vw;
 }
 ::placeholder {
+    font-size: 1.1vw;
     color: black;
-    opacity: 80%;
+    opacity: 70%;
   }
-#basic_form button{
-    margin-left: 4.5vw !important;
-    border-radius:1vw;
+/* #basic_form button{ */
+    /* margin-left: 4.5vw !important; */
+    /* border-radius:inherit; */
+    /* font-size: 2.5vw;
     width: 15vw;
-    height: 3vw;
+    height: 3.5vw; */
     /* text-decoration: linear-gradient(to right, #00093c, white);
     font-style: oblique;
     background: none;
     box-shadow: 0 0.5vw 1vw whitesmoke; */
-    border-image: linear-gradient(rgb(0 6 143), rgb(242 66 250))1;
+    /* border-image: linear-gradient(rgb(0 6 143), rgb(242 66 250));
     background-image: linear-gradient(rgb(0,6,143), rgb(242,66,250));
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
+    border-width: 0.3vw;
+    border: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #743ad5, #d53a9d)1 100%; */
+      /* position: relative;
+      border:0.5vw solid;
+      border-image-source: linear-gradient(to left, #00C853, #B2FF59); */
+/* } */
+#basic_form button{
+    margin-left: 4.5vw;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid)1;
+    background-image: linear-gradient(rgb(0,6,143), rgb(242,66,250));
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5vw;
+    width: 15vw;
+    height: 4vw;
+    border-radius: 0.5vw;
+}
+.gradient:hover{
+    font-size: 3vw!important;
+    width: 20vw!important;
+    height: 5vw!important;
 }
