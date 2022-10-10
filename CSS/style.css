@@ -3492,7 +3492,7 @@ ul{
     }
 }
 
-#basic_form input{
+#form_design input{
     width: 25vw;
     height: 2.5vw;
     font-size: 1.2vw;
@@ -3533,7 +3533,7 @@ ul{
       border:0.5vw solid;
       border-image-source: linear-gradient(to left, #00C853, #B2FF59); */
 /* } */
-#basic_form button{
+#form_design button{
     margin-left: 4.5vw;
     border-width: 4px;
     border-style: solid;
