@@ -3344,9 +3344,6 @@ ul{
     backdrop-filter: blur(0.33vw);
     -webkit-backdrop-filter: blur(0.33vw);
 }
-#myModal{
-    width: 10vw !important;
-}
 #myModal1 .modal-content {
     margin: 0.16vw auto !important;
     padding: 1.31vw !important;
@@ -3359,7 +3356,7 @@ ul{
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
-    overflow: scroll !important;
+    overflow: hidden !important;
 }
 #myModal2 .modal-content {
     margin: 0.16vw auto !important;
@@ -3571,4 +3568,154 @@ ul{
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+@media(max-width:1100px) {
+    .gradient{
+        margin-top: 1vw!important;
+    }
+    #form_design input{
+        margin-bottom: 1.5vw;
+    }
+}
+@media(max-width:1000px) {
+    .gradient{
+        margin-top: 1vw!important;
+    }
+    #form_design input{
+        margin-bottom: 1.5vw;
+    }
+    .modal{
+        padding-top: 5vw;
+    }
+}
+@media(max-width:860px) {
+    .gradient{
+        margin-top: 1.5vw!important;
+    }
+    #form_design input{
+        margin-bottom: 1vw;
+    }
+    .modal{
+        padding-top: 7vw;
+    }
+}
+@media(max-width:730px) {
+    .gradient{
+        margin-top: 1vw!important;
+    }
+    #form_design input{
+        margin-bottom: 1vw;
+    }
+    .modal{
+        padding-top: 7vw;
+    }
+}
+@media(max-width:690px) {
+    .gradient{
+        margin-top: 1.7vw!important;
+    }
+    #form_design input{
+        margin-bottom: 0.5vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 7vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+}
+@media(max-width:630px) {
+    .gradient{
+        margin-top: 2vw!important;
+    }
+    #form_design input{
+        margin-bottom: 0.5vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 7vw;
+    }
+    .modal-body{
+        margin-top: -2vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+}
+@media(max-width:595px) {
+    .gradient{
+        margin-top: 2vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-top: -2vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 7vw;
+    }
+    .modal-body{
+        margin-top: -2vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+}
+@media(max-width:545px) {
+    .gradient{
+        margin-top: 2vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-top: -2vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 7vw;
+    }
+    .modal-body{
+        margin-top: -2vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+}
+@media(max-width:515px) {
+    .gradient{
+        margin-top: 2vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-top: -2vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 7vw;
+    }
+    .modal-body{
+        margin-top: -3.5vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+}
+@media(max-width:488px) {
+    .gradient{
+        margin-top: 2vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-top: -0.50vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 7vw;
+    }
+    .modal-body{
+        margin-top: -3.5vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
 }
