@@ -3353,7 +3353,7 @@ ul{
     border-style: ridge !important;
     background: url(basic_science_modal.png)!important;
     background-size: cover !important;
-    position: fixed !important;
+    position: absolute !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
     overflow: hidden !important;
@@ -3367,7 +3367,7 @@ ul{
     border-style: ridge !important;
     background: url(civil_modal.png) !important;
     background-size: cover !important;
-    position: fixed !important;
+    position: absolute !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
     overflow: scroll !important;
@@ -3381,7 +3381,7 @@ ul{
     border-style: ridge !important;
     background: url(cse_modal.png) !important;
     background-size: cover !important;
-    position: fixed !important;
+    position: absolute !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
     overflow: scroll !important;
@@ -3395,7 +3395,7 @@ ul{
     border-style: ridge !important;
     background: url(Electrical_modal.png) !important;
     background-size: cover !important;
-    position: fixed !important;
+    position: absolute !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
     overflow: scroll !important;
@@ -3409,7 +3409,7 @@ ul{
     border-style: ridge !important;
     background: url(Humanity_modal.png) !important;
     background-size: cover !important;
-    position: fixed !important;
+    position: absolute !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
     overflow: scroll !important;
@@ -3423,7 +3423,7 @@ ul{
     border-style: ridge !important;
     background: url(Mech_modal.png) !important;
     background-size: cover !important;
-    position: fixed !important;
+    position: absolute !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
     overflow: scroll !important;
@@ -3437,7 +3437,7 @@ ul{
     border-style: ridge !important;
     background: url(General_modal.png) !important;
     background-size: cover !important;
-    position: fixed !important;
+    position: absolute !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
     overflow: scroll !important;
@@ -3451,7 +3451,7 @@ ul{
     border-style: ridge !important;
     background: url(Others_modal.png) !important;
     background-size: cover !important;
-    position: fixed !important;
+    position: absolute !important;
     margin-top: 4.17vw !important;
     margin-left: 20vw !important;
     overflow: scroll !important;
@@ -3623,6 +3623,12 @@ ul{
     }
     ::placeholder {
         font-size: 2vw;
+    }
+    #myModal1 .modal-content,#myModal2 .modal-content,
+    #myModal3 .modal-content,#myModal4 .modal-content,
+    #myModal5 .modal-content,#myModal6 .modal-content,
+    #myModal7 .modal-content,#myModal8 .modal-content{
+        width: 100vw !important;
     }
 }
 @media(max-width:630px) {
