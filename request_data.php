@@ -1,8 +1,8 @@
 <?php
-$servername="localhost";
-$username="root";
-$password="";
-$database_name="gcek_library";
+$servername="sql6.freemysqlhosting.net";
+$username="sql6526074";
+$password="FsS1YngEeh";
+$database_name="sql6526074";
 
 $conn=mysqli_connect($servername,$username,$password,$database_name);
 
@@ -25,7 +25,10 @@ if(isset($_POST['save']))
 
     if (mysqli_query($conn,$sql_query))
     {
-        echo '<script>alert("Request submitted sucessfully");</script>';
+        echo '<script type="text/javascript">'; 
+        echo 'alert("Request Details submitted sucessfully");'; 
+        echo 'window.location.href = "request-books.html";';
+        echo '</script>';
     }
 
     else{
