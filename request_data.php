@@ -1,8 +1,8 @@
 <?php
-$servername="sql6.freemysqlhosting.net";
-$username="sql6526074";
-$password="FsS1YngEeh";
-$database_name="sql6526074";
+$servername="localhost";
+$username="root";
+$password="";
+$database_name="gcek_library";
 
 $conn=mysqli_connect($servername,$username,$password,$database_name);
 
