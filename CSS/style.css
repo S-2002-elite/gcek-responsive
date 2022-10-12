@@ -3332,14 +3332,14 @@ ul{
 
 .modal {
     display: none;
-    position: fixed !important;
+    position: absolute !important;
     z-index: 1 !important;
-    left: 0 !important;
-    top: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%,-50%);
+    /* width: 100% !important;
+    height: 100% !important; */
     overflow: auto;
-    background-color: rgb(0,0,0);
     background-color: rgba(0, 0, 0, 0.916);
     backdrop-filter: blur(0.33vw);
     -webkit-backdrop-filter: blur(0.33vw);
@@ -3615,11 +3615,15 @@ ul{
         margin-top: 1.7vw!important;
     }
     #form_design input{
-        margin-bottom: 0.5vw;
+        margin-bottom: 2vw;
         font-size: 2vw !important;
     }
     .modal{
-        padding-top: 7vw;
+        /* padding-top: 10vw;
+        padding-right: 10vw;
+        padding-left: 0vw; */
+        margin-left: 0vw;
+        padding-top: 11vw;
     }
     ::placeholder {
         font-size: 2vw;
@@ -3628,7 +3632,8 @@ ul{
     #myModal3 .modal-content,#myModal4 .modal-content,
     #myModal5 .modal-content,#myModal6 .modal-content,
     #myModal7 .modal-content,#myModal8 .modal-content{
-        width: 100vw !important;
+        width: 70.81vw !important;
+        height: 47.07vw !important;
     }
 }
 @media(max-width:630px) {
