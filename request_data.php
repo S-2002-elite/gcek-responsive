@@ -25,11 +25,11 @@ if(isset($_POST['save']))
 
     if (mysqli_query($conn,$sql_query))
     {
-        echo "New Details Entry inserted successfully !";
+        echo '<script>alert("Request submitted sucessfully");</script>';
     }
 
     else{
-        echo "Error:" . $sql . "" . mysqli_error($conn);
+        echo '<script>alert("Oops!!");</script>';
     }
     mysqli_close($conn);
 }
