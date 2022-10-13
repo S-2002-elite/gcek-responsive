@@ -3337,9 +3337,11 @@ ul{
     left: 50% !important;
     top: 50% !important;
     transform: translate(-50%,-50%);
+    /* width: 100vw !important;
+    height:100vw !important; */
     /* width: 100% !important;
     height: 100% !important; */
-    overflow: auto;
+    overflow-y: hidden !important;
     background-color: rgba(0, 0, 0, 0.916);
     backdrop-filter: blur(0.33vw);
     -webkit-backdrop-filter: blur(0.33vw);
@@ -3585,7 +3587,7 @@ ul{
         margin-bottom: 1.5vw;
     }
     .modal{
-        padding-top: 5vw;
+        padding-top: 20vw;
     }
 }
 @media(max-width:860px) {
@@ -3596,7 +3598,7 @@ ul{
         margin-bottom: 1vw;
     }
     .modal{
-        padding-top: 7vw;
+        padding-top: 20vw;
     }
 }
 @media(max-width:730px) {
@@ -3607,7 +3609,7 @@ ul{
         margin-bottom: 1vw;
     }
     .modal{
-        padding-top: 7vw;
+        padding-top: 20vw;
     }
 }
 @media(max-width:690px) {
@@ -3620,11 +3622,9 @@ ul{
         font-size: 2vw !important;
     }
     .modal{
-        /* padding-top: 10vw;
-        padding-right: 10vw;
-        padding-left: 0vw; */
-        margin-left: 0vw;
-        padding-top: 11vw;
+        width:110vw !important;
+        height:220vw !important;
+        padding-top: 20vw;
     }
     ::placeholder {
         font-size: 2vw;
@@ -3647,7 +3647,7 @@ ul{
         font-size: 2vw !important;
     }
     .modal{
-        padding-top: 7vw;
+        padding-top: 60vw;
     }
     .modal-body{
         margin-top: -2vw;
@@ -3666,7 +3666,7 @@ ul{
         font-size: 2vw !important;
     }
     .modal{
-        padding-top: 7vw;
+        padding-top: 60vw;
     }
     .modal-body{
         margin-top: -2vw;
@@ -3685,7 +3685,7 @@ ul{
         font-size: 2vw !important;
     }
     .modal{
-        padding-top: 7vw;
+        padding-top: 60vw;
     }
     .modal-body{
         margin-top: -2vw;
@@ -3704,7 +3704,7 @@ ul{
         font-size: 2vw !important;
     }
     .modal{
-        padding-top: 7vw;
+        padding-top: 60vw;
     }
     .modal-body{
         margin-top: -3.5vw;
@@ -3723,7 +3723,7 @@ ul{
         font-size: 2vw !important;
     }
     .modal{
-        padding-top: 7vw;
+        padding-top: 60vw;
     }
     .modal-body{
         margin-top: -3.5vw;
@@ -3758,17 +3758,25 @@ ul{
         font-size: 2vw;
     }
     #form_design input{
-        margin-bottom:2vw;
+        margin-bottom:0.5vw;
         font-size: 2vw !important;
     }
     .modal{
         padding-top: 60vw;
         padding-right: 20vw;
+        padding-left: -30vw;
     }
     .modal-body{
         margin-top: -4.5vw;
     }
     ::placeholder {
         font-size: 2vw;
+    }
+    #myModal1 .modal-content,#myModal2 .modal-content,
+    #myModal3 .modal-content,#myModal4 .modal-content,
+    #myModal5 .modal-content,#myModal6 .modal-content,
+    #myModal7 .modal-content,#myModal8 .modal-content{
+        width: 75.81vw !important;
+        height: 52.07vw !important;
     }
 }
