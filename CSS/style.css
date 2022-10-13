@@ -3738,7 +3738,7 @@ ul{
         font-size: 2vw;
     }
     #form_design input{
-        margin-bottom:1vw;
+        margin-bottom:2vw;
         font-size: 2vw !important;
     }
     .modal{
@@ -3746,10 +3746,70 @@ ul{
         padding-right: 20vw;
     }
     .modal-body{
-        margin-top: -4.5vw;
+        margin-top: -1.5vw;
     }
     ::placeholder {
         font-size: 2vw;
+    }
+    #myModal1 .modal-content,#myModal2 .modal-content,
+    #myModal3 .modal-content,#myModal4 .modal-content,
+    #myModal5 .modal-content,#myModal6 .modal-content,
+    #myModal7 .modal-content,#myModal8 .modal-content{
+        width: 80.81vw !important;
+        height: 57.07vw !important;
+    }
+}
+@media(max-width:400px) {
+    .gradient{
+        margin-top: 0.5vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-bottom:2vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 60vw;
+        padding-right: 20vw;
+    }
+    .modal-body{
+        margin-top: -2.5vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+    #myModal1 .modal-content,#myModal2 .modal-content,
+    #myModal3 .modal-content,#myModal4 .modal-content,
+    #myModal5 .modal-content,#myModal6 .modal-content,
+    #myModal7 .modal-content,#myModal8 .modal-content{
+        width: 80.81vw !important;
+        height: 57.07vw !important;
+    }
+}@media(max-width:395px) {
+    .gradient{
+        margin-top: 0.5vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-bottom:2vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 60vw;
+        padding-right: 20vw;
+    }
+    .modal-body{
+        margin-top: -3.5vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+    #myModal1 .modal-content,#myModal2 .modal-content,
+    #myModal3 .modal-content,#myModal4 .modal-content,
+    #myModal5 .modal-content,#myModal6 .modal-content,
+    #myModal7 .modal-content,#myModal8 .modal-content{
+        width: 80.81vw !important;
+        height: 57.07vw !important;
     }
 }
 @media(max-width:377px) {
@@ -3778,5 +3838,61 @@ ul{
     #myModal7 .modal-content,#myModal8 .modal-content{
         width: 75.81vw !important;
         height: 52.07vw !important;
+    }
+}
+@media(max-width:360px) {
+    .gradient{
+        margin-top: 0.5vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-bottom:0.5vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 60vw;
+        padding-right: 20vw;
+        padding-left: -30vw;
+    }
+    .modal-body{
+        margin-top: -5.5vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+    #myModal1 .modal-content,#myModal2 .modal-content,
+    #myModal3 .modal-content,#myModal4 .modal-content,
+    #myModal5 .modal-content,#myModal6 .modal-content,
+    #myModal7 .modal-content,#myModal8 .modal-content{
+        width: 77.81vw !important;
+        height: 54.07vw !important;
+    }
+}
+@media(max-width:345px) {
+    .gradient{
+        margin-top: 0.5vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-bottom:0.5vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 60vw;
+        padding-right: 20vw;
+        padding-left: -30vw;
+    }
+    .modal-body{
+        margin-top: -5.5vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+    #myModal1 .modal-content,#myModal2 .modal-content,
+    #myModal3 .modal-content,#myModal4 .modal-content,
+    #myModal5 .modal-content,#myModal6 .modal-content,
+    #myModal7 .modal-content,#myModal8 .modal-content{
+        width: 79.81vw !important;
+        height: 56.07vw !important;
     }
 }
