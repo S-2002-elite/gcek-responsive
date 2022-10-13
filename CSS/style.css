@@ -3613,6 +3613,7 @@ ul{
 @media(max-width:690px) {
     .gradient{
         margin-top: 1.7vw!important;
+        font-size: 2vw;
     }
     #form_design input{
         margin-bottom: 2vw;
@@ -3639,9 +3640,10 @@ ul{
 @media(max-width:630px) {
     .gradient{
         margin-top: 2vw!important;
+        font-size: 2vw;
     }
     #form_design input{
-        margin-bottom: 0.5vw;
+        margin-bottom: 2vw;
         font-size: 2vw !important;
     }
     .modal{
@@ -3675,7 +3677,7 @@ ul{
 }
 @media(max-width:545px) {
     .gradient{
-        margin-top: 2vw!important;
+        margin-top: 0.5vw!important;
         font-size: 2vw;
     }
     #form_design input{
@@ -3694,7 +3696,7 @@ ul{
 }
 @media(max-width:515px) {
     .gradient{
-        margin-top: 2vw!important;
+        margin-top: 0.5vw!important;
         font-size: 2vw;
     }
     #form_design input{
@@ -3713,11 +3715,11 @@ ul{
 }
 @media(max-width:488px) {
     .gradient{
-        margin-top: 2vw!important;
+        margin-top: 0.5vw!important;
         font-size: 2vw;
     }
     #form_design input{
-        margin-top: -0.50vw;
+        margin-bottom:1.3vw;
         font-size: 2vw !important;
     }
     .modal{
@@ -3725,6 +3727,46 @@ ul{
     }
     .modal-body{
         margin-top: -3.5vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+}
+@media(max-width:463px) {
+    .gradient{
+        margin-top: 0.5vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-bottom:1vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 60vw;
+        padding-right: 20vw;
+    }
+    .modal-body{
+        margin-top: -4.5vw;
+    }
+    ::placeholder {
+        font-size: 2vw;
+    }
+}
+@media(max-width:377px) {
+    .gradient{
+        margin-top: 0.5vw!important;
+        font-size: 2vw;
+    }
+    #form_design input{
+        margin-bottom:2vw;
+        font-size: 2vw !important;
+    }
+    .modal{
+        padding-top: 60vw;
+        padding-right: 20vw;
+    }
+    .modal-body{
+        margin-top: -4.5vw;
     }
     ::placeholder {
         font-size: 2vw;
