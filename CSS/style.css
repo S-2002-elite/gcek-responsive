@@ -3342,9 +3342,7 @@ ul{
     /* width: 100% !important;
     height: 100% !important; */
     overflow-y: hidden !important;
-    background-color: rgba(0, 0, 0, 0.916);
-    backdrop-filter: blur(0.33vw);
-    -webkit-backdrop-filter: blur(0.33vw);
+    background-color: rgba(0, 0, 0,0.96);
 }
 #myModal1 .modal-content {
     margin: 0.16vw auto !important;
@@ -3742,8 +3740,8 @@ ul{
         font-size: 2vw !important;
     }
     .modal{
-        width:110vw !important;
-        height:220vw !important;
+        width:115vw !important;
+        height:225vw !important;
         padding-top: 60vw;
         padding-right: 20vw;
         margin-left: -5vw;
