@@ -3742,8 +3742,11 @@ ul{
         font-size: 2vw !important;
     }
     .modal{
+        width:110vw !important;
+        height:220vw !important;
         padding-top: 60vw;
         padding-right: 20vw;
+        margin-left: -5vw;
     }
     .modal-body{
         margin-top: -1.5vw;
@@ -3755,8 +3758,8 @@ ul{
     #myModal3 .modal-content,#myModal4 .modal-content,
     #myModal5 .modal-content,#myModal6 .modal-content,
     #myModal7 .modal-content,#myModal8 .modal-content{
-        width: 80.81vw !important;
-        height: 57.07vw !important;
+        width: 78.81vw !important;
+        height: 55.07vw !important;
     }
 }
 @media(max-width:400px) {
