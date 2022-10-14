@@ -3337,12 +3337,10 @@ ul{
     left: 50% !important;
     top: 50% !important;
     transform: translate(-50%,-50%);
-    /* width: 100vw !important;
-    height:100vw !important; */
-    /* width: 100% !important;
-    height: 100% !important; */
     overflow-y: hidden !important;
     background-color: rgba(0, 0, 0,0.96);
+    backdrop-filter: blur(0.33vw);
+    -webkit-backdrop-filter: blur(0.33vw);
 }
 #myModal1 .modal-content {
     margin: 0.16vw auto !important;
