@@ -243,7 +243,18 @@ ul{
 }
 }
 .test-btn{
-    background-color: red;
+    position: relative;
+    z-index: 2;
+    width:7vw;
+    margin-left:-1vw;
+    color: blanchedalmond;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+    border: 0vw solid red;
+    border-radius: 0 0 2vw 0;
+    background: linear-gradient(to right, rgb(227, 28, 28),#ff005d);
+    font-weight: 700;
+    font-style: italic;
 }
 
 /*---------------------------------NAVIGATION SECTION---------------------------------*/
