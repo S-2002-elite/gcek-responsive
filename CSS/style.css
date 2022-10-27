@@ -267,43 +267,47 @@ ul{
 }
 /*---------------------------------NOTICE BOARD SECTION---------------------------------*/
 .notice-table{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1vw;
-    line-height: 1.48vw;
-    text-align: left;
-    overflow: hidden;
-    width: 80%;
-    margin: 0 auto;
-    display: table;
-    padding: 0 0 8.34vw 0;
-    border: 0.066vw solid black;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1vw !important;
+    line-height: 1.48vw !important;
+    text-align: left !important;
+    overflow: hidden !important;
+    width: 80% !important;
+    margin: 0 auto !important;
+    display: table !important;
+    padding: 0 0 8.34vw 0 !important;
+    /* border: 0.066vw solid black !important; */
 }
 .notice-table td{
-    font-weight: normal;
-    font-size: 1.05vw;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    padding-left: 2%;
-    border: 0.066vw solid black;
+    font-weight: normal !important;
+    font-size: 1.05vw !important;
+    padding-bottom: 2% !important;
+    padding-top: 0.5% !important;
+    padding-left: 2% !important;
+    border: 0.066vw solid black !important;
+    background: whitesmoke !important;
 }
 .notice-header{
-    font-weight: 700;
-    font-size: 1vw;
-    text-align: left;
-    height: 2vw;
-    color: blanchedalmond;
-    text-indent: 0.5vw;
-    margin: auto;
-    padding: 0.33vw;
-    border: 0.066vw solid black;
-    background: linear-gradient(to right, rgb(227, 28, 28),#ff005d);
+    font-weight: 700 !important;
+    font-size: 1vw !important;
+    text-align: left !important;
+    height: 2vw !important;
+    color: blanchedalmond !important;
+    text-indent: 0.5vw !important;
+    margin: auto !important;
+    padding: 0.33vw !important;
+    border: 0.066vw solid black !important;
+    background: linear-gradient(to right, rgb(227, 28, 28),#ff005d) !important;
 }
 .notice-table .fas{
-    font-size: 2vw;
-    cursor: pointer;
+    font-size: 2vw !important;
+    cursor: pointer !important;
 }
 .notice-table .fas:hover{
-    font-size: 3vw;
+    font-size: 2.5vw !important;
+}
+.notice-id{
+    display: none;
 }
 /*---------------------------------NAVIGATION SECTION---------------------------------*/
 .navigation-section{
@@ -3375,8 +3379,6 @@ ul{
 #demand-sub-8:hover{
     transform: scale(1.1);
 }
-
-
 .modal {
     display: none;
     position: absolute !important;
