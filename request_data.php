@@ -23,6 +23,17 @@ if(isset($_POST['save']))
     $sql_query = "INSERT INTO request_book(name,email,book_title,book_author,book_publisher,book_edition)
     VALUES ('$name','$email','$book_title','$book_author','$book_publisher','$book_edition')";
 
+    $mailto = $_POST['email'];
+    $from = "suryanshupatnaik4@gmail.com";
+    $subject = "REQUEST BOOK";
+    $subject2 = "Your Book Request submitted successfully | CENTRAL LIBRARY GCEK BHWANIPATNA";
+    $message = "Client Name: ". $name. "Requested the following book". "\n\n". $_POST['book_title'];
+    $message2 = "Dear ". $name. "\n\n" ."Thank You for contacting us! We'll get back to you shortly.";
+    $headers = "From: ". $from;
+    $headers2 = "From: ". $mailto;
+    $result = mail($mailto, $subject2, $message2, $headers2);
+    $result2 = mail($from, $subject, $message, $headers);
+
     if (mysqli_query($conn,$sql_query))
     {
         echo '<script type="text/javascript">'; 
