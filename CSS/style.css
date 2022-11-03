@@ -1086,6 +1086,36 @@ ul{
         font-size: 1.8vw !important;
     }
 }
+@media (max-width:535px){
+    #icon-quick{
+        margin-top: -5.2vw !important;
+    }
+}
+@media (max-width:460px){
+    #icon-quick{
+        margin-top: -5.8vw !important;
+    }
+}
+@media (max-width:420px){
+    #icon-quick{
+        margin-top: -6.5vw !important;
+    }
+}
+@media (max-width:385px){
+    #icon-quick{
+        margin-top: -7vw !important;
+    }
+}
+@media (max-width:356px){
+    #icon-quick{
+        margin-top: -7.5vw !important;
+    }
+}
+@media (max-width:330px){
+    #icon-quick{
+        margin-top: -8.2vw !important;
+    }
+}
 /* @media (max-width:570px){
     .quick-sec{
         margin-top: -9.1vw;
