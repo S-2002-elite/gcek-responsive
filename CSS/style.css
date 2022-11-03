@@ -1081,7 +1081,7 @@ ul{
         width: 54.089vw;
     }
 }
-@media (max-width:570px){
+/* @media (max-width:570px){
     .quick-sec{
         margin-top: -9.1vw;
         margin-left: -15vw;
@@ -1315,7 +1315,7 @@ ul{
     .marq{
         line-height: 2vw;
     }
-}
+} */
 /*---------------------------------GALLERY SECTION---------------------------------*/
 .gallery{
     font-size:2vw;
