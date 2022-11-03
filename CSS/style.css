@@ -1036,7 +1036,7 @@ ul{
 @media (max-width:679px){
     .quick-sec{
         margin-top: 5vw;
-        margin-left: -33vw;
+        margin-left: -47vw;
     }
     .quick{
         border: 0.17vw solid black;
@@ -1068,7 +1068,7 @@ ul{
         padding:0.4vw;
     }
     .marq{
-        line-height: 3vw;
+        line-height: 4vw;
     }
     #quick-heading{
         margin-left: 88vw;
@@ -1079,6 +1079,11 @@ ul{
     }
     #hr-size{
         width: 54.089vw;
+        margin: 2.2vw auto;
+    }
+    .scroll-1,
+    .scroll-2{
+        font-size: 1.8vw !important;
     }
 }
 /* @media (max-width:570px){
