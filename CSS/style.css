@@ -947,15 +947,15 @@ ul{
     margin: 0.16vw auto !important;
     padding: 1.31vw !important;
     width: 35.81vw !important;
-    /* height: 19.07vw !important; */
+    height: 19.07vw !important;
     /* border-radius: 3.26vw !important; */
-    border-style:groove !important;
+    /* border-style:groove !important; */
     /* background: linear-gradient(30deg, rgba(13,110,73),#043d5a) !important; */
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 32vw !important;
     overflow: scroll !important;
-    border:0.2vw solid red;
+    box-shadow:0px 0px 20px 0px red inset;
 }
 #dis_close{
     background-color: #000;
