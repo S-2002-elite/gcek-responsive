@@ -943,6 +943,35 @@ ul{
     margin-left: 32vw !important;
     overflow: scroll !important;
 }
+#myModal10 .modal-content{
+    margin: 0.16vw auto !important;
+    padding: 1.31vw !important;
+    width: 35.81vw !important;
+    /* height: 19.07vw !important; */
+    /* border-radius: 3.26vw !important; */
+    border-style:groove !important;
+    /* background: linear-gradient(30deg, rgba(13,110,73),#043d5a) !important; */
+    position: fixed !important;
+    margin-top: 4.17vw !important;
+    margin-left: 32vw !important;
+    overflow: scroll !important;
+    border:0.2vw solid red;
+}
+#dis_close{
+    background-color: #000;
+    color:#fff;
+    width:5vw;
+    font-size: 1.5vw;
+}
+#disclaimer_close{
+    padding-top:-1vw; 
+    margin-right: 13.7vw;
+}
+.disclaimer_content{
+    color:#000;
+    font-size: 1vw;
+    text-align: justify;
+}
 ::-webkit-scrollbar{
     width: 0;
 }
