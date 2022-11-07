@@ -114,7 +114,7 @@ ul{
     color: whitesmoke;
     font-weight: 800;
     font-family: 'Kings';
-    letter-spacing: 0.19vw;
+    letter-spacing: 0.5vw;
     text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
     display: block;
     width: 100vw;
@@ -122,21 +122,22 @@ ul{
 }
 .header-2{
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, 200%);
     text-align: center;
     color: whitesmoke;
     font-weight: 800;
-    font-family: 'Luxurious Roman';
+    font-family: 'Times New Roman';
     font-size: 2vw;
+    letter-spacing: 0.5vw;
     text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
     width: 100vw;
     display: block;
 }
 .header-3{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 57%;
     transform: translate(-20%, 330%);
     text-align: center;
