@@ -137,9 +137,23 @@ ul{
 }
 .header-3{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 300%);
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 800;
+    font-family: 'Luxurious Roman';
+    font-size: 2vw;
+    text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
+    width: 100vw;
+    display: block;
+}
+.header-4{
+    position: absolute;
     top: 55%;
     left: 57%;
-    transform: translate(-20%, 330%);
+    transform: translate(-20%, 470%);
     text-align: center;
     color: whitesmoke;
     font-weight: 800;
@@ -176,6 +190,20 @@ ul{
         position: absolute;
         top: 45%;
         left: 50%;
+        transform: translate(-50%, 90%);
+        text-align: center;
+        color: whitesmoke;
+        font-weight: 800;
+        font-family: 'Times New Roman';
+        font-size: 3.3vw;
+        width: 96vw;
+        text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
+        display: block;
+    }
+    .header-3{
+        position: absolute;
+        top: 45%;
+        left: 50%;
         transform: translate(-50%, 200%);
         text-align: center;
         color: whitesmoke;
@@ -186,7 +214,7 @@ ul{
         text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
         display: block;
     }
-    .header-3{
+    .header-4{
         position: absolute;
         top: 70%;
         left: 55%;
@@ -1352,7 +1380,7 @@ ul{
     }
     #disclaimer_close{
        margin-top: 5vw !important;
-       margin-right: 17.5vw !important;
+       margin-right: 19vw !important;
     }
     #myModal10{
         max-width:110vw !important;
