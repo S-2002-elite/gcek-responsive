@@ -1347,19 +1347,20 @@ ul{
         font-size:1.7vw;
     }
     #myModal10 .modal-content{
-        height:37vw !important;
-        width:55vw !important;
+        height:40vw !important;
+        width:60vw !important;
     }
     #disclaimer_close{
-       margin-top: 1vw !important;
+       margin-top: 5vw !important;
        margin-right: 17.5vw !important;
     }
     #myModal10{
         max-width:110vw !important;
     }
     #dis_close{
-        height:3vw;
-        width:7vw;
+        height:5vw;
+        width:9vw;
+        font-size: 2.5vw;
     }
 }
 ::-webkit-scrollbar{
