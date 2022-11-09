@@ -1287,7 +1287,7 @@ ul{
     font-size: 1vw;
     text-align: justify;
     height: 12vw;
-    font-family: 'Orbitron', sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 @media(max-width:1803px) {
     .disclaimer_content{
