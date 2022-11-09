@@ -128,7 +128,7 @@ ul{
     text-align: center;
     color: whitesmoke;
     font-weight: 800;
-    font-family: 'Times New Roman';
+    font-family: 'Orbitron', sans-serif;
     font-size: 2vw;
     letter-spacing: 0.5vw;
     text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
@@ -194,7 +194,7 @@ ul{
         text-align: center;
         color: whitesmoke;
         font-weight: 800;
-        font-family: 'Times New Roman';
+        font-family: 'Orbitron', sans-serif;
         font-size: 3.3vw;
         width: 96vw;
         text-shadow: 0 0 0.39vw black, 0 0 0.52vw black;
