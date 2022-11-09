@@ -1241,7 +1241,8 @@ ul{
     margin-top: 4.17vw !important;
     margin-left: 32vw !important;
     overflow: scroll !important;
-    box-shadow:0px 0px 20px 0px red inset;
+    box-shadow:0px 0px 0px 5px rgb(106, 255, 0) inset;
+    border: 0.5vw solid white;
 }
 #dis_close{
     background-color: #000;
@@ -1343,18 +1344,22 @@ ul{
 @media(max-width:690px) {
     .disclaimer_content{
         height:13vw;
-        font-size: 1.27vw;
+        font-size:1.7vw;
     }
     #myModal10 .modal-content{
-        height:30vw !important;
-        width:46vw !important;
+        height:37vw !important;
+        width:55vw !important;
     }
     #disclaimer_close{
-       margin-top: -5vw !important;
-       margin-right: 15vw !important;
+       margin-top: 1vw !important;
+       margin-right: 17.5vw !important;
     }
     #myModal10{
         max-width:110vw !important;
+    }
+    #dis_close{
+        height:3vw;
+        width:7vw;
     }
 }
 ::-webkit-scrollbar{
