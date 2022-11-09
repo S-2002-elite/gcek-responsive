@@ -2107,10 +2107,6 @@ ul{
     color: whitesmoke;
     font-size: 1.6vw;
 }
-#download-btn3{
-    text-decoration: none;
-    color: whitesmoke;
-}
 .download-btn1{
     margin-left: 1.05vw;
 }
@@ -2249,6 +2245,9 @@ ul{
 .download-btn2{
     font-weight: bold;
 }
+#disclaimer3{
+    padding-top: 1vw !important;
+}
 .privacy{
     width: 15vw;
     height: 4vw;
@@ -2260,11 +2259,12 @@ ul{
 }
 .privacy2{
     text-decoration: none;
-    color: whitesmoke;
-    font-size: 1.5vw;
-    margin-left: 1.2vw;
+    color: whitesmoke !important;
+    font-size: 1.5vw !important;
+    margin-left: 1.2vw !important;
     text-transform: uppercase;
     font-weight: bold;
+    padding-top:-2vw !important;
 }
 .disclaimer{
     width: 15vw;
@@ -2277,11 +2277,13 @@ ul{
 }
 .disclaimer2{
     text-decoration: none;
-    color: whitesmoke;
-    font-size: 1.5vw;
-    margin-left: 2.7vw;
+    color: whitesmoke !important;
+    font-size: 1.5vw !important;
+    margin-left: 2.7vw !important;
+    margin-top:1vw !important;
     text-transform: uppercase;
     font-weight: bold;
+    padding-top: 1vw !important;
 }
 .page-viewers{
     margin-left: 20vw;
