@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 *{
     border: 0em;
     margin: 0em;
@@ -1262,13 +1262,10 @@ ul{
     padding: 1.31vw !important;
     width: 35.81vw !important;
     height: 19.07vw !important;
-    /* border-radius: 3.26vw !important; */
-    /* border-style:groove !important; */
-    /* background: linear-gradient(30deg, rgba(13,110,73),#043d5a) !important; */
     position: fixed !important;
     margin-top: 4.17vw !important;
     margin-left: 32vw !important;
-    overflow: scroll !important;
+    overflow-y: hidden !important;
     box-shadow:0px 0px 0px 5px rgb(106, 255, 0) inset;
     border: 0.5vw solid white;
 }
@@ -4463,4 +4460,52 @@ ul{
         width: 79.81vw !important;
         height: 56.07vw !important;
     }
+}
+/*----------------------- PRIVACY POLICY SECTION-------------------------- */
+.privacy_header{
+    font-family: 'Merriweather', serif !important; 
+    text-align: center !important;
+}
+.privacy_item{
+    padding: 1vw 1vw 1vw 1vw;
+    text-align: justify;
+}
+.toc_1{
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    text-align: justify;
+}
+.toc_item{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    text-align: justify;
+}
+.gcek-privacy h5{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: justify;
+}
+.toc_item_list,
+.toc_item_bottom{
+    padding-left: 6.25vw;
+    padding-right: 6.25vw;
+    text-align: justify;
+}
+.toc_item_head{
+    padding-left: 6.25vw;
+    padding-right: 6.25vw;
+    padding-top: 1vw;
+    text-align: justify;
+}
+.toc_item_header{
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-top: 1vw;
+    text-align: justify;
+}
+.toc_item_listed{
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    text-align: justify;
 }
