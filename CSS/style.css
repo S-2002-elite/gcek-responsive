@@ -1128,26 +1128,28 @@ ul{
 @media(max-width:679px) {
     .news-sec{
         margin-top: 23vw;
-        margin-left: -47vw;
+        margin-left: -52.5vw;
     }
     .news{
-        width: 55.3vw;
+        width: 65.3vw;
+        padding-top: 23vw;
     }
     .news-1{
-        width: 54.7vw;
+        width: 64.7vw;
+        margin-top: -40vw;
     }
     .news-2{
-        width: 54vw;
+        width: 64vw;
     }
     #icon-news{
         margin-top: -4.5vw;
     }
     .news-heading{
-        margin-left: 87vw;
+        margin-left: 90vw;
         letter-spacing: 1vw;
     }
     #icon-news{
-        margin-left: 81.92vw;
+        margin-left: 83.92vw;
     }
 }
 @media(max-width:510px) {
@@ -1497,27 +1499,27 @@ ul{
 }
 @media (max-width:679px){
     .quick-sec{
-        margin-top: 5vw;
-        margin-left: -47vw;
+        margin-top: 12vw;
+        margin-left: -52.5vw;
     }
     .quick{
         border: 0.17vw solid black;
-        width: 55.3vw;
-        padding: 16.3vw 2.61vw;
+        width: 65.3vw;
+        padding-top: 23vw;
         margin-top: 2vw;
         margin-left: 70vw;
         border-radius: 1vw;
     }
     .quick-1{
         border: 0.14vw solid black;
-        width: 54.7vw;
+        width: 64.7vw;
         padding: 3.26vw 2.45vw;
-        margin-top: -32.5vw;
+        margin-top: -39.2vw;
         margin-left: 70.3vw;
     }
     .quick-2{
         border: 0.14vw solid white;
-        width: 54vw;
+        width: 64vw;
         padding: 2.80vw 2.28vw;
         margin-left: 70.63vw;
         margin-top: -6.46vw;
@@ -1525,22 +1527,22 @@ ul{
     }
     .scrolling-news{
         background: whitesmoke;
-        width: 55.3vw;
-        height: 25.3vw;
-        padding:0.4vw;
+        width: 65.3vw;
+        height: 32.3vw;
+        padding: 5vw 1vw !important;
     }
     .marq{
         line-height: 4vw;
     }
     #quick-heading{
-        margin-left: 88vw;
+        margin-left: 90vw;
         letter-spacing: 1vw;
     }
     #icon-quick{
-        margin-left: 82.92vw;
+        margin-left: 84.92vw;
     }
     #hr-size{
-        width: 54.089vw;
+        width: 64.089vw;
         margin: 2.2vw auto;
     }
     .scroll-1,

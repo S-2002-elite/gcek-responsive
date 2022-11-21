@@ -521,3 +521,9 @@ if(mq.matches) {
     rssfeed_frame_height="190"; 
     rssfeed_font_size="10";
 }
+var mq = window.matchMedia( "(max-width: 679px)" )
+if(mq.matches) {
+    rssfeed_frame_width="370"; 
+    rssfeed_frame_height="170"; 
+    rssfeed_font_size="10";
+}
