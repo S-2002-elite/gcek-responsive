@@ -343,14 +343,14 @@ if(mq.matches) {
 }
 var mq = window.matchMedia( "(max-width: 2436px)" )
 if(mq.matches) {
-    rssfeed_frame_width="570"; 
-    rssfeed_frame_height="600"; 
-    rssfeed_font_size="20";
+    rssfeed_frame_width="590"; 
+    rssfeed_frame_height="620"; 
+    rssfeed_font_size="22";
 }
 var mq = window.matchMedia( "(max-width: 2331px)" )
 if(mq.matches) {
-    rssfeed_frame_width="550"; 
-    rssfeed_frame_height="570"; 
+    rssfeed_frame_width="580"; 
+    rssfeed_frame_height="595"; 
     rssfeed_font_size="20";
 }
 var mq = window.matchMedia( "(max-width: 2229px)" )

@@ -1080,7 +1080,7 @@ ul{
 .news{
     border: 0.17vw solid black;
     width: 25.3vw;
-    padding: 16.38vw 2.61vw;
+    padding: 16.55vw 2.61vw;
     margin-top: -23vw;
     margin-left: 70vw;
     border-radius: 1vw;
@@ -1091,7 +1091,7 @@ ul{
     padding: 3.26vw 2.45vw;
     background: linear-gradient(to right,black,rgb(13, 13, 82),black);
     border-bottom: 0.27vw solid black; 
-    margin-top: -32.8vw;
+    margin-top: -33.2vw;
     margin-left: 70.3vw;
     border-radius: 1vw;
 }
@@ -1123,7 +1123,7 @@ ul{
 }
 #rss{
     margin-left: 70.281vw;
-    margin-top: 1.15vw;
+    margin-top: 1.8vw;
 }
 @media(max-width:679px) {
     .news-sec{
@@ -4105,7 +4105,7 @@ ul{
 }
 
 .gradient:active {
-    color: #000
+    color: #000;
 }
 
 .gradient:active:after {
