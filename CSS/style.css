@@ -1123,7 +1123,7 @@ ul{
 }
 #rss{
     margin-left: 70.281vw;
-    margin-top: 1.8vw;
+    margin-top: 1.5vw;
 }
 @media(max-width:679px) {
     .news-sec{
@@ -1442,7 +1442,7 @@ ul{
     background: whitesmoke;
     width: 25.3vw;
     height: 26.042vw;
-    padding:0.4vw;
+    /* padding:0.4vw; */
     border: 0.17vw solid black;
     position: relative;
     margin-top: 1.1vw;
@@ -1529,10 +1529,11 @@ ul{
         background: whitesmoke;
         width: 65.3vw;
         height: 32.3vw;
-        padding: 5vw 1vw !important;
+        padding: 0vw 0vw 0vw 0vw !important;
     }
     .marq{
         line-height: 4vw;
+        height: 32.3vw;
     }
     #quick-heading{
         margin-left: 90vw;

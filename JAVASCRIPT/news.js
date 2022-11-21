@@ -313,22 +313,65 @@ if(mq.matches) {
 }
 var mq = window.matchMedia( "(max-width: 2905px)" )
 if(mq.matches) {
+    rssfeed_frame_width="715"; 
+    rssfeed_frame_height="750"; 
+    rssfeed_font_size="30";
+}
+var mq = window.matchMedia( "(max-width: 2888px)" )
+if(mq.matches) {
+    rssfeed_frame_width="710"; 
+    rssfeed_frame_height="745"; 
+    rssfeed_font_size="30";
+}
+var mq = window.matchMedia( "(max-width: 2854px)" )
+if(mq.matches) {
     rssfeed_frame_width="700"; 
-    rssfeed_frame_height="700"; 
+    rssfeed_frame_height="740"; 
+    rssfeed_font_size="30";
+}
+var mq = window.matchMedia( "(max-width: 2837px)" )
+if(mq.matches) {
+    rssfeed_frame_width="700"; 
+    rssfeed_frame_height="730"; 
     rssfeed_font_size="30";
 }
 var mq = window.matchMedia( "(max-width: 2824px)" )
 if(mq.matches) {
+    rssfeed_frame_width="700"; 
+    rssfeed_frame_height="720"; 
+    rssfeed_font_size="30";
+}
+var mq = window.matchMedia( "(max-width: 2815px)" )
+if(mq.matches) {
+    rssfeed_frame_width="690"; 
+    rssfeed_frame_height="710"; 
+    rssfeed_font_size="30";
+}
+var mq = window.matchMedia( "(max-width: 2775px)" )
+if(mq.matches) {
+    rssfeed_frame_width="685"; 
+    rssfeed_frame_height="710"; 
+    rssfeed_font_size="30";
+}
+var mq = window.matchMedia( "(max-width: 2750px)" )
+if(mq.matches) {
+    rssfeed_frame_width="680"; 
+    rssfeed_frame_height="710"; 
+    rssfeed_font_size="30";
+}
+var mq = window.matchMedia( "(max-width: 2730px)" )
+if(mq.matches) {
     rssfeed_frame_width="670"; 
-    rssfeed_frame_height="700"; 
-    rssfeed_font_size="25";
+    rssfeed_frame_height="705"; 
+    rssfeed_font_size="30";
 }
 var mq = window.matchMedia( "(max-width: 2710px)" )
 if(mq.matches) {
-    rssfeed_frame_width="650"; 
-    rssfeed_frame_height="650"; 
-    rssfeed_font_size="25";
+    rssfeed_frame_width="660"; 
+    rssfeed_frame_height="690"; 
+    rssfeed_font_size="30";
 }
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 var mq = window.matchMedia( "(max-width: 2611px)" )
 if(mq.matches) {
     rssfeed_frame_width="620"; 
@@ -524,6 +567,6 @@ if(mq.matches) {
 var mq = window.matchMedia( "(max-width: 679px)" )
 if(mq.matches) {
     rssfeed_frame_width="370"; 
-    rssfeed_frame_height="170"; 
+    rssfeed_frame_height="200"; 
     rssfeed_font_size="10";
 }
