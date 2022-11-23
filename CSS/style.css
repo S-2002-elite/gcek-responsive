@@ -4512,10 +4512,6 @@ ul{
     padding-right: 3.5vw;
     text-align: justify;
 }
-
-
-@media(max-width:1001px) {
-    #myModal9 .modal-content{
-        margin-top: -12vw !important;
-    }
+.const_image{
+    
 }
