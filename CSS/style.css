@@ -4519,11 +4519,3 @@ ul{
         margin-top: -12vw !important;
     }
 }
-@media(max-width:690px) {
-    #myModal9 .modal-content{
-        margin-top: 10vw !important;
-        margin-left:0.vw !important;
-        width: 72.81vw !important;
-        height: 75.07vw !important;
-    }
-}
