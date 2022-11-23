@@ -511,95 +511,179 @@ if(mq.matches) {
     rssfeed_frame_height="510"; 
     rssfeed_font_size="25";
 }
+var mq = window.matchMedia( "(max-width: 2010px)" )
+if(mq.matches) {
+    rssfeed_frame_width="490"; 
+    rssfeed_frame_height="500"; 
+    rssfeed_font_size="25";
+}
 var mq = window.matchMedia( "(max-width: 1970px)" )
 if(mq.matches) {
     rssfeed_frame_width="480"; 
-    rssfeed_frame_height="470"; 
-    rssfeed_font_size="15";
+    rssfeed_frame_height="490"; 
+    rssfeed_font_size="23";
 }
 var mq = window.matchMedia( "(max-width: 1931px)" )
 if(mq.matches) {
     rssfeed_frame_width="470"; 
-    rssfeed_frame_height="470"; 
-    rssfeed_font_size="15";
+    rssfeed_frame_height="480"; 
+    rssfeed_font_size="23";
 }
 var mq = window.matchMedia( "(max-width: 1892px)" )
 if(mq.matches) {
     rssfeed_frame_width="460"; 
     rssfeed_frame_height="470"; 
-    rssfeed_font_size="15";
+    rssfeed_font_size="23";
 }
 var mq = window.matchMedia( "(max-width: 1851px)" )
 if(mq.matches) {
+    rssfeed_frame_width="450"; 
+    rssfeed_frame_height="460"; 
+    rssfeed_font_size="23";
+}
+var mq = window.matchMedia( "(max-width: 1806px)" )
+if(mq.matches) {
     rssfeed_frame_width="445"; 
-    rssfeed_frame_height="450"; 
-    rssfeed_font_size="15";
+    rssfeed_frame_height="460"; 
+    rssfeed_font_size="23";
 }
 var mq = window.matchMedia( "(max-width: 1786px)" )
 if(mq.matches) {
+    rssfeed_frame_width="435"; 
+    rssfeed_frame_height="450"; 
+    rssfeed_font_size="22";
+}
+var mq = window.matchMedia( "(max-width: 1748px)" )
+if(mq.matches) {
+    rssfeed_frame_width="430"; 
+    rssfeed_frame_height="450"; 
+    rssfeed_font_size="21";
+}
+var mq = window.matchMedia( "(max-width: 1737px)" )
+if(mq.matches) {
+    rssfeed_frame_width="425"; 
+    rssfeed_frame_height="445"; 
+    rssfeed_font_size="21";
+}
+var mq = window.matchMedia( "(max-width: 1718px)" )
+if(mq.matches) {
+    rssfeed_frame_width="420"; 
+    rssfeed_frame_height="440"; 
+    rssfeed_font_size="21";
+}
+var mq = window.matchMedia( "(max-width: 1684px)" )
+if(mq.matches) {
     rssfeed_frame_width="410"; 
     rssfeed_frame_height="430"; 
-    rssfeed_font_size="15";
+    rssfeed_font_size="20";
 }
-var mq = window.matchMedia( "(max-width: 1683px)" )
+var mq = window.matchMedia( "(max-width: 1653px)" )
 if(mq.matches) {
     rssfeed_frame_width="400"; 
-    rssfeed_frame_height="410"; 
-    rssfeed_font_size="15";
+    rssfeed_frame_height="415"; 
+    rssfeed_font_size="20";
 }
 var mq = window.matchMedia( "(max-width: 1602px)" )
 if(mq.matches) {
+    rssfeed_frame_width="390"; 
+    rssfeed_frame_height="400"; 
+    rssfeed_font_size="19";
+}
+var mq = window.matchMedia( "(max-width: 1567px)" )
+if(mq.matches) {
     rssfeed_frame_width="380"; 
-    rssfeed_frame_height="390"; 
-    rssfeed_font_size="15";
+    rssfeed_frame_height="395"; 
+    rssfeed_font_size="18";
 }
 var mq = window.matchMedia( "(max-width: 1527px)" )
 if(mq.matches) {
-    rssfeed_frame_width="350"; 
+    rssfeed_frame_width="370"; 
+    rssfeed_frame_height="380"; 
+    rssfeed_font_size="18";
+}
+var mq = window.matchMedia( "(max-width: 1490px)" )
+if(mq.matches) {
+    rssfeed_frame_width="360"; 
     rssfeed_frame_height="370"; 
-    rssfeed_font_size="15";
+    rssfeed_font_size="17";
 }
 var mq = window.matchMedia( "(max-width: 1451px)" )
 if(mq.matches) {
-    rssfeed_frame_width="340"; 
-    rssfeed_frame_height="350"; 
-    rssfeed_font_size="15";
+    rssfeed_frame_width="350"; 
+    rssfeed_frame_height="360"; 
+    rssfeed_font_size="17";
 }
-var mq = window.matchMedia( "(max-width: 1373px)" )
+var mq = window.matchMedia( "(max-width: 1408px)" )
+if(mq.matches) {
+    rssfeed_frame_width="345"; 
+    rssfeed_frame_height="355"; 
+    rssfeed_font_size="16.5";
+}
+var mq = window.matchMedia( "(max-width: 1383px)" )
+if(mq.matches) {
+    rssfeed_frame_width="340"; 
+    rssfeed_frame_height="355"; 
+    rssfeed_font_size="16.5";
+}
+var mq = window.matchMedia( "(max-width: 1371px)" )
+if(mq.matches) {
+    rssfeed_frame_width="330"; 
+    rssfeed_frame_height="345"; 
+    rssfeed_font_size="16";
+}
+var mq = window.matchMedia( "(max-width: 1330px)" )
 if(mq.matches) {
     rssfeed_frame_width="325"; 
-    rssfeed_frame_height="330"; 
-    rssfeed_font_size="15";
+    rssfeed_frame_height="340"; 
+    rssfeed_font_size="16";
 }
 var mq = window.matchMedia( "(max-width: 1307px)" )
 if(mq.matches) {
+    rssfeed_frame_width="320"; 
+    rssfeed_frame_height="330"; 
+    rssfeed_font_size="15";
+}
+var mq = window.matchMedia( "(max-width: 1288px)" )
+if(mq.matches) {
+    rssfeed_frame_width="315"; 
+    rssfeed_frame_height="325"; 
+    rssfeed_font_size="15";
+}
+var mq = window.matchMedia( "(max-width: 1265px)" )
+if(mq.matches) {
     rssfeed_frame_width="310"; 
-    rssfeed_frame_height="310"; 
+    rssfeed_frame_height="320"; 
     rssfeed_font_size="15";
 }
 var mq = window.matchMedia( "(max-width: 1248px)" )
+if(mq.matches) {
+    rssfeed_frame_width="300"; 
+    rssfeed_frame_height="310"; 
+    rssfeed_font_size="15";
+}
+var mq = window.matchMedia( "(max-width: 1205px)" )
 if(mq.matches) {
     rssfeed_frame_width="290"; 
     rssfeed_frame_height="300"; 
     rssfeed_font_size="15";
 }
-var mq = window.matchMedia( "(max-width: 1182px)" )
+var mq = window.matchMedia( "(max-width: 1172px)" )
 if(mq.matches) {
     rssfeed_frame_width="280"; 
     rssfeed_frame_height="290"; 
-    rssfeed_font_size="12";
+    rssfeed_font_size="15";
 }
 var mq = window.matchMedia( "(max-width: 1144px)" )
 if(mq.matches) {
-    rssfeed_frame_width="270"; 
+    rssfeed_frame_width="273"; 
     rssfeed_frame_height="280"; 
-    rssfeed_font_size="12";
+    rssfeed_font_size="15";
 }
 var mq = window.matchMedia( "(max-width: 1104px)" )
 if(mq.matches) {
-    rssfeed_frame_width="260"; 
-    rssfeed_frame_height="260"; 
-    rssfeed_font_size="12";
+    rssfeed_frame_width="267"; 
+    rssfeed_frame_height="270"; 
+    rssfeed_font_size="14";
 }
 var mq = window.matchMedia( "(max-width: 1044px)" )
 if(mq.matches) {
