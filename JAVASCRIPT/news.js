@@ -851,131 +851,131 @@ var mq = window.matchMedia( "(max-width: 571px)" )
 if(mq.matches) {
     rssfeed_frame_width="360"; 
     rssfeed_frame_height="175"; 
-    rssfeed_font_size="13";
+    rssfeed_font_size="12";
 }
 var mq = window.matchMedia( "(max-width: 556px)" )
 if(mq.matches) {
     rssfeed_frame_width="350"; 
     rssfeed_frame_height="173"; 
-    rssfeed_font_size="13";
+    rssfeed_font_size="12";
 }
 var mq = window.matchMedia( "(max-width: 540px)" )
 if(mq.matches) {
     rssfeed_frame_width="340"; 
     rssfeed_frame_height="168"; 
-    rssfeed_font_size="13";
+    rssfeed_font_size="12";
 }
 var mq = window.matchMedia( "(max-width: 524px)" )
 if(mq.matches) {
     rssfeed_frame_width="330"; 
     rssfeed_frame_height="160"; 
-    rssfeed_font_size="13";
+    rssfeed_font_size="12";
 }
 var mq = window.matchMedia( "(max-width: 510px)" )
 if(mq.matches) {
     rssfeed_frame_width="325"; 
     rssfeed_frame_height="155"; 
-    rssfeed_font_size="13";
+    rssfeed_font_size="12";
 }
 var mq = window.matchMedia( "(max-width: 500px)" )
 if(mq.matches) {
     rssfeed_frame_width="320"; 
     rssfeed_frame_height="154"; 
-    rssfeed_font_size="13";
+    rssfeed_font_size="12";
 }
 var mq = window.matchMedia( "(max-width: 493px)" )
 if(mq.matches) {
     rssfeed_frame_width="310"; 
     rssfeed_frame_height="150"; 
-    rssfeed_font_size="13";
+    rssfeed_font_size="12";
 }
 var mq = window.matchMedia( "(max-width: 479px)" )
 if(mq.matches) {
     rssfeed_frame_width="305"; 
     rssfeed_frame_height="145"; 
-    rssfeed_font_size="13";
+    rssfeed_font_size="12";
 }
 var mq = window.matchMedia( "(max-width: 470px)" )
 if(mq.matches) {
     rssfeed_frame_width="300"; 
     rssfeed_frame_height="143"; 
-    rssfeed_font_size="13";
+    rssfeed_font_size="12";
 }
 var mq = window.matchMedia( "(max-width: 462px)" )
 if(mq.matches) {
     rssfeed_frame_width="295"; 
     rssfeed_frame_height="140"; 
-    rssfeed_font_size="12";
+    rssfeed_font_size="11";
 }
 var mq = window.matchMedia( "(max-width: 455px)" )
 if(mq.matches) {
     rssfeed_frame_width="290"; 
     rssfeed_frame_height="140"; 
-    rssfeed_font_size="12";
+    rssfeed_font_size="11";
 }
 var mq = window.matchMedia( "(max-width: 449px)" )
 if(mq.matches) {
     rssfeed_frame_width="285"; 
     rssfeed_frame_height="140"; 
-    rssfeed_font_size="12";
+    rssfeed_font_size="11";
 }
 var mq = window.matchMedia( "(max-width: 440px)" )
 if(mq.matches) {
     rssfeed_frame_width="280"; 
     rssfeed_frame_height="138"; 
-    rssfeed_font_size="12";
+    rssfeed_font_size="11";
 }
 var mq = window.matchMedia( "(max-width: 432px)" )
 if(mq.matches) {
     rssfeed_frame_width="273"; 
     rssfeed_frame_height="135"; 
-    rssfeed_font_size="12";
+    rssfeed_font_size="11";
 }
 var mq = window.matchMedia( "(max-width: 421px)" )
 if(mq.matches) {
     rssfeed_frame_width="270"; 
     rssfeed_frame_height="133"; 
-    rssfeed_font_size="12";
+    rssfeed_font_size="11";
 }
 var mq = window.matchMedia( "(max-width: 417px)" )
 if(mq.matches) {
     rssfeed_frame_width="265"; 
     rssfeed_frame_height="130"; 
-    rssfeed_font_size="11";
+    rssfeed_font_size="10";
 }
 var mq = window.matchMedia( "(max-width: 409px)" )
 if(mq.matches) {
     rssfeed_frame_width="260"; 
     rssfeed_frame_height="130"; 
-    rssfeed_font_size="11";
+    rssfeed_font_size="10";
 }
 var mq = window.matchMedia( "(max-width: 402px)" )
 if(mq.matches) {
     rssfeed_frame_width="255"; 
     rssfeed_frame_height="125"; 
-    rssfeed_font_size="11";
+    rssfeed_font_size="10";
 }
 var mq = window.matchMedia( "(max-width: 394px)" )
 if(mq.matches) {
     rssfeed_frame_width="250"; 
     rssfeed_frame_height="120"; 
-    rssfeed_font_size="11";
+    rssfeed_font_size="9";
 }
 var mq = window.matchMedia( "(max-width: 386px)" )
 if(mq.matches) {
     rssfeed_frame_width="245"; 
     rssfeed_frame_height="115"; 
-    rssfeed_font_size="11";
+    rssfeed_font_size="9";
 }
 var mq = window.matchMedia( "(max-width: 377px)" )
 if(mq.matches) {
     rssfeed_frame_width="240"; 
     rssfeed_frame_height="115"; 
-    rssfeed_font_size="11";
+    rssfeed_font_size="9";
 }
 var mq = window.matchMedia( "(max-width: 371px)" )
 if(mq.matches) {
     rssfeed_frame_width="235"; 
     rssfeed_frame_height="115"; 
-    rssfeed_font_size="11";
+    rssfeed_font_size="9";
 }
