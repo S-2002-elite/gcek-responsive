@@ -1125,6 +1125,24 @@ ul{
     margin-left: 70.281vw;
     margin-top: 1.3vw;
 }
+@media(max-width:985px){
+    #rss{
+        margin-left: 70.281vw;
+        margin-top: 1vw;
+    }
+}
+@media(max-width:855px){
+    #rss{
+        margin-left: 70.281vw;
+        margin-top: 0.7vw;
+    }
+}
+@media(max-width:725px){
+    #rss{
+        margin-left: 70.281vw;
+        margin-top: 0.5vw;
+    }
+}
 @media(max-width:679px) {
     .news-sec{
         margin-top: 23vw;
@@ -1151,10 +1169,32 @@ ul{
     #icon-news{
         margin-left: 83.92vw;
     }
+    #rss{
+        margin-left: 70.281vw;
+        margin-top: 1.25vw;
+    }
+}
+@media(max-width:637px){
+    #rss{
+        margin-left: 70.281vw;
+        margin-top: 1vw;
+    }
+}
+@media(max-width:560px){
+    #rss{
+        margin-left: 70.281vw;
+        margin-top: 0.8vw;
+    }
 }
 @media(max-width:510px) {
     #icon-news{
         margin-top: -5vw;
+    }
+}
+@media(max-width:466px){
+    #rss{
+        margin-left: 70.281vw;
+        margin-top: 0.4vw;
     }
 }
 @media(max-width:460px) {
@@ -1167,9 +1207,19 @@ ul{
         margin-top: -6vw;
     }
 }
+@media(max-width:405px) {
+    #rss{
+        margin-left: 70.281vw;
+        margin-top: 0.2vw;
+    }
+}
 @media(max-width:385px) {
     #icon-news{
         margin-top: -6.5vw;
+    }
+    #rss{
+        margin-left: 70.281vw;
+        margin-top: 0.1vw;
     }
 }
 @media(max-width:360px) {
