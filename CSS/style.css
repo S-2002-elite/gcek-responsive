@@ -4608,9 +4608,30 @@ ul{
 @media(max-width:690px){
     #myModal9 .modal-content{
         /* margin-top: -14vw !important; */
-        width: 54.81vw !important;
-        height: 57.07vw !important;
-        margin-left:30vw !important;
+        width: 60.81vw !important;
+        height: 70.07vw !important;
+        margin-left:35vw !important;
         margin-top: 5vw !important;
+    }
+    #modal-hr{
+        width: 55vw;
+        margin-top: 1vw !important;
+    }
+    .close{
+        margin-left: 52vw;
+    }
+     .modal-heading{
+        font-size: 2.58vw !important;
+        margin-left: 10vw !important;
+    }
+    .scroll-1_modal{
+        font-size: 1.48vw !important;
+    }
+    #scroll-1-id{
+        margin-left: 5.5vw !important;
+    }
+    .scroll-link{
+        margin-left: 5.3vw !important;
+        margin-top: -5vw !important;
     }
 }
