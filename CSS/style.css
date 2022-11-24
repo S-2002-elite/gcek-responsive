@@ -4512,6 +4512,33 @@ ul{
     padding-right: 3.5vw;
     text-align: justify;
 }
-.const_image{
-    
+@media(max-width:1001px){
+    #myModal9 .modal-content{
+        margin-top: -14vw !important;
+        width: 40.81vw !important;
+        height: 44.07vw !important;
+    }
+    .scroll-1_modal{
+        font-size: 1.48vw !important;
+    }
+    .scroll-link{
+        font-size: 1.48vw !important;
+    }
+    #modal-hr{
+        width: 38vw;
+    }
+    .modal-heading{
+        font-size: 2.58vw !important;
+    }
+    #book-logo{
+        font-size: 7vw !important;
+        margin-left: 16vw !important;
+    }
+    .close{
+        margin-left: 36vw;
+    }
+    #book-icon{
+        font-size: 1.8vw !important;
+        margin-bottom: -1.9vw !important;
+    }
 }
