@@ -17,13 +17,9 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript">
-    $(document).ready(function(){ 
       $("#tableid").DataTable()({
           "autoWidth": false, // might need this
-          "columns": [{ "width": "20%" },
-          null, // automatically calculates
-          null  // remaining width
-  ]
+          "columns": [{ "width": "20%" }, null, null]
     });
   </script>
 
