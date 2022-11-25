@@ -2279,7 +2279,7 @@ ul{
     margin-left: 15vw;
 }
 #footer-link{
-    margin-top:-39vw;
+    margin-top:-37vw;
     margin-left: 50vw;
 }
 #footer-col-1{
@@ -2291,6 +2291,7 @@ ul{
 }
 #footer-social h3{
     margin-left: 1vw;
+    width: 30vw;
 }
 .social-icons{
     margin-left: 1vw;
