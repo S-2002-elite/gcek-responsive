@@ -607,10 +607,14 @@ ul{
     width: 10vw !important;
 }
 .notice-table td:nth-child(2){
-    width: 50vw !important;
+    width: 100vw !important;
 }
 .notice-table td:nth-child(3){
-    width: 10vw !important;
+    width: 20vw !important;
+}
+.notice-table td:nth-child(4){
+    width: 1vw !important;
+    text-align: center !important;
 }
 .notice-header{
     font-weight: 700 !important;
@@ -633,6 +637,15 @@ ul{
 }
 .notice-id{
     display: none;
+}
+@media (max-width: 679px) {
+    .notice-table td{
+        font-size: 2vw !important;
+    }
+    .notice-header{
+        font-size: 2.3vw !important;
+        height: 3vw !important;
+    }
 }
 /*---------------------------------NAVIGATION SECTION---------------------------------*/
 .navigation-section{
