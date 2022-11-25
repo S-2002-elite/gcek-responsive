@@ -2180,6 +2180,10 @@ ul{
     color: whitesmoke;
     font-size: 1.6vw;
 }
+.download-btn2:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
 .download-btn1{
     margin-left: 1.05vw;
 }
