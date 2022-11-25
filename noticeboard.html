@@ -17,12 +17,14 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript">
-      $("#tableid").DataTable()({
-          "autoWidth": false, // might need this
+    $(document).ready(function(){ 
+      $("#table-id").DataTable()({
+        "autoWidth": false, // might need this
           "columns": [{ "width": "20%" }, null, null]
+      });
     });
   </script>
-
+  
 </head>
 <!-------------Top Bar------------->
 <header>
@@ -88,7 +90,7 @@
         <a href="noticeboard.html" id="wiki-1">NOTICE&nbsp;BOARD</a>
     </p>
 </div>
-<table class="notice-table" id="tableid">
+<table class="notice-table" id="table-id">
   <thead>
     <tr>
       <th class="notice-id"><h1 class="notice-header">ID</h1></th>

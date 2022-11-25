@@ -595,22 +595,32 @@ ul{
 }
 .notice-table td{
     font-weight: normal !important;
-    font-size: 1.05vw !important;
+    font-size: 1.2vw !important;
     padding-bottom: 2% !important;
     padding-top: 0.5% !important;
     padding-left: 2% !important;
     border: 0.066vw solid black !important;
     background: whitesmoke !important;
+    /* width: 30vw !important; */
+}
+.notice-table td:nth-child(1){
+    width: 10vw !important;
+}
+.notice-table td:nth-child(2){
+    width: 50vw !important;
+}
+.notice-table td:nth-child(3){
+    width: 10vw !important;
 }
 .notice-header{
     font-weight: 700 !important;
-    font-size: 1vw !important;
+    font-size: 1.5vw !important;
     text-align: left !important;
     height: 2vw !important;
     color: blanchedalmond !important;
     text-indent: 0.5vw !important;
     margin: auto !important;
-    padding: 0.33vw !important;
+    padding: 0.15vw !important;
     border: 0.066vw solid black !important;
     background: linear-gradient(to right, rgb(227, 28, 28),#ff005d) !important;
 }
