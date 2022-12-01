@@ -3422,6 +3422,10 @@ ul{
     margin-left: 0.5vw;
     margin-top: -0.5vw;
 }
+.opac-rule-3{
+    margin-left: 0.5vw;
+    margin-top: -0.5vw;
+}
 .opac-rule-point{
     text-decoration: none !important;
     color: black !important;
@@ -3543,7 +3547,8 @@ ul{
         font-size:5.5vw;
     }
     .opac-rule-1,
-    .opac-rule-2{
+    .opac-rule-2,
+    .opac-rule-3{
         font-size: 3vw;
     }
     #book-link{
